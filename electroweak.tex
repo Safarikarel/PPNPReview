@@ -188,4 +188,38 @@ and even for selected intervals in the Z \pT.
 \end{center}
 \end{figure}
 
+The measurement of photons in heavy ion collisions is also an important contribution to the
+study of the Pb+Pb initial state, with some advantages and disadvantages.  Unlike Z and W bosons, 
+no energy from the initial 2-to-2 scattering process is used in the boson mass, 
+and so the cross sections at high \pT are substantially higher at the same transverse momentum.
+However, photon measurements do not provide a clear mass peak, and nor are they associated with
+a track measured in an inner tracker.  This means that backgrounds are an irreducible part of
+the measurement, particularly at low \pT, where one expects large contribution from jet fragmentation
+into high momentum neutral pions or eta mesons.
 
+Two primary techniques are used to increase the purity of the photon sample, which is typically
+$O(0.1\%)$ based on the expected relative yields of photons and jets.  The first is to select
+photon candidates as electromagnetic clusters which pass a set of selection criteria, trained on
+photon simulations to efficiently reject electromagnetic decays while keeping most of the
+produced photons.  These criteria involve both the ``shape'' of the cluster (since photon showers
+are typically quite narrow), as well as the presence of energy in the ``hadronic'' section of the
+experimental caloriemters (since photon showers should typically be well-contained in the front
+electromagnetic sections).
+The second technique is to require that the photon candidate is ``isolated'', i.e. only a limited
+amount of ambient energy, including both electromagnetic and hadronic contributions, 
+is allowed to be present near the photon.  In the context of a heavy ion collision, where there
+is typically a substantial amount of uncorrelated energy present, techniques must be applied to
+estimate and remove this energy event by event.  However, even after doing this, one must account
+for real photons with an upward fluctuation of ambient energy nearby (``leakage'') as well
+as fake photons with a downward fluctuation, passing the nominal selection criteria. 
+Thus, shower-shape discriminators are typically combined with an isolation requirement, and various
+means exist to combine this information to estimate the true purity of a photon sample in a 
+data-driven fashion.
+
+The CMS photon measurement is performed using electromagnetic clusters in the CMS ECAL, with the
+CMS tracks and HCAL used to tag backgrounds from electrons or hadronic decays.  
+The signal from prompt isolated photons is extracted using a two-component template fit to
+the distribution of $\sigma_{\eta\eta}$, a variable which reflects the width of the cluster
+in the $\eta$ direction.  The signal is derived from PYTHIA $\gamma$+jet events, embedded 
+into real Pb+Pb data events.  The background distribution is derived from a set of photon
+candidates which are required to fail the isolation selection.
