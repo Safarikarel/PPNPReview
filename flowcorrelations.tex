@@ -68,24 +68,50 @@ where $S$ is the overlap area of the two nuclei.
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/atlas_v2_fig_02.pdf}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/fig2.pdf}
 \caption[]{(left) ATLAS data showing the evolution of anisotropy relative to the reaction plane, as a function of centrality (right) First ALICE data on \vtwo in Pb+Pb collisions at the LHC.}
-\label{fig:pas:fc:firstreusults}
+\label{fig:pas:fc:firstresults}
 \end{center}
 \end{figure}
 The first LHC data on elliptic flow was released by the ALICE collaboration soon after the first collisions, 
 and is shown in Figure~\ref{fig:pas:fc:firstreusults}.
 The elliptic flow was estimated using three methods: 2-particle cumulants ($v_2{2}$), 4-particle cumulants ($v_2{4}$)
-and Lee-Yang Zeros (LYZ).  The latter method was only used for integral flow.  
-As a function of \pT, the magnitude of $\v_2$ was found to be quantitatively very similar to that measured in
-the STAR experiment at RHIC, using similar methods.
+and Lee-Yang Zeros (LYZ).  The first method is known to be sensitive to correlation from jets, which have 
+a larger contribution at the LHC than at RHIC, and the latter method was only used for integral flow.  
+The integral flow was found to be larger than that measured at RHIC, but only by about 15-20\%.
+What was surprising was that, as a function of \pT (but only measured out to 4 GeV)
+the magnitude of $\v_2$ was found to be quantitatively very similar to that measured in
+the STAR experiment at RHIC, using similar cumulant methods.
+Although a similar scaling has been observed in the very low energy 
+data on inclusive $v_2(\pT)$ from STAR taken during the recent RHIC energy scan,
+there is no fundamental understanding yet of how this scaling arises.
+It suggests that most of the variation in the integral elliptic flow results from the change in the spectral shape
+of inclusive hadrons.
+Hydrodynamic calculations were able to reproduce this result, soon after its release, estimating a slightly higher
+viscosity to entropy ratio based on a scaling of the initial energy density according to the measured charged-particle
+multiplicity~\cite{Luzum} [CHECKME].
+The first $v_2$ measurement at higher \pT was performed by ATLAS~\cite{ATLASflow}, 
+showing the transition from the low \pT behavior,
+understood by viscous hydrodynamics, to the higher \pT values presumably explained by the path-length dependence of
+energy loss of jets.
+By comparison with PHENIX data on $\pi^0$ particles, this shows that the scaling of $v_2$ extends to high \pT as well,
+within the large statistical errors of the lower-energy measurement.
 
 \begin{figure}[!htb]
 \begin{center}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/atlas_v2_fig_06.pdf}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/v2eps_dNdetaoverS_PHOBOS.pdf}
 \caption[]{(left) ATLAS data showing the invariance of $\vtwo( \pT )$ with beam energy (right) CMS compilation showing the observed scaling of $\vtwo /\epsilon$ vs. $(1/S) dN_{ch}/d\eta$.}
-\label{fig:pas:scaling}
+\label{fig:pas:fc:scaling}
 \end{center}
 \end{figure}
+The dependence of the inclusive elliptic flow on the initial state geometry was studied carefully by CMS, who 
+performed a careful extrapolation of the integral $v_2$ down to $\pT>0$ GeV, using simultaneous measurements of
+$dN/d\pT$, to match with the lower energy PHOBOS data.
+To factor out the initial shape and size of the overlap region, a Monte Carlo Glauber model was used to match
+the centrality selections made with the CMS forward calorimeter.  
+From these, the eccentricity and overlap area were calculated according to the definitions from 
+subsection\ref{subsect:pas:flow:intro}.  The CMS data, shown superimposed on data from RHIC, is shown in 
+Figure~\ref{fig:pas:fc:scaling}(right), and overlaps the PHOBOS data in the most peripheral collisions and
+shows a continuous rise in the more central collisions, except perhaps in the most central interval.
 
 \begin{figure}[!htb]
 \begin{center}
@@ -93,6 +119,32 @@ the STAR experiment at RHIC, using similar methods.
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/v2_pt_ep_atlas_alice_eta0-1_band_v5.pdf}
 \caption[]{(left) ALICE data showing $\vtwo(\pT)$ for identified hadrons, for $|\eta|<0.8$ (right) CMS data showing the $\vtwo$ for unidentified hadrons at very high \pT, out to 50 GeV}
 \label{fig:pas:fc:highpt}
+\end{center}
+\end{figure}
+The previous results have all been for unidentified hadrons.  This choice provides the largest phase
+space coverage (particularly in $\pT$) and allows for comparisons between experiments with different particle
+identification capabilities.  However, a study separating the different hadron species is crucial, 
+given the previous measurements at RHIC showing the strong differences between them.
+The ALICE data showing identified particles (separated using the $dE/dx$ measured in the ALICE TPC) for $\pT>3$ GeV
+is shown in Figure~\ref{fig:pas:fc:highpt}(left).  The charged pion data on $v_2(\pT)$ is quantitatively similar to
+the PHENIX $\pi^0$ data over the $\pT$ range where they overlap.  The proton-antiproton $v_2$ are found to be
+subsantially larger than the pion values over the measured $\pT$ range, although it is clear that the peak-plateau
+structure seen in the inclusive hadron data is not explained primarily by one particular hadron type.
+Also, at the highest $\pT$ measured, the protons and pions are quite close, although the protons remain
+systematically higher out to 14 GeV.
+CMS extends the hadron $\pT$ range out to the full range provided by the LHC in 2011, using a high $\pT$
+high level track trigger.  The data, shown in Figure~\ref{fig:pas:fc:highpt}(right), show that the 
+plateau observed setting in above 6 GeV extends out to 50 GeV, with only mild decreases observed within
+the stated uncertainties.
+
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_pt_12cen_4methods.pdf}
+\caption[]{
+CMS data showing $\vtwo(\pT)$ in centrality intervals, using four different methods of extracting
+$\vtwo$: event plane (EP), 2-particle cumulants, 4-particle cumulants, and Lee-Yang Zeros.
+}
+\label{fig:pas:fc:methods}
 \end{center}
 \end{figure}
 
@@ -141,16 +193,6 @@ at large $\eta$ from the PHOBOS experiment at RHIC.
 \end{center}
 \end{figure}
 
-\begin{figure}[!htb]
-\begin{center}
-\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_pt_12cen_4methods.pdf}
-\caption[]{
-CMS data showing $\vtwo(\pT)$ in centrality intervals, using four different methods of extracting
-$\vtwo$: event plane (EP), 2-particle cumulants, 4-particle cumulants, and Lee-Yang Zeros.
-}
-\label{fig:pas:fc:methods}
-\end{center}
-\end{figure}
 
 
 
