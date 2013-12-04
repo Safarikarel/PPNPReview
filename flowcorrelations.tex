@@ -13,7 +13,7 @@
 %- Comparison with RHIC
 %- Flow in p+Pb (ridge, double ridge, PID)
 %- Open questions
-
+\subsection{Introduction}
 While the previous section covered physical mechanisms which induce
 correlations between multiple hadrons, this section covers the
 phenomenon of ``collective flow'', which leads to the correlations of
@@ -63,6 +63,7 @@ plotted as a function of the transverse density of charged particles at mid-rapi
 where $S$ is the overlap area of the two nuclei.
 \end{itemize}
 
+\subsection{Elliptic flow}
 \begin{figure}[!htb]
 \begin{center}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/atlas_v2_fig_02.pdf}
@@ -78,7 +79,7 @@ and Lee-Yang Zeros (LYZ).  The first method is known to be sensitive to correlat
 a larger contribution at the LHC than at RHIC, and the latter method was only used for integral flow.  
 The integral flow was found to be larger than that measured at RHIC, but only by about 15-20\%.
 What was surprising was that, as a function of \pT (but only measured out to 4 GeV)
-the magnitude of $\v_2$ was found to be quantitatively very similar to that measured in
+the magnitude of $v_2$ was found to be quantitatively very similar to that measured in
 the STAR experiment at RHIC, using similar cumulant methods.
 Although a similar scaling has been observed in the very low energy 
 data on inclusive $v_2(\pT)$ from STAR taken during the recent RHIC energy scan,
@@ -115,6 +116,23 @@ shows a continuous rise in the more central collisions, except perhaps in the mo
 
 \begin{figure}[!htb]
 \begin{center}
+\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_pt_12cen_4methods.pdf}
+\caption[]{
+CMS data showing $\vtwo(\pT)$ in centrality intervals, using four different methods of extracting
+$\vtwo$: event plane (EP), 2-particle cumulants, 4-particle cumulants, and Lee-Yang Zeros.
+}
+\label{fig:pas:fc:methods}
+\end{center}
+\end{figure}
+
+The CMS data shown in Figure~\ref{fig:pas:fc:methods} illustrates the $\pT$ and centrality dependence of
+$v_2(\pT)$, comparing directly the different methods of flow reconstruction used for $v_2$.  
+While it is clear that the 2-particle cumulant is the most contaminated by non-flow, particularly at high $\pT$,
+one also observes some systematic differences between all three methods, particularly where the flow
+is the strongest.
+
+\begin{figure}[!htb]
+\begin{center}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/fig5_vn_pid.pdf}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/v2_pt_ep_atlas_alice_eta0-1_band_v5.pdf}
 \caption[]{(left) ALICE data showing $\vtwo(\pT)$ for identified hadrons, for $|\eta|<0.8$ (right) CMS data showing the $\vtwo$ for unidentified hadrons at very high \pT, out to 50 GeV}
@@ -139,14 +157,28 @@ the stated uncertainties.
 
 \begin{figure}[!htb]
 \begin{center}
-\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_pt_12cen_4methods.pdf}
+\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_etashifted_3cen_PHOBOS.pdf}
 \caption[]{
-CMS data showing $\vtwo(\pT)$ in centrality intervals, using four different methods of extracting
-$\vtwo$: event plane (EP), 2-particle cumulants, 4-particle cumulants, and Lee-Yang Zeros.
+CMS data showing $\vtwo$ for unidentified hadrons as a function of $\eta - y_{\mathrm{beam}}$, averaged over $0 <\pT < 3$ GeV (using an extrapolation procedure to cover $\pT <300$ Mev).
+Results are compared to data from $\sqrt{s_{NN}}=200$ GeV
+at large $\eta$ from the PHOBOS experiment at RHIC.
 }
-\label{fig:pas:fc:methods}
+\label{fig:pas:fc:limfrag}
 \end{center}
 \end{figure}
+Another intriguing way to compare with the lower energy data is suggested by studies performed by the PHOBOS
+collaboration, which found that the integrated $v_2(\eta)$ is the same for different colliding beam energies,
+when plotted in the rest frame of one of the projectiles.  This is the phenomenon of so-called
+``limiting fragmentation'', where many quantities are found to depend only on their rapidity relative to either
+beam or projectile.  
+Figure~\ref{fig:pas:fc:limfrag} shows $v_2(\eta)$ as a function of $\eta - y_{\mathrm{beam}}$ (in the forward
+hemisphere) and $\eta + y_{\mathrm{beam}}$ in the backward hemisphere.
+While the CMS and PHOBOS data points do not overlap in any measured region, they appear to be continuous
+in the forward LHC kinematics and the mid-rapidity RHIC kinematics.
+However, it is clear that the behavior of the CMS data is much more suggestive of a boost-invariant central
+plateau, while the PHOBOS data did not show similar behavior.
+
+\subsection{Higher order harmonics}
 
 \begin{figure}[!htb]
 \begin{center}
@@ -157,6 +189,33 @@ $\vtwo$: event plane (EP), 2-particle cumulants, 4-particle cumulants, and Lee-Y
 \label{fig:pas:fc:vn}
 \end{center}
 \end{figure}
+Although the realization that $v_2$ was sensitive to fluctuations in the nuclear overlap, particularly from
+the eventwise random positions of nucleons in each nuclei, several more years elapsed before it was suggested
+to look for higher-order harmonic flow, particuarly odd-orders~\cite{Alver2010}.  
+Many authors argued that symmetric systems
+would have a zero $v_1$, $v_3$, $v_5$, etc, but had not yet considered the effect of fluctuations.
+By mid-2011, all of the LHC and RHIC experiments had significant measureents of many of the higher-order
+contributions, up to $v_6$ which was the limit of the statistics in the 2010 run.
+
+
+CMS released the first evidence for the presence of higher-order harmonics in the two-particle
+correlation function.  ALICE released the first measurements of of $v_3-v_5$ up to $\pT=4$ GeV,
+using two and four particle cumulants~\cite{ALICE:vn}, and followed up with an extensive study of two-particle
+correlations in Ref.~\cite{ALICE:2PC}.
+ATLAS released the first large scale study of higher harmonics
+for unidentified hadrons, with the first complete experimental measurements of
+
+The ATLAS data shown in Figure~\ref{fig:pas:fc:vn}(left) and (right) show the harmonics $v_2 - v_6$ as
+a function of \pT in centrality intervals from the most central 0-5\% to the most peripheral 70-80\%.
+The the figure on the left shows that the pattern is consistently the same for all harmonics: 
+a rapid rise starting at low \pT, a peak around 3 GeV, and a
+rapid decrease out to higher $\pT$.  While all of the experiments have demonstrated that $v_2$ does not 
+necessarily go to zero at high $\pT$, it remains an open question about the higher harmonics, which can
+only be resolved with higher statistics.
+The right figure shows the centrality dependence in small \pT intervals, demonstrating that $v_2$ is fundamentally
+different than the higher harmonics, having a much milder centrality dependence.  While $v_2$ mainly reflects
+the overall geometric shape of the system, the higher harmonics seem to mainly reflect fluctuations.
+However, the decrease in magnitude with increasing $n$ is generally thought to reflect the presence of viscous effects.
 
 \begin{figure}[!htb]
 \begin{center}
@@ -168,6 +227,9 @@ angular power spectra at different resolution scales.
 \label{fig:pas:fc:powerspec}
 \end{center}
 \end{figure}
+Another representation of this data is given in Figure~\ref{fig:pas:fc:powerspec}, which shows the ``angular power spectrum'',
+the $n$ dependence of $v_2(\pT)$ for particular intervals in \pT and centrality.  The fall-off with increasing $n$ is a general
+feature, of the data which is expected to be driven by viscous corrections that increase with $n$.
 
 \begin{figure}[!htb]
 \begin{center}
@@ -180,19 +242,15 @@ angular power spectra at different resolution scales.
 \label{fig:pas:fc:v1}
 \end{center}
 \end{figure}
+While the two-particle analyses from ALICE, ATLAS and CMS all utilized a $v_{1,1}$ term in their fits, the first measurements
+did not extract a single-particle $v_1$ contribution, since momentum conservation is expected to be a substantial effect.
+The first published extraction of $v_1$ from experimental data was performed by a theoretical team using published ALICE data,
+doing a fit of the form $V_{1\Delta}(p^a_T,p^b_T) = v_1(p^a_T)v_1(p^b_T) - k p^a_T p^b_T$.
+ATLAS was the first experimental group to measure directed flow from its own data, using the same approach 
+as Ref.~\cite{Retinskaya:2012ky}(but performed in isolation from it), fitting $v_1(\pT)$
+The value of $v_1$ was also found to change very little with centrality, suggesting it too arises from fluctuations.
 
-\begin{figure}[!htb]
-\begin{center}
-\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_etashifted_3cen_PHOBOS.pdf}
-\caption[]{
-CMS data showing $\vtwo$ for unidentified hadrons as a function of $\eta - y_{\mathrm{beam}}$, averaged over $0 <\pT < 3$ GeV (using an extrapolation procedure to cover $\pT <300$ Mev).
-Results are compared to data from $\sqrt{s_{NN}}=200$ GeV
-at large $\eta$ from the PHOBOS experiment at RHIC.
-}
-\label{fig:pas:fc:limfrag}
-\end{center}
-\end{figure}
-
+\subsection{Theoretical Status}
 
 
 
