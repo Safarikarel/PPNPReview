@@ -63,6 +63,45 @@ plotted as a function of the transverse density of charged particles at mid-rapi
 where $S$ is the overlap area of the two nuclei.
 \end{itemize}
 
+\subsection{Methods}
+Harmonic flow is a global modulation of essentially all of the particles in an event relative to an event plane 
+appropriate to each harmonic.  However, there are additional sources of multiparticle correlations, some which 
+lead to global correlations (momentum conservation) and others which only lead to correlations local in angular space
+(e.g. resonance decays and jets).  Thus, care must be taken to minimize such ``non flow'' correlations.
+
+One of the earliest methods for measuring flow was the ``event plane'' method, which calculates an event plane using
+a forward detector and correlates all particles with this event plane, based on the so-called ``Q-vector'' for each order $n$:
+\begin{equation}
+\end{equation}
+From this, the $n$-th order event plane $\Psi_n$ is simply determined as the angle of the Q-vector itself.  
+From the definition of the Q-vector, the angle is $n$-fold ambiguous, but this has no effect on the extracted
+$v_n$ coefficient, which is defined as 
+\begin{equation}
+v_n = \frac{v^{obs}_n}/\mathrm{Res}\{ n \Psi_n \} = \frac{ \langle \cos ( n [\phi - \Psi_n] ) \rangle }{ \langle \cos ( n [\Phi_n - \Psi_n] ) \rangle    }
+\end{equation}
+where $\Phi_n$ is the direction of the true event plane.  The latter quantity cannot be observed directly and so the 
+resolution parameter must be derived from comparison of different detector regions.  This is typically done by comparing
+symmetric pseudorapidity regions separated from the region being measured:
+\begin{equation}
+\mathrm{Res} \{ n \Psi_n^{\mathrm{P(N)}} \} =
+\langle \cos n ( \Psi_n^{\mathrm{P(N)}} - \Psi_n ) \rangle = 
+\sqrt{ \langle \cos n ( \Psi_n^{\mathrm{P}} - \Psi_n^{\mathrm{N}} ) \rangle }
+\end{equation}
+Non-flow contamination is typically most difficult to control when the subevents used to determine the event plane
+and resolution are close in $\eta$ to each other or close to the measured particles.
+%
+Another method is to use multiparticle cumulants to explicitly remove lower order correlations.
+These can be calculated either from a generating function formalism, or through moments of the Q-vector itself.
+They are more or less sensitive to non-flow depending on the order of the cumulant.  For example, the two-particle
+cumulant is quite senstitive to effects from resonance decay and jet fragmentation.  However, the four particle
+cumulants are generally much less so, since it explicitly removes short-range two particle correlations.
+%
+A third method is to use the ``Lee Yang zeroes'' approach, which accounts for correlations of all lower orders using a
+different generating function.  The method relates the zeros of a complex function to the magnitude of the relevant
+flow harmonics.  While the method is thought to be robust against most sources of non-flow, it is particularly sensitive to
+multiplicity fluctuations, and so is calculated using event samples with similar multiplicities within a given 
+centrality interval.  Theses subsamples are then averged within the desired centrality interval to give the final result.
+
 \subsection{Elliptic flow}
 \begin{figure}[!htb]
 \begin{center}
@@ -133,7 +172,7 @@ is the strongest.
 
 \begin{figure}[!htb]
 \begin{center}
-\includegraphics[width=0.49\textwidth]{flowcorrelations_figs/fig5_vn_pid.pdf}
+\includegraphics[width=0.49\textwidth]{flowcorrelations_figs/alice_fig5_vn_pid.pdf}
 \includegraphics[width=0.49\textwidth]{flowcorrelations_figs/v2_pt_ep_atlas_alice_eta0-1_band_v5.pdf}
 \caption[]{(left) ALICE data showing $\vtwo(\pT)$ for identified hadrons, for $|\eta|<0.8$ (right) CMS data showing the $\vtwo$ for unidentified hadrons at very high \pT, out to 50 GeV}
 \label{fig:pas:fc:highpt}
@@ -250,7 +289,55 @@ ATLAS was the first experimental group to measure directed flow from its own dat
 as Ref.~\cite{Retinskaya:2012ky}(but performed in isolation from it), fitting $v_1(\pT)$
 The value of $v_1$ was also found to change very little with centrality, suggesting it too arises from fluctuations.
 
-\subsection{Theoretical Status}
+\subsection{Flow fluctuations}
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=0.98\textwidth]{flowcorrelations_figs/atlas_v2fluc_fig_10.pdf}
+\caption[]{
+ATLAS data on the event-wise distributions of the harmonic coefficients $v_2 - v_4$ presented in a selection of
+centrality intervals.
+}
+\label{fig:pas:fc:flowfluc1}
+\end{center}
+\end{figure}
+\begin{figure}[!htb]
+\begin{center}
+\includegraphics[width=0.49\textwidth]{flowcorrelations_figs/vnSigmaPrelim.pdf}
+\includegraphics[width=0.49\textwidth]{flowcorrelations_figs/fig3_v2_sigma.pdf}
+\caption[]{
+CMS data on the centrality dependence of the standard deviation of $v_2$ divided by the mean, for $0.3 < \pT < 3$ GeV,
+extracted via the differences between the EP and cumulant results.
+ALICE data on the $\pT$ dependence of the same quantity, out to $\pT=8$ GeV, for a selected set of centrality
+intervals.
+}
+\label{fig:pas:fc:flowfluc2}
+\end{center}
+\end{figure}
+
+The same geometric fluctuations that lead to the presence of the higher harmonics are also expected to lead to 
+event-by-event fluctuations in the individual coefficents.  This has been studied using two methods.
+ATLAS developed a data-driven method to unfold the measured $v_n$ distributions ($P(v_n)$) with a Bayesian 
+technique.  The distributions $P(v_n)$ are shown in Figure~\ref{fig:pas:fc:flowfluc1} for $v_2$, $v_3$ and $v_4$
+for a selected set of centrality intervals.  It is clear that the fluctuations are large in all selected samples.
+Although the distributions are not Gaussian, but are rather projections of a 2D Gaussian (also known as a
+Bessel-Gaussian distribution),
+the distributions are typically quantified using the first two moments, the mean and standard deviation.
+These can also be estimated by combining different estimates of $v_n$, in particular using the event-plane 
+and 4-particle cumulant methods.  Based on the analysis of Ref.{}, 
+the difference between these quantities is twice the variance, while their sum is twice the squared mean.
+Figure~\ref{fig:pas:fc:flowfluc2}(left) shows CMS data on $\sigma/\langle v_2 \rangle$ derived 
+from cumulants, compared with the ATLAS data derived from the fully unfolded distributions.
+While the $v_2$ fluctuations compare well between the two methods, the ATLAS and CMS results on $v_3$
+are quite different, possibly from the inapplicability of the cumulant approach for this quantity.
+The ATLAS results are essentially constant for all centrality intervals at around 0.5, which is the 
+value one gets ($\sqrt{4/\pi-1}$) if the fluctuations are described by a 2D Gaussian, 
+projected along the radial direction.
+Figure~\ref{fig:pas:fc:flowfluc1}(left) shows ALICE data on $\sigma/\langle v_2 \rangle$ derived 
+using a similar approach as CMS.  For centrality intervals from 5-60\%, the overall magnitude
+is similar to that seen by the other experiments.  However, this figure points out that the fluctuations
+have essentially no centrality dependence out to moderately large \pT, about 8 GeV, which reaches into 
+the plateau region typically associated with differential energy loss.
+
 
 
 
