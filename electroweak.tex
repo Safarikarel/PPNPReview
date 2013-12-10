@@ -27,7 +27,7 @@ typically known as ``nuclear shadowing'' and is thought to arise generally from
 quantum mechanical effects which deplete the numbers with small fractions of the
 nucleon momentum.
   
-It is of clear urgency to understand the magnitude of these sorts of effects in 
+It is important to understand the magnitude of these sorts of effects in 
 the realistic environment of a heavy ion collision, in order to properly interpret
 measurements of hard process rates relative to a nucleon-nucleon reference system.
 At the RHIC collider, this was addressed early in the experimental program 
@@ -39,7 +39,8 @@ the high $\pT$ suppression observed in the early days of the RHIC program did no
 arise from changes in nucleon structure, and strengthening the case for jet suppression
 in the hot and dense medium.
 However, it was also found that hadrons and $J/\psi$ particles were suppressed at 
-forward angles, in the direction of the incoming deuteron, especially in more ``central'' d+Au collisions, and enhanced slightly at backwards angles, in the direction of the
+forward angles, in the direction of the incoming deuteron, especially in more ``central'' 
+d+Au collisions, and enhanced slightly at backwards angles, in the direction of the
 nucleus.  These features are in broad agreement with predictions from calculations
 incorporating the nuclear shadowing observed in lepton-nucleus DIS.
 
@@ -98,7 +99,8 @@ about the Z production rates as a function of the nuclear thickness.
 The situation has improved dramatically with a published measurement of W bosons by CMS, also from the
 2010 dataset, but benefiting from the large increase in the W cross section compared with Z.
 ATLAS has also published the yield and spectrum of Z bosons from the much larger 2011 Pb+Pb dataset.
-Together these give a relatively complete first look at the behavior of heavy vector bosons in heavy ion collisions.
+Together these give a relatively complete first look at the behavior of heavy vector bosons in 
+heavy ion collisions.
 
 
 \begin{figure}[!htb]
@@ -184,7 +186,7 @@ and even for selected intervals in the Z \pT.
 \includegraphics[width=0.49\textwidth]{electroweak_figs/TAAScaling.pdf}
 \includegraphics[width=0.49\textwidth]{electroweak_figs/ph_fig_11.pdf}
 \caption[]{(left) Photon yields scaled by the mean nuclear thickness function for $|\eta|<1.44$, from CMS data (right) The similar quantity from ATLAS, for $|\eta|<1.3$, from ATLAS data.}
-\label{fig:pas:zw}
+\label{fig:pas:photon}
 \end{center}
 \end{figure}
 
@@ -223,3 +225,22 @@ the distribution of $\sigma_{\eta\eta}$, a variable which reflects the width of 
 in the $\eta$ direction.  The signal is derived from PYTHIA $\gamma$+jet events, embedded 
 into real Pb+Pb data events.  The background distribution is derived from a set of photon
 candidates which are required to fail the isolation selection.
+After subtracting the extracted backgrounds and correcting for efficiency and resolution
+effects, the yield of photons is presented as a function of \pT in three centrality intervals
+as well as a minimum-bias (0-100\%) interval.  A similar analysis performed on pp data is
+also shown.
+In Figure~\ref{fig:pas:photon}(left), 
+both the heavy ion and pp data are compared with an NLO pQCD calculation (using the
+JETPHOX package) by scaling the calculation by the mean nuclear
+thickness function $\langle T_{\mathrm{AA}} \rangle$ relevant for each interval.
+It is found that the NLO calculations agree with the pp and heavy ion data in all cases, within
+the stated statistical and systematic uncertainties.  This demonstrates that, like the 
+$Z$ and $W$ results, the photon yields scale with the number of binary collisions.
+However, while the $Z$ and $W$ results focused on integrated yields, the photons show that
+there is also no modification of the spectral shape.
+
+ATLAS performed a similar analysis, using the ``double sideband'' technique to estimate the
+photon fraction in each \pT and centrality interval for $|\eta|<1.3$.  
+In Figure~\ref{fig:pas:photon}(right), the preliminary ATLAS data is shown compared with both 
+the CMS data and JETPHOX 1.3.0 results.  The ATLAS and CMS data agree well (given the 5\%
+difference in the $\eta$ range) and ATLAS data agree with JETPHOX out to $\pT = 200$ GeV.
