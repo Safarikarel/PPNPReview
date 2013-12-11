@@ -45,7 +45,7 @@ The leading jet was required to have a transverse energy in the calorimeter of $
 and the subleading jet was selected to have $E_{T2} > 25$~GeV, after correction for 
 the calorimeter energy response. 
 
-In Fig.~\ref{final_4x2} the dijet asymmetry and $\Delta\phi$ distributions for PbPb data (solid markers) 
+In Fig.~\ref{fig:GR:final_4x2} the dijet asymmetry and $\Delta\phi$ distributions for PbPb data (solid markers) 
 are shown in four bins of collision centrality. They are compared with PYTHIA MC calculations, including a 
 background simulation using the HIJING event generator. Also shown are data from 7\TeV 
 \pp collisions (open circles).
@@ -59,7 +59,7 @@ background simulation using the HIJING event generator. Also shown are data from
 as a function of collision centrality (left to right from peripheral
 to central events).  Proton-proton data from $\sqrt{s}=7$ TeV, analyzed with the same jet selection, is shown as open circles.
 (bottom) Distribution of $\Delta\phi$, the azimuthal angle between the two jets, for data and HIJING+PYTHIA, also as a function of centrality.
-\label{fig:GR:ATLAS_dijet}
+\label{fig:GR:final_4x2}
 }
 \end{center}
 \end{figure}
@@ -164,10 +164,10 @@ The horizontal width of the systematic error band is chosen for
 presentation purposes only. Dotted lines indicate $\Rcp =
 0.5$, and the dashed lines on the top panels indicate $\Rcp = 1$.
 }
-\label{fig:GR:ATLAS_jet_rcp}
+\label{fig:GR:rcprfour}
 \end{center}
 \end{figure}
-The resulting \Rcp\ values are shown in Figure~\ref{fig:rcprfour} 
+The resulting \Rcp\ values are shown in Figure~\ref{fig:GR:rcprfour} 
 for  \RFour\ jets as a function of jet \pT\ in four bins
 of collision centrality.
 Uncertainties are shown as statistical uncertainties, partially correlated systematic
@@ -353,7 +353,7 @@ No background subtraction was applied, which allows this study to include the $|
 $0.5 < p_{\mathrm{T}}^{\rm Track} < 1.0$~\GeVc\ regions not accessible for the study in Section~\ref{sec:track_jet_correlations}.
 The leading and subleading jets were again required to have $|\eta| < 1.6$.
 
-In Fig.~\ref{fig:MissingpT}, $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$
+In Fig.~\ref{fig:GR:MissingpT}, $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$
 is shown as a function of \AJ\ for two centrality bins, 30--100\% (left) and 0--30\% (right).
 Results for {\sc{pythia+hydjet}} are presented in the top row, while the bottom row shows the results
 for \PbPb\ data.
@@ -373,14 +373,14 @@ outside ($\Delta R > 0.8$) the leading and subleading jet cones (right).
 For the solid circles, vertical bars and brackets represent
 the statistical and systematic uncertainties, respectively.
 For the individual $\pt$ ranges, the statistical uncertainties are shown as vertical bars. }
-\label{fig:GR:CMS_missingpT}
+\label{fig:GR:MissingpT}
 \end{center}
 \end{figure}
 
 Further insight into the radial dependence of the momentum balance can be gained by studying
 $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$ separately for tracks inside cones of size $\Delta R = 0.8$
 around the leading and subleading jet axes, and for tracks outside of these cones. The results of this study for central events
-are shown in Fig.~\ref{fig:MissingpTInConeOutCone} for the in-cone balance and out-of-cone balance for MC and data.
+are shown in Fig.~\ref{fig:GR:MissingpT} for the in-cone balance and out-of-cone balance for MC and data.
 As the underlying \PbPb\ event in both data and MC is not $\phi$-symmetric on an event-by-event basis, the back-to-back requirement
 was tightened to $\dphi > 5 \pi/6$ for this study.
 
@@ -398,86 +398,58 @@ than 90\% of these events, is included. This is in contrast to the results for l
 large part of the momentum balance is carried by soft particles ($\pt < 2$~\GeVc) and radiated
 at large angles to the jet axes ($\Delta R > 0.8$).
 
+
 \subsection{Photon-jet correlations}
 
-In PbPb collisions at the Large Hadron Collider (LHC), the
-effects of the produced medium have been studied using back-to-back
-dijets which were observed to be significantly unbalanced in their transverse momenta~\cite{Chatrchyan:2011sx,Aad:2010bu,CMS:2012ni}. The advantage of the large yield of dijets (as compared to \photonjet\ pairs)
-is, however, offset by a loss of information about the initial properties of the probes, i.e.\
-prior to their interactions with the medium.
-Correlating two probes that both undergo energy loss also
-induces a selection bias towards scatterings occurring at,
-and oriented tangential to, the surface of the medium.
-At leading order (LO), photons are produced back-to-back with an associated parton (jet) having close
-to the same transverse momentum.
-Furthermore, these photons do not strongly interact with the medium.
-The yields of isolated photons in \PbPb{} collisions were found to match
-the expectation based on \pp{} data and the number of nucleon-nucleon
-collisions, with a modification factor of $R_{AA} = 0.99\pm
-0.31\mbox{(stat.)}\pm 0.26\mbox{(syst.)}$~\cite{HIPhoton}.
-Therefore, \photonjet\ production has been hailed as the ``golden channel'' to
-investigate energy loss of partons in the medium \cite{Wang:1996yh,Wang:1996pe}.
+The use of the dijet and inclusive jet observables discussed to extract information
+about the absolute energy loss of the partons traversing the medium suffers from
+uncertainties about the initial parton kinematics. E.g.\ for the dijet asymmetry 
+measurements in general both partons will suffer some amount of path-length dependent
+energy loss, leading to ambiguities in the quantiative interpretation of the results
+due to possible surface-biases. 
 
-``Prompt photons'' are photons produced directly in the hard
-sub-processes. Experimentally, events with enriched production of prompt photons are
-selected using an isolation requirement, namely that the additional energy
+These ambiguities can be largely overcome in studies of photon-jet events, 
+where the photons closely determine both the initial direction and momentum 
+of the back-to-back associated parton.
+Events where the photon and parton initial kinematics are most closely correlated 
+can be selected experimentall using an isolation requirement. Additional energy
 in a cone of fixed radius around the direction of the reconstructed
-photon be less than a specified value~\cite{HIPhoton}. This restriction
-yields ``isolated photons'' ($\gamma$), which consist
-mostly of prompt photons produced directly in the initial hard scattering.
-Background photons from the decays of neutral mesons, such as $\Pgpz$,
-$\Pgh$, and $\omega$, are suppressed by this isolation requirement, as
-they are predominantly produced via jet fragmentation.
-The goal of this analysis is to characterise possible modifications of jet properties as a function of centrality using isolated-\photonjet\ events in \PbPb\ collisions.
-The properties of isolated-\photonjet{} pairs are studied
-via the azimuthal angular correlation in $\dphijg = |\phij - \phig|$ and the
-transverse momentum ratio given by
-$\xjg = \ptj/\ptg$.
-Photons with transverse momentum of
-$\ptg > 60\GeVc$ are selected in a pseudorapidity range of
-$|\eta^\gamma\|<1.44$, using isolation criteria detailed in Sections \ref{sec:MC} and \ref{sec:photon_reco}.
-These photons are then correlated with jets having $\ptj > 30\GeVc$
-and $|\eta^{\mbox{Jet}}|<1.6$.
-Parton energy loss due to induced gluon radiation can lead to a shift of the \xjg\
-distribution towards lower values.  In addition, parton energy loss
-can cause reconstructed jets to fall below the $\ptj > 30\GeVc$
-threshold, leading to a reduction of the fraction of photons with an associated jet.
+photon be less than a specified value~\cite{HIPhoton}. 
 
-The asymmetry ratio
-$\xjg= \ptj/\ptg$ is used to quantify the \photonjet\ momentum imbalance. In addition to the jet and photon selections used in
-the \dphijg\ study, we further impose a strict $\dphijg >
-\frac{7}{8}\pi$ cut to suppress contributions from background jets.
-Note that \photonjet\ pairs for which the associated jet falls below the $30\GeVc$
-threshold are not included in the $\xjg$ calculation. This limits the bulk of the $\xjg$ distribution to 
-$\xjg > 0.5$.
-Figure~\ref{fig:InclPtRatio_qcdPhoRef_pp2760-xJ30G60} shows the centrality dependence of \xjg\ for
-\PbPb collisions as well as that for \PYTHYD{}
-simulation where \PYTHIA{} contains inclusive isolated photon
-processes. The \avexjg{} obtained from \PYTHIA{} tunes Z2 and D6T
-agree to better than 1\%.
-Overlaid in the peripheral bin is the \avexjg\ for 2.76~TeV pp data,
-showing consistency to the MC reference. However the poor statistics
-of the \pp\ data and the 50--100\% \PbPb{} centrality bin do not offer a strong constraint on a specific MC reference.
-However, further studies using the 7\TeV high statistics \pp\ data showed a
-good agreement in \avexjg{} between data and \PYTHIA{}, justifying the
-use of \PYTHYD{} as an un-modified reference.
-The dominant source of systematic uncertainty in \avexjg{} is
-the relative \photonjet{} energy scale. Its impact on the probability
-density of $\xjg$ is approximately 10\%
-for the intermediate region of $0.6 < \xjg < 1.2$.
-The normalisation to unity causes a point-to-point anticorrelation in the
-systematic uncertainties, where the upward movement of the probability
-density at small $\xjg$ has to be offset by the corresponding downward movement
-at large $\xjg$. This is represented by the
-separate open and shaded red systematic uncertainty boxes in Fig.~\ref{fig:InclPtRatio_qcdPhoRef_pp2760-xJ30G60}.
-For a given change in the energy scale, all points would move together in the direction
-of either the open or shaded red box.
-The $\npart$ dependence of the mean value $\avexjg$ is shown in Fig.~\ref{fig:resultsummarybc}(a).
+To select these ``isolated photons'' ($\gamma$), the energy in a cone around 
+the photon candidate is required to be less than a threshold parameter~\cite{HIPhoton},
+following a standard procedure developed for the analysis of \pp\ collisions. In the \PbPb\ 
+environment, the isolation cut is applied after a subtraction of an event-by-event 
+estimate of the underlying event contribution.
+Following the approach for the study of dijet correlations, the photon-jet pairs 
+are characterized in terms of their azimuthal correlation, $\dphijg = |\phij - \phig|$,
+ and momentum ratio, $\xjg = \ptj/\ptg$. In addition, the fraction of photons without 
+back-to-back jet partner,  \rjg, is studied, to provide information about 
+events where the jet lost sufficient energy to fall below the detection threshold.
+
+For the CMS photon-jet analysis, photons were required to have $\ptg > 60\GeVc$
+and  $|\eta^\gamma\|<1.44$. The associated jets were selected with
+$\ptj > 30\GeVc$ and $|\eta^{\mbox{Jet}}|<1.6$. To study the correlations of 
+photons with their associated jets, contributions from 
+coincidental photon-jet pairs were removed using a mixed event technique. In 
+addition, the contribution of background photons from e.g.\ hadron decays 
+were corrected using a data driven technique. The purity of the isolated photon-jet
+sample was further enhanced by requiring $\dphijg > \frac{7}{8}\pi$.
+Similar to the dijet correlations, no angular broadening 
+beyond the pp data and MC reference was seen in the \PbPb\ data.
+
+The photon-jet momentum correlations in \PbPb\ data were compared to a \PYTHYD reference 
+calculation as a function of collision centrality. The resulting 
+\xjg\ distributions are shown in Fig.~\ref{fig:GR:InclPtRatio_qcdPhoRef_pp2760-xJ30G60}.
+Also shown is \avexjg\ distribution for 2.76~TeV pp data, showing consistency 
+with the \PYTHYD calculation within the large statistical uncertainties.
+The separate open and shaded red systematic uncertainty boxes illustrate the 
+anti-correlation of uncertainties across bins for the unity-normalized distributions.
 
 \begin{figure}[!h]
 \begin{center}
 \includegraphics[width=0.98\mboxwidth]{jetfigures/Photonv7_Paper_InclPtRatio_all_cent4_G60J30_subDPhi1SS1_Isol0_Norm1log1.pdf}
-\caption[]{\label{fig:InclPtRatio_qcdPhoRef_pp2760-xJ30G60} Ratio of \pt{} between the
+\caption[]{\label{fig:GR:InclPtRatio_qcdPhoRef_pp2760-xJ30G60} Ratio of \pt{} between the
   photon ($\pt^{\gamma} > 60$\GeVc) and jet ($\pt^{\mbox{Jet}} > 30$\GeVc, $\dphijg > \frac{7}{8}\pi$)
   after subtracting background. The area of each distribution is normalised to unity. All panels show
 \PbPb\ data (filled circles) compared to \pp\ data at
@@ -491,33 +463,18 @@ The $\npart$ dependence of the mean value $\avexjg$ is shown in Fig.~\ref{fig:re
 \end{center}
 \end{figure}
 
-It is important to keep in mind that the average energy loss of the selected \photonjet\ pairs does not constitute the full picture.
-There are genuine \photonjet\ events which do not contribute to the $\langle\xjg\rangle$ distribution
-because the associated  jet falls below the $\ptj > 30\GeVc$ threshold.
-To quantify this effect, Fig.~\ref{fig:resultsummarybc}(b) shows $\rjg$, the fraction of isolated photons that have an associated jet passing the analysis selection.
-The value of $\rjg$ is found to
-decrease, from $\rjg = 0.685\pm 0.008\mbox{(stat.)}$--$0.698\pm 0.006\mbox{(stat.)}$ for the \PYTHYD{} reference,
-as well as \pp{} and peripheral \PbPb{} data, to the significantly
-lower $\rjg = 0.49\pm 0.03\mbox{(stat.)}\pm 0.02\mbox{(syst.)}$--$0.54\pm 0.05\mbox{(stat.)}\pm 0.02\mbox{(syst.)}$ for
-the three PbPb bins
-above 50\% centrality.
+For the most central events, the  photon-jet momentum balance  was found to be
+$\avexjg_{0-10\%} = 0.73 \pm 0.02 \mbox{(stat.)} \pm 0.04 \mbox{(syst.)}$, compared
+to a value of 0.86 predicted by \PYTHYD{} at the same centrality. This shift does
+not include photon-jet events where the jet fell below the 30\GeV/c analysis threshold. 
+The \xjg\ observations are therefore complemented by studies of the fraction of 
+photons with a jet partner, \rjg.  The value of $\rjg$ decreases
+from $\rjg = 0.685\pm 0.008\mbox{(stat.)}$--$0.698\pm 0.006\mbox{(stat.)}$ for \PYTHYD{}
+to  $\rjg = 0.49\pm 0.03\mbox{(stat.)}\pm 0.02\mbox{(syst.)}$--$0.54\pm 0.05\mbox{(stat.)}\pm 0.02\mbox{(syst.)}$ for
+central \PbPb\ collisions. Combining these observations, the photon-jet studies 
+provide clear evidence of parton energy loss in the medium in events that are 
+largely free of surface and reconstruction biases for the jets. Future measurements 
+vs high statistics \pp\ reference data and with increased \PbPb\ statistics will
+therefore allow a quantitative determination of the absolute parton energy loss
+in the medium as a function of parton \pt.
 
-The first study of isolated-photon+jet correlations in
-  $\PbPb$ collisions at $\sqrt{s_{NN}} = 2.76\TeV$ has been performed as a function of collision centrality using
-a dataset corresponding to an integrated luminosity of 150\mubinv. Isolated
-photons with $\ptg > 60$\GeVc were correlated with jets with $\ptj > 30$\GeVc to
-determine the width of the angular
-correlation function, \sjg, the jet/photon transverse momentum ratio, $\xjg = \ptj/\ptg$, and
-the fraction of photons with an associated jet, \rjg.
-The \PbPb{} data were compared to both \pp{} data and a \PYTHYD{} MC reference which included the effect of the underlying \PbPb event
-but no parton energy loss.
-No angular broadening was observed beyond that seen in the pp data and MC reference at all centralities.
-The average transverse momentum ratio for the most central events was found to be
-$\avexjg_{0-10\%} = 0.73 \pm 0.02 \mbox{(stat.)} \pm 0.04 \mbox{(syst.)}$.
-This is lower than the value of 0.86 seen in the pp data and predicted by \PYTHYD{} at the same centrality.
-In addition to the shift in
-momentum balance, it was found that, in central \PbPb\ data, only
-a fraction equal to $\rjg = 0.49 \pm 0.03 \mbox{ (stat.)} \pm 0.02 \mbox{ (syst.)}$ of photons are matched with an
-associated jet at $\dphijg > \frac{7}{8} \pi$, compared to a value of 0.69 seen
-in \PYTHYD{} simulation. Due to the hot and dense medium created in central \PbPb\ collisions, the energy loss of the associated parton causes the corresponding reconstructed jet to fall
-below the $\ptj > 30$\GeVc threshold for an additional 20\% of the selected photons.
