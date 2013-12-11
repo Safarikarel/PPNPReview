@@ -337,29 +337,42 @@ done for a different energy and at parton level, rather than after jet clusterin
 
 \subsection{Energy flow in dijet events}
 
-The requirements of the background subtraction procedure limit the track-jet correlation study
-to tracks with $p_{\mathrm{T}} > 1.0$~\GeVc\  and $\Delta R < 0.8$. Complementary information about the
-overall momentum balance in the dijet events can be obtained using the projection of missing
-\pt\ of reconstructed charged tracks onto the leading jet axis. For each event, this
-projection was calculated as
+The jet measurements discussed so far clearly demonstrate that partons traversing the hot and dense 
+medium suffer significant path-length dependent energy loss. A fraction of the ``lost'' energy
+can be recovered at radii of $r=$0.2-0.5 from the jet axis, although even for the largest radius
+parameters used at LHC, a large suppression of inclusive jets and large dijet asymmetries are
+observed. 
 
+This naturally begs the question of the detailed energy flow in the events containing asymmetric
+dijets events, i.e.\ what is the angular and momentum distribution of the particles carrying 
+the complementary momentum balance to the asymmetric dijet system? A priori the energy balance
+could possibly be found at low (thermal) momenta and very large radial distance to the jet axis.
+Therefore traditional jet-track correlation techniques relying on background subtraction are ill suited
+to answer this question, as even the largest dijet energy differences of several 10's of \GeV
+are much smaller than fluctuations in the transverse energy carried by the underlying event.
+
+Information about the overall momentum balance in the dijet events can be obtained by exploiting
+conservation of transverse momentum. CMS studied the transverse momentum balance in these events
+using the projection of missing \pt\ of reconstructed charged tracks onto the leading jet axis. 
+Event-by-event, this was calculaed as 
 \begin{equation}
 \displaystyle{\not} p_{\mathrm{T}}^{\parallel} =
 \sum_{\rm i}{ -p_{\mathrm{T}}^{\rm i}\cos{(\phi_{\rm i}-\phi_{\rm Leading\ Jet})}},
 \end{equation}
-where the sum is over all tracks with $\pt > 0.5$~\GeVc\ and $|\eta| < 2.4$. The results were
-then averaged over events to obtain $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$.
-No background subtraction was applied, which allows this study to include the $|\eta_{jet}| < 0.8$ and 
-$0.5 < p_{\mathrm{T}}^{\rm Track} < 1.0$~\GeVc\ regions not accessible for the study in Section~\ref{sec:track_jet_correlations}.
-The leading and subleading jets were again required to have $|\eta| < 1.6$.
+summing all tracks with $\pt > 0.5$~\GeVc\ and $|\eta| < 2.4$. 
+Leading and subleading jets were required to have $|\eta| < 1.6$.
+Instead of a background subtraction, this method relies on the cancellation of the 
+underlying event fluctuations when averaging over many events to obtain 
+$\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$.
+This method requires a tight $\dphi > 5 \pi/6$ selection for the dijet, as the underlying 
+event not $\phi$-symmetric on an event-by-event basis.
 
-In Fig.~\ref{fig:GR:MissingpT}, $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$
-is shown as a function of \AJ\ for two centrality bins, 30--100\% (left) and 0--30\% (right).
-Results for {\sc{pythia+hydjet}} are presented in the top row, while the bottom row shows the results
-for \PbPb\ data.
-Using tracks with $|\eta| < 2.4$ and $\pt > 0.5$~\GeVc, one sees
-that indeed the momentum balance of the events, shown as solid circles, is recovered within uncertainties,
-for both centrality ranges and even for events with large observed dijet asymmetry, in both data and simulation.
+Figure~\ref{fig:GR:CMS_missingpT} shows $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$
+as a function of \AJ\ for two angular regions relative to the leading and subleading 
+jet axes, ``in-cone'' ($\Delta R < 0.8$) and ``out-of-cone'' (($\Delta R > 0.8$). 
+The top row shows results for  {\sc{pythia+hydjet}} simulations and the bottom row shows
+\PbPb\ data. Integrating over all particles (solid points) the overall momentum balance of the events
+is recovered within uncertainties for all event selections.
 
 \begin{figure}[!h]
 \begin{center}
@@ -367,37 +380,28 @@ for both centrality ranges and even for events with large observed dijet asymmet
 \caption{Average missing transverse momentum,
 $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$,
 for tracks with $\pt > 0.5$\GeVc, projected onto the leading jet axis (solid circles).
-The $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$ values are shown as a function of dijet asymmetry
+The $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$ values are 
+shown as a function of dijet asymmetry
 $A_J$ for 0--30\% centrality, inside ($\Delta R < 0.8$) one of the leading or subleading jet cones (left) and
 outside ($\Delta R > 0.8$) the leading and subleading jet cones (right).
 For the solid circles, vertical bars and brackets represent
 the statistical and systematic uncertainties, respectively.
 For the individual $\pt$ ranges, the statistical uncertainties are shown as vertical bars. }
-\label{fig:GR:MissingpT}
+\label{fig:GR:CMS_missingpT}
 \end{center}
 \end{figure}
 
-Further insight into the radial dependence of the momentum balance can be gained by studying
-$\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$ separately for tracks inside cones of size $\Delta R = 0.8$
-around the leading and subleading jet axes, and for tracks outside of these cones. The results of this study for central events
-are shown in Fig.~\ref{fig:GR:MissingpT} for the in-cone balance and out-of-cone balance for MC and data.
-As the underlying \PbPb\ event in both data and MC is not $\phi$-symmetric on an event-by-event basis, the back-to-back requirement
-was tightened to $\dphi > 5 \pi/6$ for this study.
-
-One observes that for both data and MC an in-cone imbalance of $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle \approx
--20$~\GeVc\ is found for the $\AJ > 0.33$ selection. In both cases this is balanced by a corresponding out-of-cone
-imbalance of  $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle \approx 20$~\GeVc. However, in the \PbPb\ data
-the out-of-cone contribution is carried almost entirely  by tracks with $0.5 < \pt < 4$~\GeVc\, whereas in MC more than 50\% of the balance
-is carried by tracks with $\pt > 4$~\GeVc, with a negligible contribution from $\pt < 1$~\GeVc.
-
-
-The {\sc{pythia+hydjet}} results are indicative of semi-hard initial or final-state radiation as the underlying cause for large
-\AJ\ events in the MC study. This has been confirmed by further studies which showed that in {\sc{pythia}} the momentum balance
-in the transverse plane for events with large \AJ\ can be restored if a third jet with $\pt > 20$~\GeVc, which is present in more
-than 90\% of these events, is included. This is in contrast to the results for large-\AJ\ \PbPb\ data, which show that a
-large part of the momentum balance is carried by soft particles ($\pt < 2$~\GeVc) and radiated
-at large angles to the jet axes ($\Delta R > 0.8$).
-
+Focussing on asymmetric dijet events ($\AJ > 0.33$), both data and MC exhibit an
+ in-cone imbalance of $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle \approx
+-20$~\GeVc. This is balanced by an out-of-cone contribution of
+$\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle \approx 20$~\GeVc. The crucial 
+difference is that in the \PbPb\ data the out-of-cone contribution is found in the $0.5 < \pt < 4$~\GeVc\ region, 
+while in MC more than 50\% of the balance is carried at high $\pt > 4$~\GeVc. The MC 
+results can be interpreted as resulting from initial or final-state radiation (e.g.\ three-jet events).
+For \PbPb\ events with large \AJ\ a large part of the momentum balance is 
+carried by soft particles ($\pt < 2$~\GeVc) at large angles to the jet axes ($\Delta R > 0.8$). This measurement
+therefore provides information about the fundamental properties of the energy loss process 
+in the medium.
 
 \subsection{Photon-jet correlations}
 
