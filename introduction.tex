@@ -108,16 +108,37 @@ The pixel detector typically provides three high-resolution space points
 with three layers of pixel detector surrounding the beam pipe within
 $|z|<400 mm$ (covering approximately $|\eta|<2$ and 4 disks at forward
 angles covering out to $|\eta|<2.5$.
-The semiconductor tracker detectors are silicon strips covering out to
+The detector has approximately 80.4 million readout channels.
+While the minimum pixel size is $50 \times 400$ $\mu$m$^2$, the intrinsic
+position resolution is 10 $\mu\mathrm{m}$ in $R-\phi$ and 115  $\mu\mathrm{m}$ in $z$
+in the barrel region, and 10 $\mu\mathrm{m}$ in $R-\phi$ and 115  $\mu\mathrm{m}$ in $R$
+in the disks.
+The semiconductor tracker detector (SCT) consists of silicon strips covering out to
 $|\eta|<X$ in the barrel region and $|\eta|<2.5$ in the forward regions.
-The transition-radiation tracker covers $|\eta|<2$ with straw tubes in
+The detector has approximately 6.3 readout channels.
+The sensors have 80 $\mu$m pitch and are 
+double-sided with a 40 mrad angle between the strip
+directions to measure hit positions in two dimensions.
+The intrinsic accuracies per module are
+17 $\mu\mathrm{m}$ in $R-\phi$ and 580  $\mu\mathrm{m}$ in $z$
+in the barrel region, and 17 $\mu\mathrm{m}$ in $R-\phi$ and 580  $\mu\mathrm{m}$ in $R$
+in the disks.
+The transition-radiation tracker (TRT) covers $|\eta|<2$ with 351,000 4 mm straw tubes in
 both the barrel and forward regions.
+It only provides $R-\phi$ coverage out to $|\eta|=2.0$, with tubes parallel to the beam 
+axis in the barrel region and arranged radially in the endcaps.
+A track typically has three hits in the pixel detector, 7 hits in the SCT, and 36 in the
+TRT.
+
 %
 The ATLAS calorimeter has large coverage in pseudorapidity ($|\eta|<4.9$)
 and longitudinal segmentation in both electromagnetic and hadronic
 sections.
-In the barrel region, the electromagnetic calorimeter has three
-layers and a presampler layer, all using liquid argon technology.
+In the barrel region, the electromagnetic calorimeter uses lead as an absorber
+and liquid argon (LAr) as the sampling material.  
+The kapton electrodes and lead absorber are accordion shaped over the full
+coverage, providing full coverage in $\phi$ without cracks. 
+The EM calorimeter has three longitudnal sections and a presampler layer.
 The first layer has very high resolution
 in the $\eta$ direction, allowing discrimination of photons from
 neutral hadron decays.
@@ -125,27 +146,65 @@ The second layer is coarser but deeper, providing the primary energy
 measurement for electromagnetically interacting particles (photons and
 electrons), while the third layer is there to catch the tails of the
 deposited electromagnetic showers.
+It has a barrel section covering $|\eta|<1.475$ and two endcap sections
+each housed in their own cryostat.  The outer endcap covers $1.375<|\eta|<2.5$
+and the inner wheel covers $2.5<|\eta|<3.2$.
 %
 The ATLAS hadronic calorimeter uses steel absorber and measures the
-hadronic showers by means of scintillating tiles.
-In the endcap region, beyond $|\eta|=2$,
-both hadronic and electromagnetic sections use LAr technology with
-relativly coarse cell segmentation.
+hadronic shower energy using scintillating tiles.
+It has a barrel region covering $|\eta|<1.0$ and an extended barrel
+covering $0.8 < |\eta|< 1.7$.
+Radially, the calorimeter extends from 2.28 m to 4.25 m.  It
+has three longitudinal sections, which are 1.5, 4.1 and 1.8 interaction
+lengths thick for the barrel region and 1.5, 2.6 and 3.3 interaction
+lengths thick for the extended barrel.
+%
+The hadronic end-cap covers $1.5 < |\eta|< 3.2$ and uses LAr technology 
+similar to the EM calorimeter but with copper absorber.
+%
 The ATLAS forward calorimeter (FCal) covers $|\eta|=3.2-4.9$, using
 a matrix of copper and liquid argon in the electromagnetic section,
 and tungsten and liquid argon for the hadronic section.
+The FCal has a depth of about 10 interaction lengths.
 %
-The ATLAS muon spectrometer covers $|\eta|<2.7$ with precision drift
-chambers
-in the barrel region and cathode strip chambers in the forward region.
-The bending of muons is provided by three air-core toroids, giving
-a momentum resolution ranging from approximately 2\% up to about
-10\% at $\pT=1$ TeV.
+
+The ATLAS muon spectrometer covers $|\eta|<2.7$ and is divided into
+barrel and endcap regions, which are covered by different configurations
+of magnets and detector technologies.
+The bending of muons is provided by three sets of air-core toroids,
+a barrel toroid covering $|\eta|<1.4$ and providing 1.5-5.5 Tm of bending power, 
+and two end-caps regions covering $1.6 < |\eta| < 2.7$ with 1-7.5 Tm of
+bending power.  The region $1.4 < |\eta| <1.6$ is covered by 
+a combination of both sets of magnetic fields.
+The barrel region has tracking detectors arranged in three cylindrical 
+layers around the beam axis, while in the forward region, chambers are
+arranged in three layers perpendicular to the beam.
+Out to $|\eta|=2$, track positions are measured using Monitored Drift Tubes (MDTs).
+Beyond $|\eta|=2$, multiwire Cathode Strip Chambers (CGC) with higher granularity
+are used.
+The muon system provides a momentum resolution ranging from approximately 2\% at 
+low \pT up to about 10\% at $\pT=1$ TeV.
 %
+
+Two sets of forward detectors are used for minimum-bias triggering in both 
+p+p and Pb+Pb running.  The Minimum Bias Trigger Scintillators (MBTS) are
+2 cm thick polystyrene slats mounted at $z=3.6$ m, divided into 8 sections in
+$\phi$ and two sections in $\eta$, covering $2.09<|\eta|<2.82$ and
+$2.82<|\eta|<3.84$.  They are read out by wavelength-shifting fibers embedded
+in the scintillator.  
+The Zero Degree Calorimeters (ZDCs) use 1 cm thick tungsten plates as an absorber and strips
+of quartz fibers to read out the light from shower products of incident neutral
+particles (primarily neutrons and photons).
+The quartz strips provide the primary energy and time signal.
+The ZDC is also divided into longitudinal sections, with the innermost ``EM'' section 
+on the negative $\eta$ side having fine position readout, and the second
+``hadronic'' section on both sides having coarse position readout.
+The position readout is performed by a matrix of quartz fibers oriented in the beam
+direction.
 
 ATLAS provides a sophisticated multi-level trigger system for
 selection of physics objects (jets, taus, photons, electrons, muons,
-and missing transverse energy).
+and missing transverse energy) and minimum-bias triggers.
 Jet triggering is done both seeding on energy deposited into localized
 regions of the calorimeter, as well as a full reconstruction of the jets
 using a similar algorithm as used in the offline analysis.
@@ -153,11 +212,14 @@ Electron and photon triggering uses smaller regions in the calorimeter
 than for jets, and also applies selections based on the measured shower
 shape and leakage in the hadronic sections.
 Muon triggering is provided by thin-gap chambers and resistive plate chambers,
-covering about 90\% of the solid angle out to $|\eta|=2.7$.
+covering about 90\% of the solid angle out to $|\eta|=2.4$.
 In general, triggering on tau leptons and missing transverse energy (e.g.
 from $W$ bosons) is not utilized for any heavy ion analysis, as both
 are highly contaminated by the large fluctuations in the
 underlying event.
+Minimum bias triggers are formed primarily from coincidences of the forward
+and backward MBTS detectors as well as coincidences of the forward and backward
+ZDCs.
 
 \subsubsection{CMS}
 
