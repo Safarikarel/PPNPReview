@@ -161,28 +161,39 @@ underlying event.
 
 \subsubsection{CMS}
 
+\begin{figure}
+\begin{center}
+\includegraphics[height=0.49\textwidth]{introduction_figs/cms_120918_03.png}
+\caption{Schematic layout of the CMS detector showing its main subsystems.}
+\label{ntroduction_figs:CMSdet}
+\end{center}
+\end{figure}
 The Compact Muon Solenoid (CMS) is a general purpose collider detector at the LHC. A detailed description of the CMS experiment
-can be found in~\cite{Chatrchyan:2008zzk}.
-The apparatus has an overall length of 22~m, a diameter of 15~m, and weighs 14\,000~tonnes.
+can be found in~\cite{Chatrchyan:2008zzk}. 
+As shown in Fig.~\ref{CMSdet},  the apparatus has an overall length of 22~m, a diameter of 15~m, and weighs 14\,000~tonnes.
 The central feature of the experiment is a superconducting solenoid
-of 6\unit{m} diameter. The large magnetic field of 3.8\unit{T} provided by the solenoid is essential for achieving
+of 6~m diameter. The large magnetic field of 3.8~T provided by the solenoid is essential for achieving
 the very high momentum resolution that is one of the strength's of the experiment.
 Within the volume of the magnet are a silicon pixel and strip tracker, a lead tungstate crystal
 electromagnetic calorimeter (ECAL), and a brass/scintillator hadron calorimeter (HCAL).
-The silicon tracker measures charged particles in $\abs{\eta}< 2.5$.
-For 100\GeVc\ particles, an impact parameter resolution of ${\sim}15\mum$ and a \pt\
+The silicon tracker measures charged particles in $|\eta|< 2.5$.
+For 100\GeVc\ particles, an impact parameter resolution of $\approx 15\mu$m and a \pt\
 resolution of about 1.5\% for 100\GeV [100\GeVc] particles are achieved.
-The ECAL consists of 75\,848 lead tungstate crystals covering $\abs{ \eta }< 1.479 $ in the
-barrel region (EB) and $1.479 <\abs{ \eta } < 3.0$ in two endcap regions (EE).
+The ECAL consists of 75\,848 lead tungstate crystals covering $|\eta|< 1.479 $ in the
+barrel region (EB) and $1.479 < |\eta| < 3.0$ in two endcap regions (EE).
 A two-plane lead/silicon preshower detector is located  in front of the EE.
-The photon energy resolution of the ECAL at  $\ET {\approx} 60$\GeV ranges from
+The photon energy resolution of the ECAL at  $E_{\rm T} {\approx} 60$\GeV ranges from
  1.1\% and 2.6\% in the EB region and from and from 2.2\% to 5\% in the
-endcaps. The jet resolution of the ECAL/HCAL system can be parametrized as
-$\Delta E/E \approx 100\% / \sqrt{E\,[\GeVns]} \oplus 5\%$~\cite{Chatrchyan:2013dga}.
-Forward calorimeters extend the rapidity coverage provided barrel and endcap detectors.
+endcaps. 
+Using the particle flow algorithm, which combines information from the inner tracker
+and calorimeters, the jet energy resolution achieved in \pp\ collisions typically
+is 15\% at 10\GeV, 8\% at 100\GeV, and 4\% at 1\TeV, 
+which compares to about 40\%, 12\%, and 5\% obtained when the calorimeters alone 
+are used for jet finding.
+Forward calorimeters extend the rapidity coverage provided by barrel and endcap detectors.
 
 In the steel return yoke outside the magnet, detectors are embedded for muon identification.
-The muon detectors cover $\abs{\eta}< 2.4$ using three detector technologies:
+The muon detectors cover $|\eta|< 2.4$ using three detector technologies:
 drift tubes, cathode strip chambers, and resistive plate chambers.
 Matching muons to tracks in the silicon tracker allows a \pt\ resolution between
 1 and 5\%, for \pt values up to 1\TeV.
@@ -191,9 +202,9 @@ The detector operates in identical configuration for \pp\ and \PbPb\ data taking
 The main operational difference is the configuration of the two-stage trigger system.
 The first level (L1) of the trigger system employs custom hardware processors
 and  uses information from the calorimeters and muon detectors to select the most
-interesting events in a fixed time interval of less than 4\mus.
+interesting events in a fixed time interval of less than 4$\mu$s.
 The High Level Trigger (HLT) processor farm, based on commodity hardware,
-decreases the event rate to several 100\unit{Hz} for final data storage.
+decreases the event rate to several 100~Hz for final data storage.
 For heavy-ion data taking, custom reconstruction algorithms  executed in
 the HLT permit the selection of events based on photon, muon, jet and
 single-track signatures, in connection with global event properties such
