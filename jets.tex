@@ -50,7 +50,7 @@ background simulation using the HIJING event generator. Also shown are data from
 \pp collisions (open circles).
 \begin{figure}[thb]
 \begin{center}
-\includegraphics[width=0.9\mboxwidth]{jetfigures/final_4x2_23_newpp.pdf}
+\includegraphics[width=0.8\mboxwidth]{jetfigures/final_4x2_23_newpp.pdf}
 \caption{
 (top) Dijet asymmetry distributions for data (points) and HIJING+PYTHIA simulations (solid yellow histograms),
 as a function of collision centrality.  Proton-proton data from $\sqrt{s}=7$\TeV\ is shown as open circles.
@@ -85,7 +85,7 @@ way of quantifying the dijet momentum asymmetry.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.49\mboxwidth]{jetfigures/dijet_imbalance5_0to20_pt_20120103_subt.pdf}
+\includegraphics[width=0.6\mboxwidth]{jetfigures/dijet_imbalance5_0to20_pt_20120103_subt.pdf}
 \caption{Dijet asymmetry ratio, $A_{J}$, in bins of leading jet transverse momentum from
 120 $ < \ptlead < 150$~GeV/c to $\ptlead > 300$~GeV/c for
   subleading jets of $\ptsub> 30$~GeV/c
@@ -108,7 +108,7 @@ as squares and PbPb data shown as points.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.49\mboxwidth]{jetfigures/deltaPtOverPt5_lead120_sub30_diff_20120103.pdf}
+\includegraphics[width=0.6\mboxwidth]{jetfigures/deltaPtOverPt5_lead120_sub30_diff_20120103.pdf}
 \caption[]{Average dijet momentum ratio $\ptsub/\ptlead$ as a function of
 leading jet \pT\ for three bins of collision centrality, from peripheral to central collisions,
 corresponding to selections of 50--100\%,  30--50\% and 0--20\%  of the total inelastic cross section.
@@ -201,7 +201,7 @@ jet and the initial parton.
 \caption{\vtjet\ as a function of jet \pTjet\ in each centrality
    interval. The error bars on the points indicate statistical
    uncertainties while the shaded boxes represent the systematic
-   uncertainties (see mbox). The horizontal width of the systematic
+   uncertainties. The horizontal width of the systematic
    error band is chosen for presentation purposes only. }
 \label{fig:GR:ATLAS_jet_v2}
 \end{center}
@@ -228,7 +228,7 @@ dependence of the observed jet suppression.
 \caption{
 Ratios of \Rcp\ values between $R = 0.3, 0.4$ and 0.5 jets and $R =
 0.2$ jets as a function of \pT\ in the 0--10\% centrality bin. The
-error bars show statistical uncertainties (see mbox). The shaded boxes
+error bars show statistical uncertainties. The shaded boxes
 indicate partially correlated systematic errors. The lines indicate
 systematic errors that are fully correlated between different \pT\ bins.
 }
@@ -238,7 +238,7 @@ systematic errors that are fully correlated between different \pT\ bins.
 
 Such a dependence can be seen in Fig.\ref{fig:GR:ATLAS_jetRCP_size}, which shows 
 shows the ratio of \Rcp\ values for $R = 0.3, 0.4$ and 0.5 jets compared
-to an $R = 0.2$ jets baseline as a function of \pt\ for central events.
+to an $R = 0.2$ jets baseline, as a function of \pt\ for central events.
 
 The cancellation of various systematic uncertainties allows the observation of a 
 a significant jet radius dependence of \Rcp, in particular for
@@ -249,14 +249,14 @@ Further insight into modifications of the momentum and angular structure
 of jets in heavy-ion collisions can be gained by measurements of 
 observables used for jet studies in elementary interactions, such as 
 fragmentation functions and jet shapes.
-Fragmentation functions described the probability for a parton to fragment into
+Fragmentation functions describe the probability for a parton to fragment into
 hadrons carrying certain fractions of the parton energy. 
 In vacuum, the parton radiation and splitting processes lead to a
 well-understood characteristic shape of the fragmentation function \cite{Dokshitzer:1991wu}.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.98\mboxwidth]{jetfigures/xsi_div_both_effv9_l100s40_0to12_dphi20eta20dr3pt4id1_cwt_ppDiv_gray.pdf}
+\includegraphics[width=0.8\mboxwidth]{jetfigures/xsi_div_both_effv9_l100s40_0to12_dphi20eta20dr3pt4id1_cwt_ppDiv_gray.pdf}
 \caption{(a--d) Fragmentation functions for the leading (open circles) and subleading (solid points) jets in four regions of $\AJ$ in central PbPb collisions compared to the pp reference.
 (e--h) Ratio of each fragmentation function to its pp-based reference.
 Error bars shown are statistical. The systematic uncertainty is
@@ -277,7 +277,7 @@ and pp-based fragmentation functions.
 Within the uncertainties of this first measurement, no significant modification of 
 the fragmentation functions in \PbPb\ collisions is observed. This is true even for 
 dijets with large asymmetry, i.e.\ where the subleading jet has suffered significant
-energy loss. It is important to note however that only hadrons with $\pT > 4$\GeVc
+energy loss. It is important to note however that only hadron fragments with $\pT > 4$\GeVc
 have been considered in this measurement.
 
 Complementary information about the angular structure of the jets and its modification
@@ -286,7 +286,8 @@ jet transverse momentum profile as a function of radial distance to the jet axis
 \cite{MehtarTani:2010ma,Idilbi:2008vm,CasalderreySolana:2011rz,CasalderreySolana:2011rq,Neufeld:2011yh,Blaizot:2012fh,Fickinger:2013xwa}. 
 The differential jet shape, $\rho(r)$, is defined as
 \begin{equation}
-%\rho(r) = \frac{1}{\delta r} \frac{1}{N_{\mbox{jet}}} \sum_\mbox{jets} \frac{\sum\limits_{{r - \delta r/2}}^{{r + \delta r/2}}{\pt^\mbox{track}}}{\pT^\mbox{jet}}
+\rho(r) = \frac{1}{\delta r} \frac{1}{N_{\mbox{jet}}} \sum_{\mbox{jets}}
+\frac{\sum\limits_{{r - \delta r/2}}^{{r + \delta r/2}}{\pt^{\mbox{track}}}}{\pT^{\mbox{jet}}}
 \label{eq:rho(r)}
 \end{equation}
 Here $r$ is the radial distance from the jet axis
@@ -301,17 +302,15 @@ functions, the \PbPb\ jet shapes are compared to a \pp\ based reference.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.98\mboxwidth]{jetfigures/JetShapes_GR.pdf}
+\includegraphics[width=0.98\mboxwidth]{jetfigures/JetShapes_GR.png}
 \caption{\label{fig:JSRatio}
-(Color online) Top row: Differential jet shapes in \PbPb collisions (filled circles)
- as a function of distance from the jet axis for inclusive jets with $\pT^{\mbox{jet}} >100\GeVc$ 
-and $0.3 < |\eta| < 2$ in
-five \PbPb centrality intervals. The measurements use charged particles with  $\pT^{\mbox{track}} > 1\GeVc$.
-The \pp-based reference shapes  are shown with open symbols.
-The shaded regions represent the systematic uncertainties for the measurement performed in \PbPb collisions, with the
-statistical uncertainties too small to be visible.
-Bottom row: Jet shape nuclear modification factors, $\rho(r)^{\PbPb}/\rho(r)^{\pp}$.
-The error bars show the statistical uncertainties, and the shaded boxes indicate the systematic uncertainties. }
+(Top): Differential jet shapes in \PbPb collisions (filled circles)
+as a function of distance from the jet axis for inclusive jets with $\pT^{\mbox{jet}} >100\GeVc$ 
+in five bins of centrality.  The \pp-based reference is shown with open symbols.
+The shaded regions represent the \PbPb\ systematic uncertainties. 
+Statistical uncertainties are smaller than the marker size. 
+(Bottom): Jet shape ratios $\rho(r)^{\PbPb}/\rho(r)^{\pp}$.
+Error bars show the statistical uncertainties and shaded boxes indicate the systematic uncertainties. }
 \label{fig:GR:CMS_jetshapes}
 \end{center}
 \end{figure}
@@ -324,10 +323,11 @@ both systems, only a small amount of the total jet energy
 is carried by particles more than  $r> 0.2$ away from the jet axis. However, for central 
 \PbPb\ collisions a large enhancement of the energy fraction at the largest distance
 to the jet axis ($r = $0.25-0.3) can be seen.
-This is qualitatively consisten with the \Rcp\ ratios for different jet radii seen by ATLAS, 
-where also an additional part of the jet energy is captured when moving beyond $R = 0.2$, and is 
-in line with the trends predicted in \cite{Vitev:2008rz,Renk:2009hv}, although these calculations were
-done for a different energy and at parton level, rather than after jet clustering.
+This is qualitatively consistent with the \Rcp\ ratios for different jet radii seen by ATLAS, 
+where also an additional part of the jet energy is captured when moving beyond $R = 0.2$.  
+This observation is in line with the trends predicted in 
+\cite{Vitev:2008rz,Renk:2009hv}, although these calculations were
+done for a different energy and and at parton level rather than hadron level.
 
 \subsection{Energy flow in dijet events}
 
@@ -370,7 +370,7 @@ is recovered within uncertainties for all event selections.
 
 \begin{figure}[!h]
 \begin{center}
-\includegraphics[width=0.98\mboxwidth]{jetfigures/missingPtParallel-Corrected-data-InConeOutConeDPhiCut_ntv6_2.pdf}
+\includegraphics[width=0.7\mboxwidth]{jetfigures/missingPtParallel-Corrected-data-InConeOutConeDPhiCut_ntv6_2.pdf}
 \caption{Average missing transverse momentum,
 $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$,
 for tracks with $\pT > 0.5$\GeVc, projected onto the leading jet axis (solid circles).
@@ -451,11 +451,9 @@ anti-correlation of uncertainties across bins for the unity-normalized distribut
   photon ($\pT^{\gamma} > 60$\GeVc) and jet ($\pT^{\mbox{Jet}} > 30$\GeVc, $\dphijg > \frac{7}{8}\pi$)
   after subtracting background. The area of each distribution is normalised to unity. All panels show
 \PbPb\ data (filled circles) compared to \pp\ data at
-  2.76\TeV\ (filled squares), and to the \PYTHYD{} MC simulation
+  2.76\TeV\ (filled squares), and to the \PYTHYD\ MC simulation
   (shaded histogram) in bins of increasing centrality left to right. The error bars
-  on the points represent the statistical uncertainty.
-  See mbox for an explanation of the open and shaded red systematic
-  uncertainty boxes.
+  on the points show the statistical uncertainties.
 }
 \label{fig:GR:CMS_xjg}
 \end{center}
