@@ -1,0 +1,45 @@
+\contentsline {section}{\numberline {1}Introduction}{3}
+\contentsline {subsection}{\numberline {1.1}Physics motivation}{3}
+\contentsline {subsection}{\numberline {1.2}LHC heavy-ion running}{5}
+\contentsline {subsection}{\numberline {1.3}Detectors at the LHC}{6}
+\contentsline {subsubsection}{\numberline {1.3.1}ALICE}{6}
+\contentsline {subsubsection}{\numberline {1.3.2}ATLAS}{8}
+\contentsline {subsubsection}{\numberline {1.3.3}CMS}{9}
+\contentsline {section}{\numberline {2}Event characterization}{10}
+\contentsline {subsection}{\numberline {2.1}Centrality determination}{11}
+\contentsline {subsection}{\numberline {2.2}Charged-particle density}{13}
+\contentsline {subsection}{\numberline {2.3}Energy density}{15}
+\contentsline {section}{\numberline {3}Particle spectra and yields}{16}
+\contentsline {subsection}{\numberline {3.1}Charged-particle transverse momentum spectra}{16}
+\contentsline {subsection}{\numberline {3.2}Identified-hadron spectra}{18}
+\contentsline {subsection}{\numberline {3.3}Strange-particle production}{19}
+\contentsline {subsection}{\numberline {3.4}Resonance and light-nuclei production}{20}
+\contentsline {subsection}{\numberline {3.5}Particle yields}{20}
+\contentsline {section}{\numberline {4}Non-flow correlations}{22}
+\contentsline {subsection}{\numberline {4.1}Femtoscopic correlations}{22}
+\contentsline {subsection}{\numberline {4.2}Fluctuations}{24}
+\contentsline {subsection}{\numberline {4.3}Angular correlations}{25}
+\contentsline {subsection}{\numberline {4.4}Chiral magnetic effect}{27}
+\contentsline {section}{\numberline {5}Flow correlations}{29}
+\contentsline {subsection}{\numberline {5.1}Introduction}{29}
+\contentsline {subsection}{\numberline {5.2}Methods}{30}
+\contentsline {subsection}{\numberline {5.3}Elliptic flow}{31}
+\contentsline {subsection}{\numberline {5.4}Higher order harmonics}{34}
+\contentsline {subsection}{\numberline {5.5}Flow fluctuations}{36}
+\contentsline {section}{\numberline {6}Electroweak probes}{36}
+\contentsline {subsection}{\numberline {6.1}Measurements of W and Z bosons in Pb+Pb collisions}{40}
+\contentsline {subsection}{\numberline {6.2}Measurement of isolated photons in Pb+Pb collisions}{42}
+\contentsline {section}{\numberline {7}Jet quenching}{43}
+\contentsline {subsection}{\numberline {7.1}Dijet correlations}{44}
+\contentsline {subsection}{\numberline {7.2}Suppression of jet yields}{46}
+\contentsline {subsection}{\numberline {7.3}Modification of jet structure}{47}
+\contentsline {subsection}{\numberline {7.4}Energy flow in dijet events}{50}
+\contentsline {subsection}{\numberline {7.5}Photon-jet correlations}{51}
+\contentsline {section}{\numberline {8}Heavy-flavour production}{53}
+\contentsline {subsection}{\numberline {8.1}Heavy-flavour particle spectra}{54}
+\contentsline {subsection}{\numberline {8.2}Heavy-flavour elliptic flow}{56}
+\contentsline {section}{\numberline {9}Quarkonium production}{57}
+\contentsline {subsection}{\numberline {9.1}Charmonium suppression in PbPb collisons}{58}
+\contentsline {subsection}{\numberline {9.2}Charmonium elliptic flow}{59}
+\contentsline {subsection}{\numberline {9.3}Upsilon suppression in PbPb}{60}
+\contentsline {section}{\numberline {10}Summary and outlook}{61}
