@@ -36,13 +36,14 @@ nuclei at low energies, this was straightforward to understand as the
 reinteraction of the initial baryons and the produced hadrons, which
 would thermalize and evolve as a ``hadron gas''.
 However, its persistence at higher energies, particularly at RHIC where the
-value of $v_2$ averaged over \pT was twice as large as it was at the
-CERN SPS, surprised many who expected the hot system to become more
+value of $v_2$ averaged over \pT was approximately twice as large as it was at the
+CERN SPS~\cite{Ackermann:2000tr}, surprised many who expected the hot system to become more
 dilute and more weakly-interacting at higher energies.
 
 Collective flow was a major piece of the RHIC program, and its characterization
 in terms of hydrodynamics was a crucial piece of evidence in the RHIC discovery
-of the strongly-coupled quark gluon plasma (sQGP).  Crucial aspects of collective
+of the strongly-coupled quark gluon plasma (sQGP)~\cite{Back:2004je,Adcox:2004mh,Adams:2005dq,Arsene:2004fa}.  
+Crucial aspects of collective
 flow, on the experimental and theoretical sides at RHIC, have been:
 \begin{itemize}
 \item Based on theoretical calculations, the average elliptic flow, scaled by the eccentricity,
@@ -52,15 +53,15 @@ and for $v_2(\pT)$, which rises linearly until viscous corrections become large.
 \item When studied as a function of particle type, it is found that heavier particles show
 a smaller $v_2$ at the same \pT at low \pT, while this hierarchy flips above 1.5 GeV, where protons
 typically have a 50\% higher value of $v_2$.  This behavior has been explained by the hadronization of
-the system via constituent quarks which recombine into baryons with $v_2$(baryon)=$(3/2) \times v_2$(meson).
+the system via constituent quarks which recombine into baryons with $v_2$(baryon)=$(3/2) \times v_2$(meson)~\cite{Adare:2006ti,Fries:2003vb}.
 \item The deviations from ideal behavior can be systematically calculated by viscous corrections, and
-all RHIC data point to a small but significant value of the ratio of shear viscosity to entropy density ($\eta/s$).
+all RHIC data point to a small but significant value of the ratio of shear viscosity to entropy density ($\eta/s$)~\cite{Luzum:2008cw}.
 \item While difficult to calculate in the strongly-coupled limit, where the approximations required for kinetic theory break down, AdS/CFT-based calculations have shown that a wide range of strongly-coupled systems have a lower-bound on
-$\eta/s = 1/4\pi$.  The RHIC experimental data suggest values of 1-2 times this bound, although estimates are limited
-by theoretical uncertainties related to the modeling of the initial state.
+$\eta/s = 1/4\pi$~\cite{Kovtun:2004de}.  The RHIC experimental data suggest values of 1-2 times this bound, although estimates are limited
+by theoretical uncertainties related to the modeling of the initial state~\cite{Luzum:2008cw}.
 \item When studying smaller systems (particularly Cu+Cu), it was found that accounting for the event-by-event position of the nucleons in the nuclear wave functions showed scaling in the quantity $v_2/\epsilon$ between Cu+Cu and Au+Au, when
 plotted as a function of the transverse density of charged particles at mid-rapidity, estimated by $dN_{ch}/d\eta/S$,
-where $S$ is the overlap area of the two nuclei.
+where $S$ is the overlap area of the two nuclei~\cite{Alver:2008zza}.
 \end{itemize}
 
 \subsection{Methods}
@@ -71,7 +72,7 @@ lead to global correlations (momentum conservation) and others which only lead t
 (e.g. resonance decays and jets).  Thus, care must be taken to minimize such ``non flow'' correlations.
 
 One of the earliest methods for measuring flow was the ``event plane'' method, which calculates an event plane using
-a forward detector and correlates all particles with this event plane, based on the so-called ``Q-vector'' for each order $n$:
+a forward detector and correlates all particles with this event plane, based on the so-called ``Q-vector'' for each order $n$~\cite{Poskanzer:1998yz}:
 \begin{equation}
 \end{equation}
 From this, the $n$-th order event plane $\Psi_n$ is simply determined as the angle of the Q-vector itself.
@@ -91,14 +92,16 @@ symmetric pseudorapidity regions separated from the region being measured:
 Non-flow contamination is typically most difficult to control when the subevents used to determine the event plane
 and resolution are close in $\eta$ to each other or close to the measured particles.
 %
-Another method is to use multi-particle cumulants to explicitly remove lower order correlations.
+Another method is to use multi-particle cumulants to explicitly remove lower order 
+correlations~\cite{Borghini:2000sa,Borghini:2001vi,Borghini:2001zr,Bilandzic:2010jr}.
 These can be calculated either from a generating function formalism, or through moments of the Q-vector itself.
 They are more or less sensitive to non-flow depending on the order of the cumulant.  For example, the two-particle
 cumulant is quite sensitive to effects from resonance decay and jet fragmentation.  However, the four particle
 cumulants are generally much less so, since it explicitly removes short-range two particle correlations.
 %
 A third method is to use the ``Lee Yang zeroes'' approach, which accounts for correlations of all lower orders using a
-different generating function.  The method relates the zeros of a complex function to the magnitude of the relevant
+different generating function~\cite{Bhalerao:2003yq,Borghini:2004ke}.  
+The method relates the zeros of a complex function to the magnitude of the relevant
 flow harmonics.  While the method is thought to be robust against most sources of non-flow, it is particularly sensitive to
 multiplicity fluctuations, and so is calculated using event samples with similar multiplicities within a given
 centrality interval.  Theses subsamples are then averaged within the desired centrality interval to give the final result.
@@ -246,7 +249,7 @@ plateau, while the PHOBOS data did not show similar behavior.
 \end{figure}
 Although the realization that $v_2$ was sensitive to fluctuations in the nuclear overlap, particularly from
 the event-wise random positions of nucleons in each nuclei, several more years elapsed before it was suggested
-to look for higher-order harmonic flow, particularly odd-orders~\cite{Alver:2010gr}.
+to look for higher-order harmonic flow, particularly odd-orders~\cite{Alver:2010gr,Qiu:2011iv}.
 Many authors argued that symmetric systems
 would have a zero $v_1$, $v_3$, $v_5$, etc, but had not yet considered the effect of fluctuations.
 By mid-2011, all of the LHC and RHIC experiments had significant measurements of many of the higher-order
@@ -362,7 +365,7 @@ intervals~\cite{Abelev:2012di}.
 The same geometric fluctuations that lead to the presence of the higher harmonics are also expected to lead to
 event-by-event fluctuations in the individual coefficients.  This has been studied using two methods.
 ATLAS developed a data-driven method to unfold the measured $v_n$ distributions ($P(v_n)$) with a Bayesian
-technique.  The distributions $P(v_n)$ are shown in Figure~\ref{fig:pas:fc:flowfluc1} for $v_2$, $v_3$ and $v_4$
+technique~\cite{Aad:2013xma}.  The distributions $P(v_n)$ are shown in Figure~\ref{fig:pas:fc:flowfluc1} for $v_2$, $v_3$ and $v_4$
 for a selected set of centrality intervals.  It is clear that the fluctuations are large in all selected samples.
 Although the distributions are not Gaussian, but are rather projections of a 2D Gaussian (also known as a
 Bessel-Gaussian distribution),
@@ -370,14 +373,14 @@ the distributions are typically quantified using the first two moments, the mean
 These can also be estimated by combining different estimates of $v_n$, in particular using the event-plane
 and 4-particle cumulant methods.  Based on the analysis of Ref.{},
 the difference between these quantities is twice the variance, while their sum is twice the squared mean.
-Figure~\ref{fig:pas:fc:flowfluc2}(left) shows CMS data on $\sigma/\langle v_2 \rangle$ derived
+Figure~\ref{fig:pas:fc:flowfluc2}(left) shows CMS data~\cite{Chatrchyan:2013kba} on $\sigma/\langle v_2 \rangle$ derived
 from cumulants, compared with the ATLAS data derived from the fully unfolded distributions.
 While the $v_2$ fluctuations compare well between the two methods, the ATLAS and CMS results on $v_3$
 are quite different, possibly from the inapplicability of the cumulant approach for this quantity.
 The ATLAS results are essentially constant for all centrality intervals at around 0.5, which is the
 value one gets ($\sqrt{4/\pi-1}$) if the fluctuations are described by a 2D Gaussian,
 projected along the radial direction.
-Figure~\ref{fig:pas:fc:flowfluc1}(left) shows ALICE data on $\sigma/\langle v_2 \rangle$ derived
+Figure~\ref{fig:pas:fc:flowfluc1}(left) shows ALICE data~\cite{Abelev:2012di} on $\sigma/\langle v_2 \rangle$ derived
 using a similar approach as CMS.  For centrality intervals from 5-60\%, the overall magnitude
 is similar to that seen by the other experiments.  However, this figure points out that the fluctuations
 have essentially no centrality dependence out to moderately large \pT, about 8 GeV, which reaches into
