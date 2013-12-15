@@ -1,0 +1,1612 @@
+\begin{thebibliography}{100}
+\expandafter\ifx\csname url\endcsname\relax
+  \def\url#1{\texttt{#1}}\fi
+\expandafter\ifx\csname urlprefix\endcsname\relax\def\urlprefix{URL }\fi
+\expandafter\ifx\csname href\endcsname\relax
+  \def\href#1#2{#2} \def\path#1{#1}\fi
+
+\bibitem{Evans:2008zzb}
+L.~Evans, P.~Bryant, {LHC Machine}, JINST 3 (2008) S08001.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08001}
+  {\path{doi:10.1088/1748-0221/3/08/S08001}}.
+
+\bibitem{Jarlskog:1990dv}
+G.~Jarlskog, D.~Rein, {ECFA Large Hadron Collider Workshop, Aachen, Germany,
+  4-9 Oct 1990: Proceedings}.
+
+\bibitem{Borsanyi:2010bp}
+S.~Borsanyi, et~al., {Is there still any $T_c$ mystery in lattice QCD? Results
+  with physical masses in the continuum limit III}, JHEP 1009 (2010) 073.
+\newblock \href {http://arxiv.org/abs/1005.3508} {\path{arXiv:1005.3508}},
+  \href {http://dx.doi.org/10.1007/JHEP09(2010)073}
+  {\path{doi:10.1007/JHEP09(2010)073}}.
+
+\bibitem{Tribble:2007nsac}
+R.~Tribble, et~al., {The Frontiers of Nuclear Science, A Long Range Plan}\href
+  {http://arxiv.org/abs/0809.3137} {\path{arXiv:0809.3137}}.
+
+\bibitem{Muller:2012zq}
+B.~Muller, J.~Schukraft, B.~Wyslouch, {First Results from Pb+Pb collisions at
+  the LHC}, Ann.Rev.Nucl.Part.Sci. 62 (2012) 361--386.
+\newblock \href {http://arxiv.org/abs/1202.3233} {\path{arXiv:1202.3233}},
+  \href {http://dx.doi.org/10.1146/annurev-nucl-102711-094910}
+  {\path{doi:10.1146/annurev-nucl-102711-094910}}.
+
+\bibitem{Abreu:2007kv}
+N.~Armesto, N.~Borghini, S.~Jeon, U.~Wiedemann, S.~Abreu, et~al., {Heavy Ion
+  Collisions at the LHC - Last Call for Predictions}, J.Phys. G35 (2008)
+  054001.
+\newblock \href {http://arxiv.org/abs/0711.0974} {\path{arXiv:0711.0974}},
+  \href {http://dx.doi.org/10.1088/0954-3899/35/5/054001}
+  {\path{doi:10.1088/0954-3899/35/5/054001}}.
+
+\bibitem{Aamodt:2008zz}
+K.~Aamodt, et~al., {The ALICE experiment at the CERN LHC}, JINST 3 (2008)
+  S08002.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08002}
+  {\path{doi:10.1088/1748-0221/3/08/S08002}}.
+
+\bibitem{Aad:2008zzm}
+G.~Aad, et~al., {The ATLAS Experiment at the CERN Large Hadron Collider}, JINST
+  3 (2008) S08003.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08003}
+  {\path{doi:10.1088/1748-0221/3/08/S08003}}.
+
+\bibitem{Chatrchyan:2008zzk}
+S.~Chatrchyan, et~al., The {CMS} experiment at the {CERN} {LHC}, JINST 3 (2008)
+  S08004.
+\newblock \href {http://dx.doi.org/10.1088/1748-0221/3/08/S08004}
+  {\path{doi:10.1088/1748-0221/3/08/S08004}}.
+
+\bibitem{Miller:2007ri}
+M.~L. Miller, K.~Reygers, S.~J. Sanders, P.~Steinberg, {Glauber modeling in
+  high energy nuclear collisions}, Ann.Rev.Nucl.Part.Sci. 57 (2007) 205--243.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0701025}
+  {\path{arXiv:nucl-ex/0701025}}, \href
+  {http://dx.doi.org/10.1146/annurev.nucl.57.090506.123020}
+  {\path{doi:10.1146/annurev.nucl.57.090506.123020}}.
+
+\bibitem{Glauber:1955qq}
+R.~Glauber, {Cross-sections in deuterium at high-energies}, Phys.Rev. 100
+  (1955) 242--248.
+\newblock \href {http://dx.doi.org/10.1103/PhysRev.100.242}
+  {\path{doi:10.1103/PhysRev.100.242}}.
+
+\bibitem{Glauber:2006gd}
+R.~J. Glauber, {Quantum Optics and Heavy Ion Physics}, Nucl.Phys. A774 (2006)
+  3--13.
+\newblock \href {http://arxiv.org/abs/nucl-th/0604021}
+  {\path{arXiv:nucl-th/0604021}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysa.2006.06.009}
+  {\path{doi:10.1016/j.nuclphysa.2006.06.009}}.
+
+\bibitem{Shor:1988vk}
+A.~Shor, R.~S. Longacre, {Effects of Secondary Interactions in Proton - Nucleus
+  and Nucleus-nucleus Collisions Using the Hijet Event Generator}, Phys.Lett.
+  B218 (1989) 100.
+\newblock \href {http://dx.doi.org/10.1016/0370-2693(89)90483-8}
+  {\path{doi:10.1016/0370-2693(89)90483-8}}.
+
+\bibitem{Alver:2008aq}
+B.~Alver, M.~Baker, C.~Loizides, P.~Steinberg, {The PHOBOS Glauber Monte
+  Carlo}\href {http://arxiv.org/abs/0805.4411} {\path{arXiv:0805.4411}}.
+
+\bibitem{DeJager:1987qc}
+H.~De~Vries, C.~De~Jager, C.~De~Vries, {Nuclear charge and magnetization
+  density distribution parameters from elastic electron scattering}, Atom.Data
+  Nucl.Data Tabl. 36 (1987) 495--536.
+\newblock \href {http://dx.doi.org/10.1016/0092-640X(87)90013-1}
+  {\path{doi:10.1016/0092-640X(87)90013-1}}.
+
+\bibitem{Abelev:2013qoq}
+B.~Abelev, et~al., {Centrality determination of Pb-Pb collisions at sqrt(sNN) =
+  2.76 TeV with ALICE}, Phys.Rev. C88 (2013) 044909.
+\newblock \href {http://arxiv.org/abs/1301.4361} {\path{arXiv:1301.4361}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.88.044909}
+  {\path{doi:10.1103/PhysRevC.88.044909}}.
+
+\bibitem{Bruce:2009bg}
+R.~Bruce, S.~Gilardoni, J.~Jowett, D.~Bocian, {Beam losses from
+  ultra-peripheral nuclear collisions between (Pb-208)**82+ ions in the Large
+  Hadron Collider and their alleviation}, Phys.Rev.ST Accel.Beams 12 (2009)
+  071002.
+\newblock \href {http://arxiv.org/abs/0908.2527} {\path{arXiv:0908.2527}},
+  \href {http://dx.doi.org/10.1103/PhysRevSTAB.12.071002}
+  {\path{doi:10.1103/PhysRevSTAB.12.071002}}.
+
+\bibitem{ALICE:2012aa}
+B.~Abelev, et~al., {Measurement of the Cross Section for Electromagnetic
+  Dissociation with Neutron Emission in Pb-Pb Collisions at $\sqrt{s_{NN}}$ =
+  2.76 TeV}, Phys.Rev.Lett. 109 (2012) 252302.
+\newblock \href {http://arxiv.org/abs/1203.2436} {\path{arXiv:1203.2436}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.109.252302}
+  {\path{doi:10.1103/PhysRevLett.109.252302}}.
+
+\bibitem{ATLAS:2011ag}
+G.~Aad, et~al., {Measurement of the centrality dependence of the charged
+  particle pseudorapidity distribution in lead-lead collisions at
+  $\sqrt{s_{NN}}=2.76$ TeV with the ATLAS detector}, Phys.Lett. B710 (2012)
+  363--382.
+\newblock \href {http://arxiv.org/abs/1108.6027} {\path{arXiv:1108.6027}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.02.045}
+  {\path{doi:10.1016/j.physletb.2012.02.045}}.
+
+\bibitem{Chatrchyan:2011pb}
+S.~Chatrchyan, et~al., {Dependence on pseudorapidity and centrality of charged
+  hadron production in PbPb collisions at a nucleon-nucleon centre-of-mass
+  energy of 2.76 TeV}, JHEP 1108 (2011) 141.
+\newblock \href {http://arxiv.org/abs/1107.4800} {\path{arXiv:1107.4800}},
+  \href {http://dx.doi.org/10.1007/JHEP08(2011)141}
+  {\path{doi:10.1007/JHEP08(2011)141}}.
+
+\bibitem{Aamodt:2010pb}
+K.~Aamodt, et~al., {Charged-particle multiplicity density at mid-rapidity in
+  central Pb-Pb collisions at $\sqrt{s_{NN}} = 2.76$ TeV}, Phys.Rev.Lett. 105
+  (2010) 252301.
+\newblock \href {http://arxiv.org/abs/1011.3916} {\path{arXiv:1011.3916}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.105.252301}
+  {\path{doi:10.1103/PhysRevLett.105.252301}}.
+
+\bibitem{Aamodt:2010cz}
+K.~Aamodt, et~al., {Centrality dependence of the charged-particle multiplicity
+  density at mid-rapidity in Pb-Pb collisions at $\sqrt{s_{NN}}=2.76$ TeV},
+  Phys.Rev.Lett. 106 (2011) 032301.
+\newblock \href {http://arxiv.org/abs/1012.1657} {\path{arXiv:1012.1657}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.106.032301}
+  {\path{doi:10.1103/PhysRevLett.106.032301}}.
+
+\bibitem{Adler:2004zn}
+S.~Adler, et~al., {Systematic studies of the centrality and s(NN)**(1/2)
+  dependence of the d E(T) / d eta and d (N(ch) / d eta in heavy ion collisions
+  at mid-rapidity}, Phys.Rev. C71 (2005) 034908.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0409015}
+  {\path{arXiv:nucl-ex/0409015}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.71.049901, 10.1103/PhysRevC.71.034908}
+  {\path{doi:10.1103/PhysRevC.71.049901, 10.1103/PhysRevC.71.034908}}.
+
+\bibitem{Armesto:2004ud}
+N.~Armesto, C.~A. Salgado, U.~A. Wiedemann, {Relating high-energy
+  lepton-hadron, proton-nucleus and nucleus-nucleus collisions through
+  geometric scaling}, Phys.Rev.Lett. 94 (2005) 022002.
+\newblock \href {http://arxiv.org/abs/hep-ph/0407018}
+  {\path{arXiv:hep-ph/0407018}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.94.022002}
+  {\path{doi:10.1103/PhysRevLett.94.022002}}.
+
+\bibitem{Kharzeev:2004if}
+D.~Kharzeev, E.~Levin, M.~Nardi, {Color glass condensate at the LHC: Hadron
+  multiplicities in pp, pA and AA collisions}, Nucl.Phys. A747 (2005) 609--629.
+\newblock \href {http://arxiv.org/abs/hep-ph/0408050}
+  {\path{arXiv:hep-ph/0408050}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysa.2004.10.018}
+  {\path{doi:10.1016/j.nuclphysa.2004.10.018}}.
+
+\bibitem{ALbacete:2010ad}
+J.~L. ALbacete, A.~Dumitru, {A model for gluon production in heavy-ion
+  collisions at the LHC with rcBK unintegrated gluon densities}\href
+  {http://arxiv.org/abs/1011.5161} {\path{arXiv:1011.5161}}.
+
+\bibitem{Abbas:2013bpa}
+E.~Abbas, et~al., {Centrality dependence of the pseudorapidity density
+  distribution for charged particles in Pb-Pb collisions at $\sqrt{s_{NN}} =
+  2.76$ TeV}, Phys.Lett. B726 (2013) 610--622.
+\newblock \href {http://arxiv.org/abs/1304.0347} {\path{arXiv:1304.0347}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2013.09.022}
+  {\path{doi:10.1016/j.physletb.2013.09.022}}.
+
+\bibitem{Bearden:2001qq}
+I.~Bearden, et~al., {Pseudorapidity distributions of charged particles from
+  Au+Au collisions at the maximum RHIC energy}, Phys.Rev.Lett. 88 (2002)
+  202301.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0112001}
+  {\path{arXiv:nucl-ex/0112001}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.88.202301}
+  {\path{doi:10.1103/PhysRevLett.88.202301}}.
+
+\bibitem{Alver:2010ck}
+B.~Alver, et~al., {Phobos results on charged particle multiplicity and
+  pseudorapidity distributions in Au+Au, Cu+Cu, d+Au, and p+p collisions at
+  ultra-relativistic energies}, Phys.Rev. C83 (2011) 024913.
+\newblock \href {http://arxiv.org/abs/1011.1940} {\path{arXiv:1011.1940}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.83.024913}
+  {\path{doi:10.1103/PhysRevC.83.024913}}.
+
+\bibitem{Chatrchyan:2012mb}
+S.~Chatrchyan, et~al., {Measurement of the pseudorapidity and centrality
+  dependence of the transverse energy density in PbPb collisions at
+  $\sqrt{s_{NN}}=2.76$ TeV}, Phys.Rev.Lett. 109 (2012) 152303.
+\newblock \href {http://arxiv.org/abs/1205.2488} {\path{arXiv:1205.2488}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.109.152303}
+  {\path{doi:10.1103/PhysRevLett.109.152303}}.
+
+\bibitem{Bjorken:1982qr}
+J.~Bjorken, {Highly Relativistic Nucleus-Nucleus Collisions: The Central
+  Rapidity Region}, Phys.Rev. D27 (1983) 140--151.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.27.140}
+  {\path{doi:10.1103/PhysRevD.27.140}}.
+
+\bibitem{Aamodt:2010jd}
+K.~Aamodt, et~al., {Suppression of Charged Particle Production at Large
+  Transverse Momentum in Central Pb--Pb Collisions at $\sqrt{s_{NN}} = 2.76$
+  TeV}, Phys.Lett. B696 (2011) 30--39.
+\newblock \href {http://arxiv.org/abs/1012.1004} {\path{arXiv:1012.1004}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2010.12.020}
+  {\path{doi:10.1016/j.physletb.2010.12.020}}.
+
+\bibitem{CMS:2012aa}
+S.~Chatrchyan, et~al., {Study of high-pT charged particle suppression in PbPb
+  compared to $pp$ collisions at $\sqrt{s_{NN}}=2.76$ TeV}, Eur.Phys.J. C72
+  (2012) 1945.
+\newblock \href {http://arxiv.org/abs/1202.2554} {\path{arXiv:1202.2554}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-012-1945-x}
+  {\path{doi:10.1140/epjc/s10052-012-1945-x}}.
+
+\bibitem{Dainese:2004te}
+A.~Dainese, C.~Loizides, G.~Paic, {Leading-particle suppression in high energy
+  nucleus-nucleus collisions}, Eur.Phys.J. C38 (2005) 461--474.
+\newblock \href {http://arxiv.org/abs/hep-ph/0406201}
+  {\path{arXiv:hep-ph/0406201}}, \href
+  {http://dx.doi.org/10.1140/epjc/s2004-02077-x}
+  {\path{doi:10.1140/epjc/s2004-02077-x}}.
+
+\bibitem{Vitev:2002pf}
+I.~Vitev, M.~Gyulassy, {High $p_{T}$ tomography of $d$ + Au and Au+Au at SPS,
+  RHIC, and LHC}, Phys.Rev.Lett. 89 (2002) 252301.
+\newblock \href {http://arxiv.org/abs/hep-ph/0209161}
+  {\path{arXiv:hep-ph/0209161}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.89.252301}
+  {\path{doi:10.1103/PhysRevLett.89.252301}}.
+
+\bibitem{Vitev:2004bh}
+I.~Vitev, {Jet tomography}, J.Phys. G30 (2004) S791--S800.
+\newblock \href {http://arxiv.org/abs/hep-ph/0403089}
+  {\path{arXiv:hep-ph/0403089}}, \href
+  {http://dx.doi.org/10.1088/0954-3899/30/8/019}
+  {\path{doi:10.1088/0954-3899/30/8/019}}.
+
+\bibitem{Salgado:2003gb}
+C.~A. Salgado, U.~A. Wiedemann, {Calculating quenching weights}, Phys.Rev. D68
+  (2003) 014008.
+\newblock \href {http://arxiv.org/abs/hep-ph/0302184}
+  {\path{arXiv:hep-ph/0302184}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.68.014008}
+  {\path{doi:10.1103/PhysRevD.68.014008}}.
+
+\bibitem{Armesto:2005iq}
+N.~Armesto, A.~Dainese, C.~A. Salgado, U.~A. Wiedemann, {Testing the color
+  charge and mass dependence of parton energy loss with heavy-to-light ratios
+  at RHIC and CERN LHC}, Phys.Rev. D71 (2005) 054027.
+\newblock \href {http://arxiv.org/abs/hep-ph/0501225}
+  {\path{arXiv:hep-ph/0501225}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.71.054027}
+  {\path{doi:10.1103/PhysRevD.71.054027}}.
+
+\bibitem{Renk:2011gj}
+T.~Renk, H.~Holopainen, R.~Paatelainen, K.~J. Eskola, {Systematics of the
+  charged-hadron $p_T$ spectrum and the nuclear suppression factor in heavy-ion
+  collisions from $\sqrt{s}=200$ GeV to $\sqrt{s}=2.76$ TeV}, Phys.Rev. C84
+  (2011) 014906.
+\newblock \href {http://arxiv.org/abs/1103.5308} {\path{arXiv:1103.5308}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.014906}
+  {\path{doi:10.1103/PhysRevC.84.014906}}.
+
+\bibitem{Abelev:2012hxa}
+B.~Abelev, et~al., {Centrality Dependence of Charged Particle Production at
+  Large Transverse Momentum in Pb--Pb Collisions at $\sqrt{s_{\rm{NN}}} = 2.76$
+  TeV}, Phys.Lett. B720 (2013) 52--62.
+\newblock \href {http://arxiv.org/abs/1208.2711} {\path{arXiv:1208.2711}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2013.01.051}
+  {\path{doi:10.1016/j.physletb.2013.01.051}}.
+
+\bibitem{Abelev:2012wca}
+B.~Abelev, et~al., {Pion, Kaon, and Proton Production in Central Pb--Pb
+  Collisions at $\sqrt{s_{NN}} = 2.76$ TeV}, Phys.Rev.Lett. 109 (2012) 252301.
+\newblock \href {http://arxiv.org/abs/1208.1974} {\path{arXiv:1208.1974}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.109.252301}
+  {\path{doi:10.1103/PhysRevLett.109.252301}}.
+
+\bibitem{Abelev:2013vea}
+B.~Abelev, et~al., {Centrality dependence of $\pi$, K, p production in Pb-Pb
+  collisions at sqrt(sNN) = 2.76 TeV}, Phys.Rev. C88 (2013) 044910.
+\newblock \href {http://arxiv.org/abs/1303.0737} {\path{arXiv:1303.0737}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.88.044910}
+  {\path{doi:10.1103/PhysRevC.88.044910}}.
+
+\bibitem{Schnedermann:1993ws}
+E.~Schnedermann, J.~Sollfrank, U.~W. Heinz, {Thermal phenomenology of hadrons
+  from 200-A/GeV S+S collisions}, Phys.Rev. C48 (1993) 2462--2475.
+\newblock \href {http://arxiv.org/abs/nucl-th/9307020}
+  {\path{arXiv:nucl-th/9307020}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.48.2462}
+  {\path{doi:10.1103/PhysRevC.48.2462}}.
+
+\bibitem{Shen:2011eg}
+C.~Shen, U.~Heinz, P.~Huovinen, H.~Song, {Radial and elliptic flow in Pb+Pb
+  collisions at the Large Hadron Collider from viscous hydrodynamic}, Phys.Rev.
+  C84 (2011) 044903.
+\newblock \href {http://arxiv.org/abs/1105.3226} {\path{arXiv:1105.3226}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.044903}
+  {\path{doi:10.1103/PhysRevC.84.044903}}.
+
+\bibitem{Bozek:2012qs}
+P.~Bozek, I.~Wyskiel-Piekarska, {Particle spectra in Pb-Pb collisions at
+  sqrt{$S_NN$} = 2.76 TeV}, Phys.Rev. C85 (2012) 064915.
+\newblock \href {http://arxiv.org/abs/1203.6513} {\path{arXiv:1203.6513}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.85.064915}
+  {\path{doi:10.1103/PhysRevC.85.064915}}.
+
+\bibitem{Werner:2012xh}
+K.~Werner, I.~Karpenko, M.~Bleicher, T.~Pierog, S.~Porteboeuf-Houssais, {Jets,
+  Bulk Matter, and their Interaction in Heavy Ion Collisions at Several TeV},
+  Phys.Rev. C85 (2012) 064907.
+\newblock \href {http://arxiv.org/abs/1203.5704} {\path{arXiv:1203.5704}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.85.064907}
+  {\path{doi:10.1103/PhysRevC.85.064907}}.
+
+\bibitem{Karpenko:2012yf}
+I.~Karpenko, Y.~Sinyukov, K.~Werner, {Uniform description of bulk observables
+  in hydrokinetic model of $A+A$ collisions at RHIC and LHC}, Phys.Rev. C87
+  (2013) 024914.
+\newblock \href {http://arxiv.org/abs/1204.5351} {\path{arXiv:1204.5351}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.87.024914}
+  {\path{doi:10.1103/PhysRevC.87.024914}}.
+
+\bibitem{Karpenko:2011qn}
+Y.~Karpenko, Y.~Sinyukov, {Femtoscopic scales in central A+A collisions at RHIC
+  and LHC energies in hydrokinetic model}, J.Phys. G38 (2011) 124059.
+\newblock \href {http://arxiv.org/abs/1107.3745} {\path{arXiv:1107.3745}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124059}
+  {\path{doi:10.1088/0954-3899/38/12/124059}}.
+
+\bibitem{Bass:1998ca}
+S.~Bass, M.~Belkacem, M.~Bleicher, M.~Brandstetter, L.~Bravina, et~al.,
+  {Microscopic models for ultrarelativistic heavy ion collisions},
+  Prog.Part.Nucl.Phys. 41 (1998) 255--369.
+\newblock \href {http://arxiv.org/abs/nucl-th/9803035}
+  {\path{arXiv:nucl-th/9803035}}, \href
+  {http://dx.doi.org/10.1016/S0146-6410(98)00058-1}
+  {\path{doi:10.1016/S0146-6410(98)00058-1}}.
+
+\bibitem{Bozek:2011ua}
+P.~Bozek, {Flow and interferometry in 3+1 dimensional viscous hydrodynamics},
+  Phys.Rev. C85 (2012) 034901.
+\newblock \href {http://arxiv.org/abs/1110.6742} {\path{arXiv:1110.6742}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.85.034901}
+  {\path{doi:10.1103/PhysRevC.85.034901}}.
+
+\bibitem{Bozek:2011gq}
+P.~Bozek, {Hydrodynamic flow from RHIC to LHC}, Acta Phys.Polon. B43 (2012)
+  689.
+\newblock \href {http://arxiv.org/abs/1111.4398} {\path{arXiv:1111.4398}},
+  \href {http://dx.doi.org/10.5506/APhysPolB.43.689}
+  {\path{doi:10.5506/APhysPolB.43.689}}.
+
+\bibitem{ALICEIdentHighPtRAA}
+B.~Abelev, et~al., {Production of charged pions, kaons and (anti) protons at
+  large transverse momentum in pp and in Pb--Pb collisions at
+  $\sqrt{s_{\rm{NN}}} = 2.76$ TeV}\href {http://arxiv.org/abs/XXXX.XXXX}
+  {\path{arXiv:XXXX.XXXX}}.
+
+\bibitem{Hwa:2006zq}
+R.~C. Hwa, C.~Yang, {Proton enhancement at large p(T) at LHC without structure
+  in associated-particle distribution}, Phys.Rev.Lett. 97 (2006) 042301.
+\newblock \href {http://arxiv.org/abs/nucl-th/0603053}
+  {\path{arXiv:nucl-th/0603053}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.97.042301}
+  {\path{doi:10.1103/PhysRevLett.97.042301}}.
+
+\bibitem{Abelev:2006jr}
+B.~Abelev, et~al., {Identified baryon and meson distributions at large
+  transverse momenta from Au+Au collisions at s(NN)**(1/2) = 200-GeV},
+  Phys.Rev.Lett. 97 (2006) 152301.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0606003}
+  {\path{arXiv:nucl-ex/0606003}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.97.152301}
+  {\path{doi:10.1103/PhysRevLett.97.152301}}.
+
+\bibitem{Adare:2013esx}
+A.~Adare, et~al., {Spectra and ratios of identified particles in Au+Au and d+Au
+  collisions at sqrt($s_{NN}$)=200 GeV}, Phys.Rev. C88 (2013) 024906.
+\newblock \href {http://arxiv.org/abs/1304.3410} {\path{arXiv:1304.3410}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.88.024906}
+  {\path{doi:10.1103/PhysRevC.88.024906}}.
+
+\bibitem{Fries:2003kq}
+R.~Fries, B.~Muller, C.~Nonaka, S.~Bass, {Hadron production in heavy ion
+  collisions: Fragmentation and recombination from a dense parton phase},
+  Phys.Rev. C68 (2003) 044902.
+\newblock \href {http://arxiv.org/abs/nucl-th/0306027}
+  {\path{arXiv:nucl-th/0306027}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.68.044902}
+  {\path{doi:10.1103/PhysRevC.68.044902}}.
+
+\bibitem{Aurenche:2011rd}
+P.~Aurenche, B.~Zakharov, {Jet color chemistry and anomalous baryon production
+  in $AA$-collisions}, Eur.Phys.J. C71 (2011) 1829.
+\newblock \href {http://arxiv.org/abs/1109.6819} {\path{arXiv:1109.6819}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-011-1829-5}
+  {\path{doi:10.1140/epjc/s10052-011-1829-5}}.
+
+\bibitem{Rafelski:1982pu}
+J.~Rafelski, B.~Muller, {Strangeness Production in the Quark - Gluon Plasma},
+  Phys.Rev.Lett. 48 (1982) 1066.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevLett.48.1066}
+  {\path{doi:10.1103/PhysRevLett.48.1066}}.
+
+\bibitem{Koch:1986ud}
+P.~Koch, B.~Muller, J.~Rafelski, {Strangeness in Relativistic Heavy Ion
+  Collisions}, Phys.Rept. 142 (1986) 167--262.
+\newblock \href {http://dx.doi.org/10.1016/0370-1573(86)90096-7}
+  {\path{doi:10.1016/0370-1573(86)90096-7}}.
+
+\bibitem{Margetis:2000sv}
+S.~Margetis, K.~Safarik, O.~Villalobos~Baillie, {Strangeness production in
+  heavy-ion collisions}, Ann.Rev.Nucl.Part.Sci. 50 (2000) 299--342.
+\newblock \href {http://dx.doi.org/10.1146/annurev.nucl.50.1.299}
+  {\path{doi:10.1146/annurev.nucl.50.1.299}}.
+
+\bibitem{Andersen:1999ym}
+E.~Andersen, et~al., {Strangeness enhancement at mid-rapidity in Pb Pb
+  collisions at 158-A-GeV/c}, Phys.Lett. B449 (1999) 401--406.
+\newblock \href {http://dx.doi.org/10.1016/S0370-2693(99)00140-9}
+  {\path{doi:10.1016/S0370-2693(99)00140-9}}.
+
+\bibitem{Antinori:2010jm}
+F.~Antinori, et~al., {Strangeness enhancements at central rapidity in 40 A
+  GeV/c Pb-Pb collisions}, J.Phys. G37 (2010) 045105.
+\newblock \href {http://arxiv.org/abs/1001.1884} {\path{arXiv:1001.1884}},
+  \href {http://dx.doi.org/10.1088/0954-3899/37/4/045105}
+  {\path{doi:10.1088/0954-3899/37/4/045105}}.
+
+\bibitem{Alt:2008qm}
+C.~Alt, et~al., {Energy dependence of Lambda and Xi production in central Pb+Pb
+  collisions at A-20, A-30, A-40, A-80, and A-158 GeV measured at the CERN
+  Super Proton Synchrotron}, Phys.Rev. C78 (2008) 034918.
+\newblock \href {http://arxiv.org/abs/0804.3770} {\path{arXiv:0804.3770}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.78.034918}
+  {\path{doi:10.1103/PhysRevC.78.034918}}.
+
+\bibitem{Abelev:2007xp}
+B.~Abelev, et~al., {Enhanced strange baryon production in Au + Au collisions
+  compared to p + p at s(NN)**(1/2) = 200-GeV}, Phys.Rev. C77 (2008) 044908.
+\newblock \href {http://arxiv.org/abs/0705.2511} {\path{arXiv:0705.2511}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.77.044908}
+  {\path{doi:10.1103/PhysRevC.77.044908}}.
+
+\bibitem{ABELEV:2013zaa}
+B.~B. Abelev, et~al., {Multi-strange baryon production at mid-rapidity in Pb-Pb
+  collisions at $\sqrt{s_{NN}}$ = 2.76 TeV}\href
+  {http://arxiv.org/abs/1307.5543} {\path{arXiv:1307.5543}}.
+
+\bibitem{Abelev:2013xaa}
+B.~B. Abelev, et~al., {$K^0_s$ and $\Lambda$ production in Pb-Pb collisions at
+  sqrt(sNN) = 2.76 TeV}, Phys.Rev.Lett. 111 (2013) 222301.
+\newblock \href {http://arxiv.org/abs/1307.5530} {\path{arXiv:1307.5530}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.111.222301}
+  {\path{doi:10.1103/PhysRevLett.111.222301}}.
+
+\bibitem{Song:2007ux}
+H.~Song, U.~W. Heinz, {Causal viscous hydrodynamics in 2+1 dimensions for
+  relativistic heavy-ion collisions}, Phys.Rev. C77 (2008) 064901.
+\newblock \href {http://arxiv.org/abs/0712.3715} {\path{arXiv:0712.3715}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.77.064901}
+  {\path{doi:10.1103/PhysRevC.77.064901}}.
+
+\bibitem{Song:2008si}
+H.~Song, U.~W. Heinz, {Multiplicity scaling in ideal and viscous
+  hydrodynamics}, Phys.Rev. C78 (2008) 024902.
+\newblock \href {http://arxiv.org/abs/0805.1756} {\path{arXiv:0805.1756}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.78.024902}
+  {\path{doi:10.1103/PhysRevC.78.024902}}.
+
+\bibitem{Song:2011qa}
+H.~Song, S.~A. Bass, U.~Heinz, {Elliptic flow in 200 A GeV Au+Au collisions and
+  2.76 A TeV Pb+Pb collisions: insights from viscous hydrodynamics + hadron
+  cascade hybrid model}, Phys.Rev. C83 (2011) 054912.
+\newblock \href {http://arxiv.org/abs/1103.2380} {\path{arXiv:1103.2380}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.83.054912,
+  10.1103/PhysRevC.87.019902} {\path{doi:10.1103/PhysRevC.83.054912,
+  10.1103/PhysRevC.87.019902}}.
+
+\bibitem{Werner:2012sv}
+K.~Werner, {Lambda-to-Kaon Ratio Enhancement in Heavy Ion Collisions at Several
+  TeV}, Phys.Rev.Lett. 109 (2012) 102301.
+\newblock \href {http://arxiv.org/abs/1204.1394} {\path{arXiv:1204.1394}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.109.129903,
+  10.1103/PhysRevLett.109.102301} {\path{doi:10.1103/PhysRevLett.109.129903,
+  10.1103/PhysRevLett.109.102301}}.
+
+\bibitem{Aggarwal:2010mt}
+M.~Aggarwal, et~al., {$K^{*0}$ production in Cu+Cu and Au+Au collisions at
+  $\sqrt{s_NN} = 62.4$ GeV and 200 GeV}, Phys.Rev. C84 (2011) 034909.
+\newblock \href {http://arxiv.org/abs/1006.1961} {\path{arXiv:1006.1961}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.034909}
+  {\path{doi:10.1103/PhysRevC.84.034909}}.
+
+\bibitem{Abelev:2010rv}
+B.~Abelev, {Observation of an Antimatter Hypernucleus}, Science 328 (2010)
+  58--62.
+\newblock \href {http://arxiv.org/abs/1003.2030} {\path{arXiv:1003.2030}},
+  \href {http://dx.doi.org/10.1126/science.1183980}
+  {\path{doi:10.1126/science.1183980}}.
+
+\bibitem{Andronic:2008gu}
+A.~Andronic, P.~Braun-Munzinger, J.~Stachel, {Thermal hadron production in
+  relativistic nuclear collisions: The Hadron mass spectrum, the horn, and the
+  QCD phase transition}, Phys.Lett. B673 (2009) 142--145.
+\newblock \href {http://arxiv.org/abs/0812.1186} {\path{arXiv:0812.1186}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2009.02.014,
+  10.1016/j.physletb.2009.06.021} {\path{doi:10.1016/j.physletb.2009.02.014,
+  10.1016/j.physletb.2009.06.021}}.
+
+\bibitem{Andronic:2011yq}
+A.~Andronic, P.~Braun-Munzinger, K.~Redlich, J.~Stachel, {The thermal model on
+  the verge of the ultimate test: particle production in Pb-Pb collisions at
+  the LHC}, J.Phys. G38 (2011) 124081.
+\newblock \href {http://arxiv.org/abs/1106.6321} {\path{arXiv:1106.6321}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124081}
+  {\path{doi:10.1088/0954-3899/38/12/124081}}.
+
+\bibitem{Cleymans:1998fq}
+J.~Cleymans, K.~Redlich, {Unified description of freezeout parameters in
+  relativistic heavy ion collisions}, Phys.Rev.Lett. 81 (1998) 5284--5286.
+\newblock \href {http://arxiv.org/abs/nucl-th/9808030}
+  {\path{arXiv:nucl-th/9808030}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.81.5284}
+  {\path{doi:10.1103/PhysRevLett.81.5284}}.
+
+\bibitem{Becattini:2009fv}
+F.~Becattini, R.~Fries, {The QCD confinement transition: Hadron formation}\href
+  {http://arxiv.org/abs/0907.1031} {\path{arXiv:0907.1031}}.
+
+\bibitem{Abelev:2008ab}
+B.~Abelev, et~al., {Systematic Measurements of Identified Particle Spectra in
+  $p p, d^+$ Au and Au+Au Collisions from STAR}, Phys.Rev. C79 (2009) 034909.
+\newblock \href {http://arxiv.org/abs/0808.2041} {\path{arXiv:0808.2041}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.79.034909}
+  {\path{doi:10.1103/PhysRevC.79.034909}}.
+
+\bibitem{Adler:2003cb}
+S.~Adler, et~al., {Identified charged particle spectra and yields in Au+Au
+  collisions at S(NN)**1/2 = 200-GeV}, Phys.Rev. C69 (2004) 034909.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0307022}
+  {\path{arXiv:nucl-ex/0307022}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.69.034909}
+  {\path{doi:10.1103/PhysRevC.69.034909}}.
+
+\bibitem{Steinheimer:2012rd}
+J.~Steinheimer, J.~Aichelin, M.~Bleicher, {Non-thermal $p/\pi$ ratio at LHC as
+  a consequence of hadronic final state interactions}, Phys.Rev.Lett. 110
+  (2013) 042501.
+\newblock \href {http://arxiv.org/abs/1203.5302} {\path{arXiv:1203.5302}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.110.042501}
+  {\path{doi:10.1103/PhysRevLett.110.042501}}.
+
+\bibitem{Becattini:2012xb}
+F.~Becattini, M.~Bleicher, T.~Kollegger, T.~Schuster, J.~Steinheimer, et~al.,
+  {Hadron Formation in Relativistic Nuclear Collisions and the QCD Phase
+  Diagram}, Phys.Rev.Lett. 111 (2013) 082302.
+\newblock \href {http://arxiv.org/abs/1212.2431} {\path{arXiv:1212.2431}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.111.082302}
+  {\path{doi:10.1103/PhysRevLett.111.082302}}.
+
+\bibitem{Pan:2012ne}
+Y.~Pan, S.~Pratt, {Baryon Annihilation in Heavy Ion Collisions}\href
+  {http://arxiv.org/abs/1210.1577} {\path{arXiv:1210.1577}}.
+
+\bibitem{Ratti:2011au}
+C.~Ratti, R.~Bellwied, M.~Cristoforetti, M.~Barbaro, {Are there hadronic bound
+  states above the QCD transition temperature?}, Phys.Rev. D85 (2012) 014004.
+\newblock \href {http://arxiv.org/abs/1109.6243} {\path{arXiv:1109.6243}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.85.014004}
+  {\path{doi:10.1103/PhysRevD.85.014004}}.
+
+\bibitem{Hagedorn:1965st}
+R.~Hagedorn, {Statistical thermodynamics of strong interactions at
+  high-energies}, Nuovo Cim.Suppl. 3 (1965) 147--186.
+
+\bibitem{RHagedorn:1968}
+R.~Hagedorn, {Hadronic matter near the boiling point}, Nuovo Cim. A56 (1968)
+  1027--1057.
+\newblock \href {http://dx.doi.org/10.1007/BF02751614}
+  {\path{doi:10.1007/BF02751614}}.
+
+\bibitem{Rafelski:2010cw}
+J.~Rafelski, J.~Letessier, {Particle Production in $s_NN = 2.76$ TeV Heavy Ion
+  Collisions}, Phys.Rev. C83 (2011) 054909.
+\newblock \href {http://arxiv.org/abs/1012.1649} {\path{arXiv:1012.1649}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.83.054909}
+  {\path{doi:10.1103/PhysRevC.83.054909}}.
+
+\bibitem{Petran:2013lja}
+M.~Petran, J.~Letessier, V.~Petracek, J.~Rafelski, {Hadron production and QGP
+  Hadronization in Pb--Pb collisions at $\sqrt{s_{NN}}=2.76$ TeV}, Phys.Rev.
+  C88 (2013) 034907.
+\newblock \href {http://arxiv.org/abs/1303.2098} {\path{arXiv:1303.2098}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.88.034907}
+  {\path{doi:10.1103/PhysRevC.88.034907}}.
+
+\bibitem{HanburyBrown:1954wr}
+R.~Hanbury~Brown, R.~Twiss, {A New type of interferometer for use in radio
+  astronomy}, Phil.Mag. 45 (1954) 663--682.
+
+\bibitem{Aamodt:2011mr}
+K.~Aamodt, et~al., {Two-pion Bose-Einstein correlations in central Pb-Pb
+  collisions at $sqrt(s_NN)$ = 2.76 TeV}, Phys.Lett. B696 (2011) 328--337.
+\newblock \href {http://arxiv.org/abs/1012.4035} {\path{arXiv:1012.4035}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2010.12.053}
+  {\path{doi:10.1016/j.physletb.2010.12.053}}.
+
+\bibitem{Adams:2004yc}
+J.~Adams, et~al., {Pion interferometry in Au+Au collisions at S(NN)**(1/2) =
+  200-GeV}, Phys.Rev. C71 (2005) 044906.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0411036}
+  {\path{arXiv:nucl-ex/0411036}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.71.044906}
+  {\path{doi:10.1103/PhysRevC.71.044906}}.
+
+\bibitem{Lisa:2005dd}
+M.~A. Lisa, S.~Pratt, R.~Soltz, U.~Wiedemann, {Femtoscopy in relativistic heavy
+  ion collisions}, Ann.Rev.Nucl.Part.Sci. 55 (2005) 357--402.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0505014}
+  {\path{arXiv:nucl-ex/0505014}}, \href
+  {http://dx.doi.org/10.1146/annurev.nucl.55.090704.151533}
+  {\path{doi:10.1146/annurev.nucl.55.090704.151533}}.
+
+\bibitem{Chojnacki:2007rq}
+M.~Chojnacki, W.~Florkowski, W.~Broniowski, A.~Kisiel, {Soft heavy-ion physics
+  from hydrodynamics with statistical hadronization: Predictions for collisions
+  at S**(1/2)(NN) = 5.5-TeV}, Phys.Rev. C78 (2008) 014905.
+\newblock \href {http://arxiv.org/abs/0712.0947} {\path{arXiv:0712.0947}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.78.014905}
+  {\path{doi:10.1103/PhysRevC.78.014905}}.
+
+\bibitem{Karpenko:2009wf}
+I.~Karpenko, Y.~Sinyukov, {Energy dependence of pion interferometry scales in
+  ultra-relativistic heavy ion collisions}, Phys.Lett. B688 (2010) 50--54.
+\newblock \href {http://arxiv.org/abs/0912.3457} {\path{arXiv:0912.3457}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2010.03.068}
+  {\path{doi:10.1016/j.physletb.2010.03.068}}.
+
+\bibitem{Herrmann:1994rr}
+M.~Herrmann, G.~Bertsch, {Source dimensions in ultrarelativistic heavy ion
+  collisions}, Phys.Rev. C51 (1995) 328--338.
+\newblock \href {http://arxiv.org/abs/hep-ph/9405373}
+  {\path{arXiv:hep-ph/9405373}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.51.328}
+  {\path{doi:10.1103/PhysRevC.51.328}}.
+
+\bibitem{Abelev:2013pqa}
+B.~B. Abelev, et~al., {Two and Three-Pion Quantum Statistics Correlations in
+  Pb-Pb Collisions at $\sqrt{s_{NN}}$=2.76 TeV at the LHC}\href
+  {http://arxiv.org/abs/1310.7808} {\path{arXiv:1310.7808}}.
+
+\bibitem{Abelev:2012pv}
+B.~Abelev, et~al., {Net-Charge Fluctuations in Pb-Pb collisions at $\sqrt{s}_NN
+  = 2.76$ TeV}, Phys.Rev.Lett. 110 (2013) 152301.
+\newblock \href {http://arxiv.org/abs/1207.6068} {\path{arXiv:1207.6068}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.110.152301}
+  {\path{doi:10.1103/PhysRevLett.110.152301}}.
+
+\bibitem{Jeon:2000wg}
+S.~Jeon, V.~Koch, {Charged particle ratio fluctuation as a signal for QGP},
+  Phys.Rev.Lett. 85 (2000) 2076--2079.
+\newblock \href {http://arxiv.org/abs/hep-ph/0003168}
+  {\path{arXiv:hep-ph/0003168}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.85.2076}
+  {\path{doi:10.1103/PhysRevLett.85.2076}}.
+
+\bibitem{Jeon:2003gk}
+S.~Jeon, V.~Koch, {Event by event fluctuations}\href
+  {http://arxiv.org/abs/hep-ph/0304012} {\path{arXiv:hep-ph/0304012}}.
+
+\bibitem{Abelev:2008jg}
+B.~Abelev, et~al., {Beam-Energy and System-Size Dependence of Dynamical Net
+  Charge Fluctuations}, Phys.Rev. C79 (2009) 024906.
+\newblock \href {http://arxiv.org/abs/0807.3269} {\path{arXiv:0807.3269}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.79.024906}
+  {\path{doi:10.1103/PhysRevC.79.024906}}.
+
+\bibitem{Abelev:2013bla}
+B.~B. Abelev, et~al., {Multiplicity dependence of the average transverse
+  momentum in pp, p-Pb, and Pb-Pb collisions at the LHC}\href
+  {http://arxiv.org/abs/1307.1094} {\path{arXiv:1307.1094}}.
+
+\bibitem{Adams:2005ka}
+J.~Adams, et~al., {Incident energy dependence of pt correlations at RHIC},
+  Phys.Rev. C72 (2005) 044902.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0504031}
+  {\path{arXiv:nucl-ex/0504031}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.72.044902}
+  {\path{doi:10.1103/PhysRevC.72.044902}}.
+
+\bibitem{Wang:1991hta}
+X.-N. Wang, M.~Gyulassy, {HIJING: A Monte Carlo model for multiple jet
+  production in p p, p A and A A collisions}, Phys.Rev. D44 (1991) 3501--3516.
+\newblock \href {http://dx.doi.org/10.1103/PhysRevD.44.3501}
+  {\path{doi:10.1103/PhysRevD.44.3501}}.
+
+\bibitem{Deng:2010xg}
+W.-T. Deng, X.-N. Wang, R.~Xu, {Gluon shadowing and hadron production in
+  heavy-ion collisions at LHC}, Phys.Lett. B701 (2011) 133--136.
+\newblock \href {http://arxiv.org/abs/1011.5907} {\path{arXiv:1011.5907}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2011.05.040}
+  {\path{doi:10.1016/j.physletb.2011.05.040}}.
+
+\bibitem{Lin:2004en}
+Z.-W. Lin, C.~M. Ko, B.-A. Li, B.~Zhang, S.~Pal, {A Multi-phase transport model
+  for relativistic heavy ion collisions}, Phys.Rev. C72 (2005) 064901.
+\newblock \href {http://arxiv.org/abs/nucl-th/0411110}
+  {\path{arXiv:nucl-th/0411110}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.72.064901}
+  {\path{doi:10.1103/PhysRevC.72.064901}}.
+
+\bibitem{Aamodt:2011by}
+K.~Aamodt, et~al., {Harmonic decomposition of two-particle angular correlations
+  in Pb-Pb collisions at $\sqrt{s_{NN}}=2.76$ TeV}, Phys.Lett. B708 (2012)
+  249--264.
+\newblock \href {http://arxiv.org/abs/1109.2501} {\path{arXiv:1109.2501}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.01.060}
+  {\path{doi:10.1016/j.physletb.2012.01.060}}.
+
+\bibitem{Aamodt:2011vg}
+K.~Aamodt, et~al., {Particle-yield modification in jet-like azimuthal di-hadron
+  correlations in Pb-Pb collisions at $\sqrt{s_{NN}} = 2.76$ TeV},
+  Phys.Rev.Lett. 108 (2012) 092301.
+\newblock \href {http://arxiv.org/abs/1110.0121} {\path{arXiv:1110.0121}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.108.092301}
+  {\path{doi:10.1103/PhysRevLett.108.092301}}.
+
+\bibitem{Abelev:2012ej}
+B.~Abelev, et~al., {Measurement of Event Background Fluctuations for Charged
+  Particle Jet Reconstruction in Pb-Pb collisions at $\sqrt{s_{NN}} = 2.76$
+  TeV}, JHEP 1203 (2012) 053.
+\newblock \href {http://arxiv.org/abs/1201.2423} {\path{arXiv:1201.2423}},
+  \href {http://dx.doi.org/10.1007/JHEP03(2012)053}
+  {\path{doi:10.1007/JHEP03(2012)053}}.
+
+\bibitem{Renk:2011wp}
+T.~Renk, K.~J. Eskola, {Hard dihadron correlations in heavy-ion collisions at
+  RHIC and LHC}, Phys.Rev. C84 (2011) 054913.
+\newblock \href {http://arxiv.org/abs/1106.1740} {\path{arXiv:1106.1740}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.054913}
+  {\path{doi:10.1103/PhysRevC.84.054913}}.
+
+\bibitem{Abelev:2013csa}
+B.~Abelev, et~al., {Charge correlations using the balance function in Pb-Pb
+  collisions at $\sqrt{s_{NN}}$ = 2.76 TeV}, Phys.Lett. B723 (2013) 267--279.
+\newblock \href {http://arxiv.org/abs/1301.3756} {\path{arXiv:1301.3756}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2013.05.039}
+  {\path{doi:10.1016/j.physletb.2013.05.039}}.
+
+\bibitem{Aggarwal:2010ya}
+M.~Aggarwal, et~al., {Balance Functions from Au$+$Au, $d+$Au, and $p+p$
+  Collisions at $\sqrt{s_{NN}}$ = 200 GeV}, Phys.Rev. C82 (2010) 024905.
+\newblock \href {http://arxiv.org/abs/1005.2307} {\path{arXiv:1005.2307}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.82.024905}
+  {\path{doi:10.1103/PhysRevC.82.024905}}.
+
+\bibitem{Kharzeev:2004ey}
+D.~Kharzeev, {Parity violation in hot QCD: Why it can happen, and how to look
+  for it}, Phys.Lett. B633 (2006) 260--264.
+\newblock \href {http://arxiv.org/abs/hep-ph/0406125}
+  {\path{arXiv:hep-ph/0406125}}, \href
+  {http://dx.doi.org/10.1016/j.physletb.2005.11.075}
+  {\path{doi:10.1016/j.physletb.2005.11.075}}.
+
+\bibitem{Fukushima:2008xe}
+K.~Fukushima, D.~E. Kharzeev, H.~J. Warringa, {The Chiral Magnetic Effect},
+  Phys.Rev. D78 (2008) 074033.
+\newblock \href {http://arxiv.org/abs/0808.3382} {\path{arXiv:0808.3382}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.78.074033}
+  {\path{doi:10.1103/PhysRevD.78.074033}}.
+
+\bibitem{Kharzeev:2007jp}
+D.~E. Kharzeev, L.~D. McLerran, H.~J. Warringa, {The Effects of topological
+  charge change in heavy ion collisions: 'Event by event P and CP violation'},
+  Nucl.Phys. A803 (2008) 227--253.
+\newblock \href {http://arxiv.org/abs/0711.0950} {\path{arXiv:0711.0950}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysa.2008.02.298}
+  {\path{doi:10.1016/j.nuclphysa.2008.02.298}}.
+
+\bibitem{Abelev:2012pa}
+B.~Abelev, et~al., {Charge separation relative to the reaction plane in Pb-Pb
+  collisions at $\sqrt{s_{NN}}= 2.76$ TeV}, Phys.Rev.Lett. 110 (2013) 012301.
+\newblock \href {http://arxiv.org/abs/1207.0900} {\path{arXiv:1207.0900}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.110.012301}
+  {\path{doi:10.1103/PhysRevLett.110.012301}}.
+
+\bibitem{Voloshin:2004vk}
+S.~A. Voloshin, {Parity violation in hot QCD: How to detect it}, Phys.Rev. C70
+  (2004) 057901.
+\newblock \href {http://arxiv.org/abs/hep-ph/0406311}
+  {\path{arXiv:hep-ph/0406311}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.70.057901}
+  {\path{doi:10.1103/PhysRevC.70.057901}}.
+
+\bibitem{Toneev:2010xt}
+V.~Toneev, V.~Voronyuk, {The Chiral Magnetic Effect: Beam-energy and
+  system-size dependence}, Phys.Atom.Nucl. 75 (2012) 607--612.
+\newblock \href {http://arxiv.org/abs/1012.1508} {\path{arXiv:1012.1508}},
+  \href {http://dx.doi.org/10.1134/S1063778812050274}
+  {\path{doi:10.1134/S1063778812050274}}.
+
+\bibitem{Abelev:2009ac}
+B.~Abelev, et~al., {Azimuthal Charged-Particle Correlations and Possible Local
+  Strong Parity Violation}, Phys.Rev.Lett. 103 (2009) 251601.
+\newblock \href {http://arxiv.org/abs/0909.1739} {\path{arXiv:0909.1739}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.103.251601}
+  {\path{doi:10.1103/PhysRevLett.103.251601}}.
+
+\bibitem{Ackermann:2000tr}
+K.~Ackermann, et~al., {Elliptic flow in Au + Au collisions at (S(NN))**(1/2) =
+  130 GeV}, Phys.Rev.Lett. 86 (2001) 402--407.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0009011}
+  {\path{arXiv:nucl-ex/0009011}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.86.402}
+  {\path{doi:10.1103/PhysRevLett.86.402}}.
+
+\bibitem{Back:2004je}
+B.~Back, M.~Baker, M.~Ballintijn, D.~Barton, B.~Becker, et~al., {The PHOBOS
+  perspective on discoveries at RHIC}, Nucl.Phys. A757 (2005) 28--101.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0410022}
+  {\path{arXiv:nucl-ex/0410022}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysa.2005.03.084}
+  {\path{doi:10.1016/j.nuclphysa.2005.03.084}}.
+
+\bibitem{Adcox:2004mh}
+K.~Adcox, et~al., {Formation of dense partonic matter in relativistic
+  nucleus-nucleus collisions at RHIC: Experimental evaluation by the PHENIX
+  collaboration}, Nucl.Phys. A757 (2005) 184--283.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0410003}
+  {\path{arXiv:nucl-ex/0410003}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysa.2005.03.086}
+  {\path{doi:10.1016/j.nuclphysa.2005.03.086}}.
+
+\bibitem{Adams:2005dq}
+J.~Adams, et~al., {Experimental and theoretical challenges in the search for
+  the quark gluon plasma: The STAR Collaboration's critical assessment of the
+  evidence from RHIC collisions}, Nucl.Phys. A757 (2005) 102--183.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0501009}
+  {\path{arXiv:nucl-ex/0501009}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysa.2005.03.085}
+  {\path{doi:10.1016/j.nuclphysa.2005.03.085}}.
+
+\bibitem{Arsene:2004fa}
+I.~Arsene, et~al., {Quark gluon plasma and color glass condensate at RHIC? The
+  Perspective from the BRAHMS experiment}, Nucl.Phys. A757 (2005) 1--27.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0410020}
+  {\path{arXiv:nucl-ex/0410020}}, \href
+  {http://dx.doi.org/10.1016/j.nuclphysa.2005.02.130}
+  {\path{doi:10.1016/j.nuclphysa.2005.02.130}}.
+
+\bibitem{Adare:2006ti}
+A.~Adare, et~al., {Scaling properties of azimuthal anisotropy in Au+Au and
+  Cu+Cu collisions at s(NN) = 200-GeV}, Phys.Rev.Lett. 98 (2007) 162301.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0608033}
+  {\path{arXiv:nucl-ex/0608033}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.98.162301}
+  {\path{doi:10.1103/PhysRevLett.98.162301}}.
+
+\bibitem{Fries:2003vb}
+R.~Fries, B.~Muller, C.~Nonaka, S.~Bass, {Hadronization in heavy ion
+  collisions: Recombination and fragmentation of partons}, Phys.Rev.Lett. 90
+  (2003) 202303.
+\newblock \href {http://arxiv.org/abs/nucl-th/0301087}
+  {\path{arXiv:nucl-th/0301087}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.90.202303}
+  {\path{doi:10.1103/PhysRevLett.90.202303}}.
+
+\bibitem{Luzum:2008cw}
+M.~Luzum, P.~Romatschke, {Conformal Relativistic Viscous Hydrodynamics:
+  Applications to RHIC results at s(NN)**(1/2) = 200-GeV}, Phys.Rev. C78 (2008)
+  034915.
+\newblock \href {http://arxiv.org/abs/0804.4015} {\path{arXiv:0804.4015}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.78.034915,
+  10.1103/PhysRevC.79.039903} {\path{doi:10.1103/PhysRevC.78.034915,
+  10.1103/PhysRevC.79.039903}}.
+
+\bibitem{Kovtun:2004de}
+P.~Kovtun, D.~Son, A.~Starinets, {Viscosity in strongly interacting quantum
+  field theories from black hole physics}, Phys.Rev.Lett. 94 (2005) 111601.
+\newblock \href {http://arxiv.org/abs/hep-th/0405231}
+  {\path{arXiv:hep-th/0405231}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.94.111601}
+  {\path{doi:10.1103/PhysRevLett.94.111601}}.
+
+\bibitem{Alver:2008zza}
+B.~Alver, B.~Back, M.~Baker, M.~Ballintijn, D.~Barton, et~al., {Importance of
+  correlations and fluctuations on the initial source eccentricity in
+  high-energy nucleus-nucleus collisions}, Phys.Rev. C77 (2008) 014906.
+\newblock \href {http://arxiv.org/abs/0711.3724} {\path{arXiv:0711.3724}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.77.014906}
+  {\path{doi:10.1103/PhysRevC.77.014906}}.
+
+\bibitem{Poskanzer:1998yz}
+A.~M. Poskanzer, S.~Voloshin, {Methods for analyzing anisotropic flow in
+  relativistic nuclear collisions}, Phys.Rev. C58 (1998) 1671--1678.
+\newblock \href {http://arxiv.org/abs/nucl-ex/9805001}
+  {\path{arXiv:nucl-ex/9805001}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.58.1671}
+  {\path{doi:10.1103/PhysRevC.58.1671}}.
+
+\bibitem{Borghini:2000sa}
+N.~Borghini, P.~M. Dinh, J.-Y. Ollitrault, {A New method for measuring
+  azimuthal distributions in nucleus-nucleus collisions}, Phys.Rev. C63 (2001)
+  054906.
+\newblock \href {http://arxiv.org/abs/nucl-th/0007063}
+  {\path{arXiv:nucl-th/0007063}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.63.054906}
+  {\path{doi:10.1103/PhysRevC.63.054906}}.
+
+\bibitem{Borghini:2001vi}
+N.~Borghini, P.~M. Dinh, J.-Y. Ollitrault, {Flow analysis from multiparticle
+  azimuthal correlations}, Phys.Rev. C64 (2001) 054901.
+\newblock \href {http://arxiv.org/abs/nucl-th/0105040}
+  {\path{arXiv:nucl-th/0105040}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.64.054901}
+  {\path{doi:10.1103/PhysRevC.64.054901}}.
+
+\bibitem{Borghini:2001zr}
+N.~Borghini, P.~M. Dinh, J.-Y. Ollitrault, {Flow analysis from cumulants: A
+  Practical guide}\href {http://arxiv.org/abs/nucl-ex/0110016}
+  {\path{arXiv:nucl-ex/0110016}}.
+
+\bibitem{Bilandzic:2010jr}
+A.~Bilandzic, R.~Snellings, S.~Voloshin, {Flow analysis with cumulants: Direct
+  calculations}, Phys.Rev. C83 (2011) 044913.
+\newblock \href {http://arxiv.org/abs/1010.0233} {\path{arXiv:1010.0233}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.83.044913}
+  {\path{doi:10.1103/PhysRevC.83.044913}}.
+
+\bibitem{Bhalerao:2003yq}
+R.~Bhalerao, N.~Borghini, J.~Ollitrault, {Genuine collective flow from Lee-Yang
+  zeroes}, Phys.Lett. B580 (2004) 157--162.
+\newblock \href {http://arxiv.org/abs/nucl-th/0307018}
+  {\path{arXiv:nucl-th/0307018}}, \href
+  {http://dx.doi.org/10.1016/j.physletb.2003.11.056}
+  {\path{doi:10.1016/j.physletb.2003.11.056}}.
+
+\bibitem{Borghini:2004ke}
+N.~Borghini, R.~Bhalerao, J.~Ollitrault, {Anisotropic flow from Lee-Yang
+  zeroes: A Practical guide}, J.Phys. G30 (2004) S1213--S1216.
+\newblock \href {http://arxiv.org/abs/nucl-th/0402053}
+  {\path{arXiv:nucl-th/0402053}}, \href
+  {http://dx.doi.org/10.1088/0954-3899/30/8/092}
+  {\path{doi:10.1088/0954-3899/30/8/092}}.
+
+\bibitem{ATLAS:2012at}
+G.~Aad, et~al., {Measurement of the azimuthal anisotropy for charged particle
+  production in $\energy =2.76$ TeV lead-lead collisions with the ATLAS
+  detector}, Phys.Rev. C86 (2012) 014907.
+\newblock \href {http://arxiv.org/abs/1203.3087} {\path{arXiv:1203.3087}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.86.014907}
+  {\path{doi:10.1103/PhysRevC.86.014907}}.
+
+\bibitem{ALICE:2011ab}
+K.~Aamodt, et~al., {Higher harmonic anisotropic flow measurements of charged
+  particles in Pb-Pb collisions at $\energy =2.76$ TeV}, Phys.Rev.Lett. 107
+  (2011) 032301.
+\newblock \href {http://arxiv.org/abs/1105.3865} {\path{arXiv:1105.3865}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.107.032301}
+  {\path{doi:10.1103/PhysRevLett.107.032301}}.
+
+\bibitem{ATLAS:2011ah}
+G.~Aad, et~al., {Measurement of the pseudorapidity and transverse momentum
+  dependence of the elliptic flow of charged particles in lead-lead collisions
+  at $\energy =2.76$ TeV with the ATLAS detector}, Phys.Lett. B707 (2012)
+  330--348.
+\newblock \href {http://arxiv.org/abs/1108.6018} {\path{arXiv:1108.6018}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2011.12.056}
+  {\path{doi:10.1016/j.physletb.2011.12.056}}.
+
+\bibitem{Aamodt:2010pa}
+K.~Aamodt, et~al., {Elliptic flow of charged particles in Pb-Pb collisions at
+  2.76 TeV}, Phys.Rev.Lett. 105 (2010) 252302.
+\newblock \href {http://arxiv.org/abs/1011.3914} {\path{arXiv:1011.3914}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.105.252302}
+  {\path{doi:10.1103/PhysRevLett.105.252302}}.
+
+\bibitem{Luzum:2010ag}
+M.~Luzum, {Elliptic flow at energies available at the CERN Large Hadron
+  Collider: Comparing heavy-ion data to viscous hydrodynamic predictions},
+  Phys.Rev. C83 (2011) 044911.
+\newblock \href {http://arxiv.org/abs/1011.5173} {\path{arXiv:1011.5173}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.83.044911}
+  {\path{doi:10.1103/PhysRevC.83.044911}}.
+
+\bibitem{Chatrchyan:2012ta}
+S.~Chatrchyan, et~al., {Measurement of the elliptic anisotropy of charged
+  particles produced in PbPb collisions at nucleon-nucleon center-of-mass
+  energy of 2.76 TeV}, Phys.Rev. C87 (2013) 014902.
+\newblock \href {http://arxiv.org/abs/1204.1409} {\path{arXiv:1204.1409}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.87.014902}
+  {\path{doi:10.1103/PhysRevC.87.014902}}.
+
+\bibitem{Abelev:2012di}
+B.~Abelev, et~al., {Anisotropic flow of charged hadrons, pions and
+  (anti-)protons measured at high transverse momentum in Pb-Pb collisions at
+  $\sqrt{s_{NN}}$=2.76 TeV}, Phys.Lett. B719 (2013) 18--28.
+\newblock \href {http://arxiv.org/abs/1205.5761} {\path{arXiv:1205.5761}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.12.066}
+  {\path{doi:10.1016/j.physletb.2012.12.066}}.
+
+\bibitem{Chatrchyan:2012xq}
+S.~Chatrchyan, et~al., {Azimuthal anisotropy of charged particles at high
+  transverse momenta in PbPb collisions at $\energy =2.76$ TeV}, Phys.Rev.Lett.
+  109 (2012) 022301.
+\newblock \href {http://arxiv.org/abs/1204.1850} {\path{arXiv:1204.1850}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.109.022301}
+  {\path{doi:10.1103/PhysRevLett.109.022301}}.
+
+\bibitem{Alver:2010gr}
+B.~Alver, G.~Roland, {Collision geometry fluctuations and triangular flow in
+  heavy-ion collisions}, Phys.Rev. C81 (2010) 054905.
+\newblock \href {http://arxiv.org/abs/1003.0194} {\path{arXiv:1003.0194}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.82.039903,
+  10.1103/PhysRevC.81.054905} {\path{doi:10.1103/PhysRevC.82.039903,
+  10.1103/PhysRevC.81.054905}}.
+
+\bibitem{Qiu:2011iv}
+Z.~Qiu, U.~W. Heinz, {Event-by-event shape and flow fluctuations of
+  relativistic heavy-ion collision fireballs}, Phys.Rev. C84 (2011) 024911.
+\newblock \href {http://arxiv.org/abs/1104.0650} {\path{arXiv:1104.0650}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.024911}
+  {\path{doi:10.1103/PhysRevC.84.024911}}.
+
+\bibitem{Abelev:2013cva}
+B.~Abelev, et~al., {Directed flow of charged particles at mid-rapidity relative
+  to the spectator plane in Pb-Pb collisions at $\energy=2.76$ TeV},
+  Phys.Rev.Lett. 111 (2013) 232302.
+\newblock \href {http://arxiv.org/abs/1306.4145} {\path{arXiv:1306.4145}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.111.232302}
+  {\path{doi:10.1103/PhysRevLett.111.232302}}.
+
+\bibitem{Aad:2013xma}
+G.~Aad, et~al., {Measurement of the distributions of event-by-event flow
+  harmonics in lead--lead collisions at $\energy =2.76$ TeV with the ATLAS
+  detector at the LHC}\href {http://arxiv.org/abs/1305.2942}
+  {\path{arXiv:1305.2942}}.
+
+\bibitem{Chatrchyan:2013kba}
+S.~Chatrchyan, et~al., {Measurement of higher-order harmonic azimuthal
+  anisotropy in PbPb collisions at a nucleon-nucleon center-of-mass energy of
+  2.76 TeV}\href {http://arxiv.org/abs/1310.8651} {\path{arXiv:1310.8651}}.
+
+\bibitem{Salgado:2011wc}
+C.~Salgado, J.~Alvarez-Muniz, F.~Arleo, N.~Armesto, M.~Botje, et~al.,
+  {Proton-Nucleus Collisions at the LHC: Scientific Opportunities and
+  Requirements}, J.Phys. G39 (2012) 015010.
+\newblock \href {http://arxiv.org/abs/1105.3919} {\path{arXiv:1105.3919}},
+  \href {http://dx.doi.org/10.1088/0954-3899/39/1/015010}
+  {\path{doi:10.1088/0954-3899/39/1/015010}}.
+
+\bibitem{Chatrchyan:2012nt}
+S.~Chatrchyan, et~al., {Study of $W$ boson production in PbPb and $pp$
+  collisions at $\energy =2.76$ TeV}, Phys.Lett. B715 (2012) 66--87.
+\newblock \href {http://arxiv.org/abs/1205.6334} {\path{arXiv:1205.6334}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.07.025}
+  {\path{doi:10.1016/j.physletb.2012.07.025}}.
+
+\bibitem{Aad:2012ew}
+G.~Aad, et~al., {Measurement of $Z$ boson Production in Pb+Pb Collisions at
+  $\energy = 2.76$ TeV with the ATLAS Detector}, Phys.Rev.Lett. 110 (2013)
+  022301.
+\newblock \href {http://arxiv.org/abs/1210.6486} {\path{arXiv:1210.6486}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.110.022301}
+  {\path{doi:10.1103/PhysRevLett.110.022301}}.
+
+\bibitem{Paukkunen:2010qg}
+H.~Paukkunen, C.~A. Salgado, {Constraints for the nuclear parton distributions
+  from Z and W production at the LHC}, JHEP 1103 (2011) 071.
+\newblock \href {http://arxiv.org/abs/1010.5392} {\path{arXiv:1010.5392}},
+  \href {http://dx.doi.org/10.1007/JHEP03(2011)071}
+  {\path{doi:10.1007/JHEP03(2011)071}}.
+
+\bibitem{Chatrchyan:2012vq}
+S.~Chatrchyan, et~al., {Measurement of isolated photon production in $pp$ and
+  PbPb collisions at $\energy =2.76$ TeV}, Phys.Lett. B710 (2012) 256--277.
+\newblock \href {http://arxiv.org/abs/1201.3093} {\path{arXiv:1201.3093}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.02.077}
+  {\path{doi:10.1016/j.physletb.2012.02.077}}.
+
+\bibitem{ATLAS:2012zla}
+{Measurement of high-pT isolated prompt photons in lead-lead collisions at
+  $\energy = 2.76$ TeV with the ATLAS detector at the LHC}.
+
+\bibitem{Wilde:2012wc}
+M.~Wilde, {Measurement of Direct Photons in pp and Pb-Pb Collisions with
+  ALICE}, Nucl.Phys. A904-905 (2013) 573c--576c.
+\newblock \href {http://arxiv.org/abs/1210.5958} {\path{arXiv:1210.5958}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysa.2013.02.079}
+  {\path{doi:10.1016/j.nuclphysa.2013.02.079}}.
+
+\bibitem{Adare:2008ab}
+A.~Adare, et~al., {Enhanced production of direct photons in Au+Au collisions at
+  $\sqrt{s_{NN}}=200$ GeV and implications for the initial temperature},
+  Phys.Rev.Lett. 104 (2010) 132301.
+\newblock \href {http://arxiv.org/abs/0804.4168} {\path{arXiv:0804.4168}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.104.132301}
+  {\path{doi:10.1103/PhysRevLett.104.132301}}.
+
+\bibitem{Cacciari:2008gp}
+M.~Cacciari, G.~P. Salam, G.~Soyez, {The Anti-k(t) jet clustering algorithm},
+  JHEP 0804 (2008) 063.
+\newblock \href {http://arxiv.org/abs/0802.1189} {\path{arXiv:0802.1189}},
+  \href {http://dx.doi.org/10.1088/1126-6708/2008/04/063}
+  {\path{doi:10.1088/1126-6708/2008/04/063}}.
+
+\bibitem{Adcox:2001jp}
+K.~Adcox, et~al., {Suppression of hadrons with large transverse momentum in
+  central Au+Au collisions at $\sqrt{s_{NN}}$ = 130-GeV}, Phys.Rev.Lett. 88
+  (2002) 022301.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0109003}
+  {\path{arXiv:nucl-ex/0109003}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.88.022301}
+  {\path{doi:10.1103/PhysRevLett.88.022301}}.
+
+\bibitem{Adler:2002xw}
+C.~Adler, et~al., {Centrality dependence of high $p_{T}$ hadron suppression in
+  Au+Au collisions at $\sqrt{s}_{NN}$ = 130-GeV}, Phys.Rev.Lett. 89 (2002)
+  202301.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0206011}
+  {\path{arXiv:nucl-ex/0206011}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.89.202301}
+  {\path{doi:10.1103/PhysRevLett.89.202301}}.
+
+\bibitem{Wiedemann:2009sh}
+U.~A. Wiedemann, {Jet Quenching in Heavy Ion Collisions} (2010) 521--562\href
+  {http://arxiv.org/abs/0908.2306} {\path{arXiv:0908.2306}}.
+
+\bibitem{Aad:2010bu}
+G.~Aad, et~al., {Observation of a Centrality-Dependent Dijet Asymmetry in
+  Lead-Lead Collisions at $\sqrt{s_{NN}}=2.77$ TeV with the ATLAS Detector at
+  the LHC}, Phys.Rev.Lett. 105 (2010) 252303.
+\newblock \href {http://arxiv.org/abs/1011.6182} {\path{arXiv:1011.6182}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.105.252303}
+  {\path{doi:10.1103/PhysRevLett.105.252303}}.
+
+\bibitem{Chatrchyan:2011sx}
+S.~Chatrchyan, et~al., {Observation and studies of jet quenching in PbPb
+  collisions at nucleon-nucleon center-of-mass energy = 2.76 TeV}, Phys. Rev. C
+  84 (2011) 024906.
+\newblock \href {http://arxiv.org/abs/1102.1957} {\path{arXiv:1102.1957}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.024906}
+  {\path{doi:10.1103/PhysRevC.84.024906}}.
+
+\bibitem{CMS_dijet}
+S.~Chatrchyan, et~al., {Jet momentum dependence of jet quenching in PbPb
+  collisions at $\sqrt{s_{NN}}$~=~2.76~ \TeV}, Phys. Lett. B 712 (2012) 176.
+\newblock \href {http://arxiv.org/abs/1202.5022} {\path{arXiv:1202.5022}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.04.058}
+  {\path{doi:10.1016/j.physletb.2012.04.058}}.
+
+\bibitem{CMS-PAS-PFT-10-002}
+{CMS Collaboration}, \href{http://cdsweb.cern.ch/record/1279341}{Commissioning
+  of the particle-flow reconstruction in minimum-bias and jet events from
+  \pp\pp\ collisions at 7 {TeV}}, CMS Physics Analysis Summary
+  CMS-PAS-PFT-10-002.
+\newline\urlprefix\url{http://cdsweb.cern.ch/record/1279341}
+
+\bibitem{MattPFlow}
+M.~Nguyen, et~al., Jet reconstruction with particle flow in heavy-ion
+  collisions with {CMS}, J. Phys. G 38 (2011) 124151.
+\newblock \href {http://arxiv.org/abs/1107.0179} {\path{arXiv:1107.0179}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124151}
+  {\path{doi:10.1088/0954-3899/38/12/124151}}.
+
+\bibitem{Aad:2012is}
+G.~Aad, et~al., {Measurement of the jet radius and transverse momentum
+  dependence of inclusive jet suppression in lead-lead collisions at
+  $\sqrt{s_{NN}}=2.76$ TeV with the ATLAS detector}, Phys. Lett. B 719 (2013)
+  220.
+\newblock \href {http://arxiv.org/abs/1208.1967} {\path{arXiv:1208.1967}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2013.01.024}
+  {\path{doi:10.1016/j.physletb.2013.01.024}}.
+
+\bibitem{Adams:2004wz}
+J.~Adams, et~al., {Azimuthal anisotropy and correlations at large transverse
+  momenta in p+p and Au+Au collisions at s(NN)**(1/2) = 200-GeV},
+  Phys.Rev.Lett. 93 (2004) 252301.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0407007}
+  {\path{arXiv:nucl-ex/0407007}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.93.252301}
+  {\path{doi:10.1103/PhysRevLett.93.252301}}.
+
+\bibitem{Adler:2006bw}
+S.~Adler, et~al., {A Detailed Study of High-p(T) Neutral Pion Suppression and
+  Azimuthal Anisotropy in Au+Au Collisions at s(NN)**(1/2) = 200-GeV},
+  Phys.Rev. C76 (2007) 034904.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0611007}
+  {\path{arXiv:nucl-ex/0611007}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.76.034904}
+  {\path{doi:10.1103/PhysRevC.76.034904}}.
+
+\bibitem{Adare:2010sp}
+A.~Adare, et~al., {Azimuthal anisotropy of neutral pion production in Au+Au
+  collisions at $\sqrt(s_NN)$ = 200 GeV: Path-length dependence of jet
+  quenching and the role of initial geometry}, Phys.Rev.Lett. 105 (2010)
+  142301.
+\newblock \href {http://arxiv.org/abs/1006.3740} {\path{arXiv:1006.3740}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.105.142301}
+  {\path{doi:10.1103/PhysRevLett.105.142301}}.
+
+\bibitem{Aad:2013sla}
+G.~Aad, et~al., {Measurement of the Azimuthal Angle Dependence of Inclusive Jet
+  Yields in Pb+Pb Collisions at $\energy = 2.76$ TeV with the ATLAS detector},
+  Phys.Rev.Lett. 111 (2013) 152301.
+\newblock \href {http://arxiv.org/abs/1306.6469} {\path{arXiv:1306.6469}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.111.152301}
+  {\path{doi:10.1103/PhysRevLett.111.152301}}.
+
+\bibitem{Vitev:2008rz}
+I.~Vitev, S.~Wicks, B.-W. Zhang, {A Theory of jet shapes and cross sections:
+  From hadrons to nuclei}, JHEP 0811 (2008) 093.
+\newblock \href {http://arxiv.org/abs/0810.2807} {\path{arXiv:0810.2807}},
+  \href {http://dx.doi.org/10.1088/1126-6708/2008/11/093}
+  {\path{doi:10.1088/1126-6708/2008/11/093}}.
+
+\bibitem{Vitev:2009rd}
+I.~Vitev, B.-W. Zhang, {Jet tomography of high-energy nucleus-nucleus
+  collisions at next-to-leading order}, Phys.Rev.Lett. 104 (2010) 132001.
+\newblock \href {http://arxiv.org/abs/0910.1090} {\path{arXiv:0910.1090}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.104.132001}
+  {\path{doi:10.1103/PhysRevLett.104.132001}}.
+
+\bibitem{He:2011pd}
+Y.~He, I.~Vitev, B.-W. Zhang, {${\cal O}(\alpha_s^3)$ Analysis of Inclusive Jet
+  and di-Jet Production in Heavy Ion Reactions at the Large Hadron Collider},
+  Phys.Lett. B713 (2012) 224--232.
+\newblock \href {http://arxiv.org/abs/1105.2566} {\path{arXiv:1105.2566}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.05.054}
+  {\path{doi:10.1016/j.physletb.2012.05.054}}.
+
+\bibitem{Dokshitzer:1991wu}
+Y.~L. Dokshitzer, V.~A. Khoze, {Basics of perturbative QCD}, {Editions
+  Fronti\`eres}, 1991.
+
+\bibitem{Chatrchyan:2012gw}
+S.~Chatrchyan, et~al., {Measurement of jet fragmentation into charged particles
+  in $pp$ and PbPb collisions at $\sqrt{s_{NN}}=2.76$ TeV}, JHEP 1210 (2012)
+  087.
+\newblock \href {http://arxiv.org/abs/1205.5872} {\path{arXiv:1205.5872}},
+  \href {http://dx.doi.org/10.1007/JHEP10(2012)087}
+  {\path{doi:10.1007/JHEP10(2012)087}}.
+
+\bibitem{MehtarTani:2010ma}
+Y.~Mehtar-Tani, C.~A. Salgado, K.~Tywoniuk, {Anti-angular ordering of gluon
+  radiation in QCD media}, Phys. Rev. Lett. 106 (2011) 122002.
+\newblock \href {http://arxiv.org/abs/1009.2965} {\path{arXiv:1009.2965}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.106.122002}
+  {\path{doi:10.1103/PhysRevLett.106.122002}}.
+
+\bibitem{Idilbi:2008vm}
+A.~Idilbi, A.~Majumder, {Extending soft-collinear-effective-theory to describe
+  hard jets in dense QCD media}, Phys. Rev. D 80 (2009) 054022.
+\newblock \href {http://arxiv.org/abs/0808.1087} {\path{arXiv:0808.1087}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.80.054022}
+  {\path{doi:10.1103/PhysRevD.80.054022}}.
+
+\bibitem{CasalderreySolana:2011rz}
+J.~Casalderrey-Solana, E.~Iancu, {Interference effects in medium-induced gluon
+  radiation}, JHEP 08 (2011) 015.
+\newblock \href {http://arxiv.org/abs/1105.1760} {\path{arXiv:1105.1760}},
+  \href {http://dx.doi.org/10.1007/JHEP08(2011)015}
+  {\path{doi:10.1007/JHEP08(2011)015}}.
+
+\bibitem{CasalderreySolana:2011rq}
+J.~Casalderrey-Solana, J.~G. Milhano, U.~Wiedemann, {Jet quenching via jet
+  collimation}, J. Phys. G 38 (2011) 124086.
+\newblock \href {http://arxiv.org/abs/1107.1964} {\path{arXiv:1107.1964}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124086}
+  {\path{doi:10.1088/0954-3899/38/12/124086}}.
+
+\bibitem{Neufeld:2011yh}
+R.~B. Neufeld, I.~Vitev, {Parton showers as sources of energy-momentum
+  deposition in the QGP and their implication for shockwave formation at RHIC
+  and at the LHC}, Phys. Rev. C 86 (2012) 024905.
+\newblock \href {http://arxiv.org/abs/1105.2067} {\path{arXiv:1105.2067}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.86.024905}
+  {\path{doi:10.1103/PhysRevC.86.024905}}.
+
+\bibitem{Blaizot:2012fh}
+J.-P. Blaizot, F.~Dominguez, E.~Iancu, Y.~Mehtar-Tani, {Medium-induced gluon
+  branching}, JHEP 01 (2013) 143.
+\newblock \href {http://arxiv.org/abs/1209.4585} {\path{arXiv:1209.4585}},
+  \href {http://dx.doi.org/10.1007/JHEP01(2013)143}
+  {\path{doi:10.1007/JHEP01(2013)143}}.
+
+\bibitem{Fickinger:2013xwa}
+M.~Fickinger, G.~Ovanesyan, I.~Vitev, {Angular distributions of higher order
+  splitting functions in the vacuum and in dense QCD matter}, JHEP 07 (2013)
+  059.
+\newblock \href {http://arxiv.org/abs/1304.3497} {\path{arXiv:1304.3497}},
+  \href {http://dx.doi.org/10.1007/JHEP07(2013)059}
+  {\path{doi:10.1007/JHEP07(2013)059}}.
+
+\bibitem{Chatrchyan:2013kwa}
+S.~Chatrchyan, et~al., {Modification of jet shapes in PbPb collisions at
+  $\sqrt{s_{NN}}$ = 2.76 TeV}\href {http://arxiv.org/abs/1310.0878}
+  {\path{arXiv:1310.0878}}.
+
+\bibitem{Renk:2009hv}
+T.~Renk, Medium-modified jet shapes and other jet observables from in-medium
+  parton shower evolution, Phys. Rev. C 80 (2009) 044904.
+\newblock \href {http://arxiv.org/abs/0906.3397} {\path{arXiv:0906.3397}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.80.044904}
+  {\path{doi:10.1103/PhysRevC.80.044904}}.
+
+\bibitem{Chatrchyan:2012gt}
+S.~Chatrchyan, et~al., {Studies of jet quenching using isolated-photon+jet
+  correlations in PbPb and pp collisions at $\sqrt{s_{NN}}$ = 2.76 TeV}, Phys.
+  Lett. B 18 (2013) 773.
+\newblock \href {http://arxiv.org/abs/1205.0206} {\path{arXiv:1205.0206}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.11.003}
+  {\path{doi:10.1016/j.physletb.2012.11.003}}.
+
+\bibitem{HIPhoton}
+S.~Chatrchyan, et~al., Measurement of isolated photon production in pp and
+  {PbPb} collisions at {$\sqrt{s_{NN}} = 2.76\:\mathrm{TeV}$}, Phys. Lett. B
+  710 (2012) 256.
+\newblock \href {http://dx.doi.org/10.1016/j.physletb.2012.02.077}
+  {\path{doi:10.1016/j.physletb.2012.02.077}}.
+
+\bibitem{Sharma:2009hn}
+R.~Sharma, I.~Vitev, B.-W. Zhang, {Light-cone wave function approach to open
+  heavy flavor dynamics in QCD matter}, Phys.Rev. C80 (2009) 054902.
+\newblock \href {http://arxiv.org/abs/0904.0032} {\path{arXiv:0904.0032}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.80.054902}
+  {\path{doi:10.1103/PhysRevC.80.054902}}.
+
+\bibitem{Horowitz:2011cv}
+W.~Horowitz, M.~Gyulassy, {Quenching and Tomography from RHIC to LHC}, J.Phys.
+  G38 (2011) 124114.
+\newblock \href {http://arxiv.org/abs/1107.2136} {\path{arXiv:1107.2136}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124114}
+  {\path{doi:10.1088/0954-3899/38/12/124114}}.
+
+\bibitem{Horowitz:2011wm}
+W.~Horowitz, {Testing pQCD and AdS/CFT Energy Loss at RHIC and LHC}, AIP
+  Conf.Proc. 1441 (2012) 889--891.
+\newblock \href {http://arxiv.org/abs/1108.5876} {\path{arXiv:1108.5876}},
+  \href {http://dx.doi.org/10.1063/1.3700710} {\path{doi:10.1063/1.3700710}}.
+
+\bibitem{Alberico:2011zy}
+W.~Alberico, A.~Beraudo, A.~De~Pace, A.~Molinari, M.~Monteno, et~al.,
+  {Heavy-flavour spectra in high energy nucleus-nucleus collisions},
+  Eur.Phys.J. C71 (2011) 1666.
+\newblock \href {http://arxiv.org/abs/1101.6008} {\path{arXiv:1101.6008}},
+  \href {http://dx.doi.org/10.1140/epjc/s10052-011-1666-6}
+  {\path{doi:10.1140/epjc/s10052-011-1666-6}}.
+
+\bibitem{Monteno:2011gq}
+M.~Monteno, W.~Alberico, A.~Beraudo, A.~De~Pace, A.~Molinari, et~al.,
+  {Heavy-flavor dynamics in nucleus-nucleus collisions: from RHIC to LHC},
+  J.Phys. G38 (2011) 124144.
+\newblock \href {http://arxiv.org/abs/1107.0256} {\path{arXiv:1107.0256}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124144}
+  {\path{doi:10.1088/0954-3899/38/12/124144}}.
+
+\bibitem{Gossiaux:2009mk}
+P.~Gossiaux, R.~Bierkandt, J.~Aichelin, {Tomography of a quark gluon plasma at
+  RHIC and LHC energies}, Phys.Rev. C79 (2009) 044906.
+\newblock \href {http://arxiv.org/abs/0901.0946} {\path{arXiv:0901.0946}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.79.044906}
+  {\path{doi:10.1103/PhysRevC.79.044906}}.
+
+\bibitem{Gossiaux:2010yx}
+P.~Gossiaux, J.~Aichelin, T.~Gousset, V.~Guiho, {Competition of Heavy Quark
+  Radiative and Collisional Energy Loss in Deconfined Matter}, J.Phys. G37
+  (2010) 094019.
+\newblock \href {http://arxiv.org/abs/1001.4166} {\path{arXiv:1001.4166}},
+  \href {http://dx.doi.org/10.1088/0954-3899/37/9/094019}
+  {\path{doi:10.1088/0954-3899/37/9/094019}}.
+
+\bibitem{Fochler:2011en}
+O.~Fochler, J.~Uphoff, Z.~Xu, C.~Greiner, {Jet quenching and elliptic flow at
+  RHIC and LHC within a pQCD-based partonic transport model}, J.Phys. G38
+  (2011) 124152.
+\newblock \href {http://arxiv.org/abs/1107.0130} {\path{arXiv:1107.0130}},
+  \href {http://dx.doi.org/10.1088/0954-3899/38/12/124152}
+  {\path{doi:10.1088/0954-3899/38/12/124152}}.
+
+\bibitem{Buzzatti:2011vt}
+A.~Buzzatti, M.~Gyulassy, {Jet Flavor Tomography of Quark Gluon Plasmas at RHIC
+  and LHC}, Phys.Rev.Lett. 108 (2012) 022301.
+\newblock \href {http://arxiv.org/abs/1106.3061} {\path{arXiv:1106.3061}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.108.022301}
+  {\path{doi:10.1103/PhysRevLett.108.022301}}.
+
+\bibitem{Abelev:2012xe}
+B.~Abelev, et~al., {Measurement of electrons from semileptonic heavy-flavour
+  hadron decays in pp collisions at $\sqrt{s} = 7 TeV$}, Phys.Rev. D86 (2012)
+  112007.
+\newblock \href {http://arxiv.org/abs/1205.5423} {\path{arXiv:1205.5423}},
+  \href {http://dx.doi.org/10.1103/PhysRevD.86.112007}
+  {\path{doi:10.1103/PhysRevD.86.112007}}.
+
+\bibitem{Chatrchyan:2012np}
+S.~Chatrchyan, et~al., {Suppression of non-prompt $J/\psi$, prompt $J/\psi$,
+  and Y(1S) in PbPb collisions at $\sqrt{s_{NN}}=2.76$ TeV}, JHEP 1205 (2012)
+  063.
+\newblock \href {http://arxiv.org/abs/1201.5069} {\path{arXiv:1201.5069}},
+  \href {http://dx.doi.org/10.1007/JHEP05(2012)063}
+  {\path{doi:10.1007/JHEP05(2012)063}}.
+
+\bibitem{CMS:2012wba}
+C.~Collaboration, {J/psi results from CMS in PbPb collisions, with 150mub-1
+  data}.
+
+\bibitem{Matsui:1986dk}
+T.~Matsui, H.~Satz, {$J/\psi$ Suppression by Quark-Gluon Plasma Formation},
+  Phys. Lett. B178 (1986) 416.
+\newblock \href {http://dx.doi.org/10.1016/0370-2693(86)91404-8}
+  {\path{doi:10.1016/0370-2693(86)91404-8}}.
+
+\bibitem{Digal:2001ue}
+S.~Digal, P.~Petreczky, H.~Satz, {Quarkonium feed-down and sequential
+  suppression}, Phys. Rev. D 64 (2001) 094015.
+\newblock \href {http://arxiv.org/abs/hep-ph/0106017}
+  {\path{arXiv:hep-ph/0106017}}, \href
+  {http://dx.doi.org/10.1103/PhysRevD.64.094015}
+  {\path{doi:10.1103/PhysRevD.64.094015}}.
+
+\bibitem{Alessandro:2004ap}
+B.~Alessandro, et~al., {A New measurement of J/psi suppression in Pb-Pb
+  collisions at 158-GeV per nucleon}, Eur.Phys.J. C39 (2005) 335--345.
+\newblock \href {http://arxiv.org/abs/hep-ex/0412036}
+  {\path{arXiv:hep-ex/0412036}}, \href
+  {http://dx.doi.org/10.1140/epjc/s2004-02107-9}
+  {\path{doi:10.1140/epjc/s2004-02107-9}}.
+
+\bibitem{Adare:2006ns}
+A.~Adare, et~al., $j/\psi$ production vs centrality, transverse momentum, and
+  rapidity in au + au collisions at $\sqrt{s_{NN}} = 200$~gev, Phys. Rev. Lett.
+  98 (2007) 232201.
+\newblock \href {http://arxiv.org/abs/nucl-ex/0611020}
+  {\path{arXiv:nucl-ex/0611020}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.98.232301}
+  {\path{doi:10.1103/PhysRevLett.98.232301}}.
+
+\bibitem{Adare:2011yf}
+A.~Adare, et~al., {$J/\psi$ suppression at forward rapidity in Au+Au collisions
+  at $\sqrt{s_{NN}}=200$ GeV}, Phys.Rev. C84 (2011) 054912.
+\newblock \href {http://arxiv.org/abs/1103.6269} {\path{arXiv:1103.6269}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.84.054912}
+  {\path{doi:10.1103/PhysRevC.84.054912}}.
+
+\bibitem{BraunMunzinger:2000px}
+P.~Braun-Munzinger, J.~Stachel, {(Non)thermal aspects of charmonium production
+  and a new look at J / psi suppression}, Phys.Lett. B490 (2000) 196--202.
+\newblock \href {http://arxiv.org/abs/nucl-th/0007059}
+  {\path{arXiv:nucl-th/0007059}}, \href
+  {http://dx.doi.org/10.1016/S0370-2693(00)00991-6}
+  {\path{doi:10.1016/S0370-2693(00)00991-6}}.
+
+\bibitem{Thews:2000rj}
+R.~L. Thews, M.~Schroedter, J.~Rafelski, {Enhanced $J/\psi$ production in
+  deconfined quark matter}, Phys.Rev. C63 (2001) 054905.
+\newblock \href {http://arxiv.org/abs/hep-ph/0007323}
+  {\path{arXiv:hep-ph/0007323}}, \href
+  {http://dx.doi.org/10.1103/PhysRevC.63.054905}
+  {\path{doi:10.1103/PhysRevC.63.054905}}.
+
+\bibitem{Andronic:2007bi}
+A.~Andronic, P.~Braun-Munzinger, K.~Redlich, J.~Stachel, {Evidence for
+  charmonium generation at the phase boundary in ultra-relativistic nuclear
+  collisions}, Phys.Lett. B652 (2007) 259--261.
+\newblock \href {http://arxiv.org/abs/nucl-th/0701079}
+  {\path{arXiv:nucl-th/0701079}}, \href
+  {http://dx.doi.org/10.1016/j.physletb.2007.07.036}
+  {\path{doi:10.1016/j.physletb.2007.07.036}}.
+
+\bibitem{Zhao:2007hh}
+X.~Zhao, R.~Rapp, {Transverse Momentum Spectra of $J/\psi$ in Heavy-Ion
+  Collisions}, Phys.Lett. B664 (2008) 253--257.
+\newblock \href {http://arxiv.org/abs/0712.2407} {\path{arXiv:0712.2407}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2008.03.068}
+  {\path{doi:10.1016/j.physletb.2008.03.068}}.
+
+\bibitem{Aad:2010aa}
+G.~Aad, et~al., {Measurement of the centrality dependence of J/{$\psi$} yields
+  and observation of Z production in lead-lead collisions with the ATLAS
+  detector at the LHC}, Phys.Lett. B697 (2011) 294--312.
+\newblock \href {http://arxiv.org/abs/1012.5419} {\path{arXiv:1012.5419}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2011.02.006}
+  {\path{doi:10.1016/j.physletb.2011.02.006}}.
+
+\bibitem{Ferreiro:2011rw}
+A.~Rakotozafindrabe, E.~Ferreiro, F.~Fleuret, J.~Lansberg, N.~Matagne, {Cold
+  Nuclear Matter Effects on extrinsic $J/\psi$ production at
+  $\sqrt{s_{NN}}=2.76$ TeV at the LHC}, Nucl.Phys. A855 (2011) 327--330.
+\newblock \href {http://arxiv.org/abs/1101.0488} {\path{arXiv:1101.0488}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysa.2011.02.071}
+  {\path{doi:10.1016/j.nuclphysa.2011.02.071}}.
+
+\bibitem{Vogt:2010aa}
+R.~Vogt, {Cold nuclear matter effects on \JPsi and \PgU\ production at energies
+  available at the CERN Large Hadron Collider (LHC)}, Phys. Rev. C 81 (2010)
+  044903.
+\newblock \href {http://arxiv.org/abs/1003.3497} {\path{arXiv:1003.3497}},
+  \href {http://dx.doi.org/10.1103/PhysRevC.81.044903}
+  {\path{doi:10.1103/PhysRevC.81.044903}}.
+
+\bibitem{Dominguez:2011cy}
+F.~Dominguez, D.~Kharzeev, E.~Levin, A.~Mueller, K.~Tuchin, {Gluon saturation
+  effects on the color singlet J/Psi production in high energy dA and AA
+  collisions}, Phys.Lett. B710 (2012) 182--187.
+\newblock \href {http://arxiv.org/abs/1109.1250} {\path{arXiv:1109.1250}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2012.02.068}
+  {\path{doi:10.1016/j.physletb.2012.02.068}}.
+
+\bibitem{Liu:2009nb}
+Y.-p. Liu, Z.~Qu, N.~Xu, P.-f. Zhuang, {J/psi Transverse Momentum Distribution
+  in High Energy Nuclear Collisions at RHIC}, Phys.Lett. B678 (2009) 72--76.
+\newblock \href {http://arxiv.org/abs/0901.2757} {\path{arXiv:0901.2757}},
+  \href {http://dx.doi.org/10.1016/j.physletb.2009.06.006}
+  {\path{doi:10.1016/j.physletb.2009.06.006}}.
+
+\bibitem{Zhou:2013aea}
+K.~Zhou, N.~Xu, P.~Zhuang, {Quarkonium Production and Medium Effects in High
+  Energy Nuclear Collisions}\href {http://arxiv.org/abs/1309.7520}
+  {\path{arXiv:1309.7520}}.
+
+\bibitem{Abelev:2013yxa}
+B.~B. Abelev, et~al., {J/$\psi$ production and nuclear effects in p-Pb
+  collisions at $\sqrt{s_{NN}}$=5.02 TeV}\href {http://arxiv.org/abs/1308.6726}
+  {\path{arXiv:1308.6726}}.
+
+\bibitem{Aaij:2013zxa}
+R.~Aaij, et~al., {Study of $J/\psi$ production and cold nuclear matter effects
+  in $p$Pb collisions}\href {http://arxiv.org/abs/1308.6729}
+  {\path{arXiv:1308.6729}}.
+
+\bibitem{Adamczyk:2012pw}
+L.~Adamczyk, et~al., {Measurement of $J/\psi$ Azimuthal Anisotropy in Au+Au
+  Collisions at $\sqrt{s_{NN}}$ = 200 GeV}\href
+  {http://arxiv.org/abs/1212.3304} {\path{arXiv:1212.3304}}.
+
+\bibitem{Liu:2009gx}
+Y.~Liu, N.~Xu, P.~Zhuang, {$J/\psi$ elliptic flow in relativistic heavy ion
+  collisions}, Nucl.Phys. A834 (2010) 317C--319C.
+\newblock \href {http://arxiv.org/abs/0910.0959} {\path{arXiv:0910.0959}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysa.2010.01.008}
+  {\path{doi:10.1016/j.nuclphysa.2010.01.008}}.
+
+\bibitem{Zhao:2012gc}
+X.~Zhao, A.~Emerick, R.~Rapp, {In-Medium Quarkonia at SPS, RHIC and LHC},
+  Nucl.Phys.A904-905 2013 (2013) 611c--614c.
+\newblock \href {http://arxiv.org/abs/1210.6583} {\path{arXiv:1210.6583}},
+  \href {http://dx.doi.org/10.1016/j.nuclphysa.2013.02.088}
+  {\path{doi:10.1016/j.nuclphysa.2013.02.088}}.
+
+\bibitem{CMS_Y_2010}
+S.~Chatrchyan, et~al., Indications of suppression of excited upsilon states in
+  pbpb collisions at \sqrtsnn = 2.76\tev, Phys. Rev. Lett. 107 (2011) 052302.
+\newblock \href {http://arxiv.org/abs/1105.4894} {\path{arXiv:1105.4894}},
+  \href {http://dx.doi.org/10.1103/PhysRevLett.107.052302}
+  {\path{doi:10.1103/PhysRevLett.107.052302}}.
+
+\bibitem{Affolder:1999wm}
+A.~Affolder, et~al., {Production of $\Upsilon(1S)$ mesons from $\chi_b$ decays
+  in $p\bar{p}$ collisions at $\sqrt{s} = 1.8$ TeV}, Phys. Rev. Lett. 84 (2000)
+  2094.
+\newblock \href {http://arxiv.org/abs/hep-ex/9910025}
+  {\path{arXiv:hep-ex/9910025}}, \href
+  {http://dx.doi.org/10.1103/PhysRevLett.84.2094}
+  {\path{doi:10.1103/PhysRevLett.84.2094}}.
+
+\bibitem{Aaij:2012se}
+R.~Aaij, et~al., {Measurement of the fraction of $\Upsilon(1S)$ originating
+  from $\chi_b(1P)$ decays in $pp$ collisions at $\sqrt{s} = 7$ TeV}, JHEP 1211
+  (2012) 031.
+\newblock \href {http://arxiv.org/abs/1209.0282} {\path{arXiv:1209.0282}},
+  \href {http://dx.doi.org/10.1007/JHEP11(2012)031}
+  {\path{doi:10.1007/JHEP11(2012)031}}.
+
+\bibitem{ALICEUpgradeLoI}
+B.~Abelev, et~al., {Letter of Intent for the Upgrade of the ALICE
+  Experiment}\href {http://arxiv.org/abs/CERN-LHCC-2012-012 ; LHCC-I-022}
+  {\path{arXiv:CERN-LHCC-2012-012 ; LHCC-I-022}}.
+
+\end{thebibliography}

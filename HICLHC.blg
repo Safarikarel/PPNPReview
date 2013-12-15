@@ -1,0 +1,76 @@
+This is BibTeX, Version 0.99d (TeX Live 2012)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: HICLHC.aux
+The style file: elsarticle-num.bst
+Reallocated field_info (elt_size=4) to 10940 items from 5000.
+Database file #1: heavyion.bib
+Repeated entry---line 3952 of file heavyion.bib
+ : @article{Aad:2013sla
+ :                     ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in Jarlskog:1990dv
+Warning--empty journal in Tribble:2007nsac
+Warning--empty journal in Alver:2008aq
+Warning--empty journal in ALbacete:2010ad
+Warning--empty journal in ALICEIdentHighPtRAA
+Warning--empty journal in ABELEV:2013zaa
+Warning--empty journal in Becattini:2009fv
+Warning--empty journal in Pan:2012ne
+Warning--empty journal in Abelev:2013pqa
+Warning--empty journal in Jeon:2003gk
+Warning--empty journal in Abelev:2013bla
+Warning--empty journal in Borghini:2001zr
+Warning--empty journal in Aad:2013xma
+Warning--empty journal in Chatrchyan:2013kba
+Warning--empty author in ATLAS:2012zla
+Warning--empty journal in ATLAS:2012zla
+Warning--empty journal in Wiedemann:2009sh
+Warning--empty journal in Chatrchyan:2013kwa
+Warning--empty journal in CMS:2012wba
+Warning--empty journal in Zhou:2013aea
+Warning--empty journal in Abelev:2013yxa
+Warning--empty journal in Aaij:2013zxa
+Warning--empty journal in Adamczyk:2012pw
+Warning--empty journal in ALICEUpgradeLoI
+You've used 220 entries,
+            2937 wiz_defined-function locations,
+            2226 strings with 46505 characters,
+and the built_in function-call counts, 68140 in all, are:
+= -- 7199
+> -- 1819
+< -- 0
++ -- 753
+- -- 533
+* -- 6389
+:= -- 9229
+add.period$ -- 413
+call.type$ -- 220
+change.case$ -- 219
+chr.to.int$ -- 0
+cite$ -- 244
+duplicate$ -- 1695
+empty$ -- 7133
+format.name$ -- 732
+if$ -- 17442
+int.to.chr$ -- 0
+int.to.str$ -- 220
+missing$ -- 221
+newline$ -- 862
+num.names$ -- 219
+pop$ -- 665
+preamble$ -- 1
+purify$ -- 0
+quote$ -- 0
+skip$ -- 4468
+stack$ -- 0
+substring$ -- 3522
+swap$ -- 977
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 24
+while$ -- 415
+width$ -- 223
+write$ -- 2303
+(There was 1 error message)
