@@ -6,9 +6,18 @@ compared to RHIC, combined with the moderate growth of soft particle production 
 event'', opened a new era in studies of jet quenching. The improved signal to background allowed the
 use of standard reconstruction techniques, calibration methods, background subtraction methods and
 jet observables developed and well characterized for studies of \pp collisions.
-Typically jets in LHC heavy-ion collisions have been reconstructed using
+Typically jets in LHC heavy-ion collisions are reconstructed using
 the infrared-safe anti-$k_t$ jet clustering algorithm~\cite{Cacciari:2008gp} with the
-radius parameter $R$ varying from $0.2 < R  < 0.5$.
+radius parameter $R$ varying from $0.2 < R  < 0.5$. Differences between the three
+experiments exist in the approach to ``background subtraction'', i.e., the correction
+of the reconstructed jet energie for contributions from the \PbPb\ underlying event. 
+ATLAS and CMS employ iterative correction methods where jet candidates found in
+the first iteration are removed from the background estimate~\cite{Kodolova:2007hd,Grau:2008ed},
+while ALICE uses the median area-density method provided by the \sc{fastjet} package~\cite{Cacciari:2011ma}.
+Importantly, the ALICE and ATLAS corrections are applied on the reconstructed jet energies,
+while the CMS correction is applied to the input objects of the jet clustering algorithm.
+Differences also exist in the effective energy or momentum cutoff of the jet constituents,
+which can have a significant influence on the noise introduced by the underlying event~\cite{Abelev:2012ej}.
 
 Early measurements of hadron production at RHIC
 clearly showed a large suppression (up to a factor of five to six) in the production rates of
@@ -32,7 +41,7 @@ after the first heavy-ion collisions at LHC were recorded, it became obvious tha
 a large abundance of events were a high \pT\ reconstructed jet (e.g. $\pT \approx 100$\GeVc) was
 not accompanied by a back-to-back high \pT\ partner jet.
 
-In the first study of jets in PbPb collisions at LHC ATLAS used azimuthal correlations and the
+In the first study of jets in PbPb collisions at LHC, ATLAS used azimuthal correlations and the
 momentum asymmetry between the leading and subleading jets to characterize the modification
 of their properties relative to pp collisions \cite{Aad:2010bu}.
 The jet pairs were selected to have relative azimuthal angle $\Delta \phi =|\phi_1-\phi_2| > \pi/2$
@@ -71,19 +80,17 @@ The observed trend can be naturally understood in models of parton energy
 loss in the hot and dense medium, where the back-to-back partons will typically traverse
 different path lengths, and therefore suffer different amounts of energy loss. 
 
-The initial ATLAS and CMS dijet asymmetry analyses~\cite{Aad:2010bu,Chatrchyan:2011sx}
- were extended using a large dataset of PbPb collisions
+The initial ATLAS and CMS dijet asymmetry analyses were extended using a large dataset of PbPb collisions
 collected in 2011 by the CMS collaboration at $\rootsNN=2.76$\TeV~\cite{CMS_dijet}. For this analysis, the events were 
 reconstructed using the  CMS ``particle-flow" algorithm~\cite{CMS-PAS-PFT-10-002,MattPFlow}, 
 which attempts to identify all stable particles in an
 event (electrons, muons, photons, charged and neutral hadrons)
 by combining information from all sub-detector systems.
-Jets were then reconstructed, after background subtraction, using the anti-$k_T$ sequential recombination algorithm,
+Jets were then reconstructed, after background subtraction, using the anti-$k_T$ algorithm 
 with radius parameter R = 0.3~\cite{Cacciari:2008gp}.
 
-To study the momentum dependence of the amount of energy loss,
-Fig.~\ref{fig:GR:CMS_dijet_pt} presents the dijet asymmetry in bins of leading jet
-\pT, for 0--20\% central events.
+Figure~\ref{fig:GR:CMS_dijet_pt} presents the dijet asymmetry in bins of leading jet
+\pT, for 0--20\% central events, allowing a study the momentum dependence of the amount of energy loss.
 The distributions show the \ptrat\ ratio, instead of $A_j$,  as a more intuitive
 way of quantifying the dijet momentum asymmetry.
 
@@ -102,10 +109,10 @@ Reproduced from~\cite{CMS_dijet}.}
 \end{center}
 \end{figure}
 One observes a strong evolution in the shape of the distribution across the
-various \pT\ bins, while a significant difference between PbPb data and
+various \pT\ bins. However, a significant difference between PbPb data and
 \PYTHYD\ simulations persists even for the highest \pT\ bin.
-The jet momentum dependence of the energy loss can be examined by measuring the
-dijet asymmetry as a function of leading jet momentum. This was studied by CMS,
+The jet momentum dependence of the energy loss can then be examined by measuring the
+average dijet asymmetry as a function of leading jet momentum. This was studied by CMS,
 using $\langle \ptsub/\ptlead \rangle$. Figure~\ref{fig:GR:CMS_pt_ratio}
 shows the \pT\ dependence of this ratio for three
 bins of collision centrality, with \PYTHYD\ simulations shown
@@ -127,7 +134,7 @@ Reproduced from~\cite{CMS_dijet}.}
 
 For all data and simulations, a rising trend of $\langle \ptsub/\ptlead \rangle$ as a function
 of leading jet momentum is seen. This is a result of the improving jet energy resolution
-with increasing jet \pT\ and the evolution in jet kinematics as described by the PYTHIA
+with increasing jet \pT\ and the evolution in jet kinematics, which is described by the PYTHIA
 calculations. Importantly, the data show a significantly larger jet asymmetry in central events
 than in the simulations and in peripheral and \pp\ data. This effect persists to the
 highest \pT\ measured, showing that even the highest \pT\ jets in PbPb collisions ($\pT > 350$\GeVc)
@@ -141,7 +148,8 @@ A complementary approach to the study of parton energy loss using dijet asymmetr
 is offered by studies of the nuclear modification factor \Raa\ of jet yields relative
 to a \pp\ reference or the centrality evolution of \Rcp\ relative to peripheral events.
 
-Measurements of the inclusive jet production rates were performed by ATLAS~\cite{Aad:2012is} and ALICE.
+Measurements of the inclusive jet production rates were performed by ATLAS~\cite{Aad:2012is} and 
+ALICE~\cite{Abelev:2013kqa}.
 As a result of the path length dependence of parton energy loss in the medium, 
 a reduction in the observed jet yield at a given \pT\ is expected for more 
 central \PbPb\ collisions, compared to an \Ncoll\ scaled \pp\ or peripheral reference.

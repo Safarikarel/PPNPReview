@@ -31,15 +31,15 @@
 \contentsline {subsection}{\numberline {6.2}Measurement of isolated photons in Pb+Pb collisions}{44}
 \contentsline {section}{\numberline {7}Jet quenching}{47}
 \contentsline {subsection}{\numberline {7.1}Dijet correlations}{47}
-\contentsline {subsection}{\numberline {7.2}Suppression of jet yields}{49}
-\contentsline {subsection}{\numberline {7.3}Modification of jet structure}{51}
+\contentsline {subsection}{\numberline {7.2}Suppression of jet yields}{50}
+\contentsline {subsection}{\numberline {7.3}Modification of jet structure}{52}
 \contentsline {subsection}{\numberline {7.4}Energy flow in dijet events}{54}
-\contentsline {subsection}{\numberline {7.5}Photon-jet correlations}{54}
+\contentsline {subsection}{\numberline {7.5}Photon-jet correlations}{55}
 \contentsline {section}{\numberline {8}Heavy-flavour production}{57}
-\contentsline {subsection}{\numberline {8.1}Heavy-flavour particle spectra}{57}
+\contentsline {subsection}{\numberline {8.1}Heavy-flavour particle spectra}{58}
 \contentsline {subsection}{\numberline {8.2}Heavy-flavour elliptic flow}{60}
 \contentsline {section}{\numberline {9}Quarkonium production}{61}
-\contentsline {subsection}{\numberline {9.1}Charmonium suppression in PbPb collisons}{61}
-\contentsline {subsection}{\numberline {9.2}Charmonium elliptic flow}{62}
-\contentsline {subsection}{\numberline {9.3}Upsilon suppression in PbPb}{63}
-\contentsline {section}{\numberline {10}Summary and outlook}{64}
+\contentsline {subsection}{\numberline {9.1}Charmonium suppression in PbPb collisons}{62}
+\contentsline {subsection}{\numberline {9.2}Charmonium elliptic flow}{63}
+\contentsline {subsection}{\numberline {9.3}Upsilon suppression in PbPb}{64}
+\contentsline {section}{\numberline {10}Summary and outlook}{65}
