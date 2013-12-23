@@ -39,7 +39,7 @@
 \contentsline {subsection}{\numberline {8.1}Heavy-flavour particle spectra}{58}
 \contentsline {subsection}{\numberline {8.2}Heavy-flavour elliptic flow}{60}
 \contentsline {section}{\numberline {9}Quarkonium production}{61}
-\contentsline {subsection}{\numberline {9.1}Charmonium suppression in PbPb collisons}{62}
+\contentsline {subsection}{\numberline {9.1}Charmonium suppression}{62}
 \contentsline {subsection}{\numberline {9.2}Charmonium elliptic flow}{63}
-\contentsline {subsection}{\numberline {9.3}Upsilon suppression in PbPb}{64}
+\contentsline {subsection}{\numberline {9.3}Upsilon suppression}{64}
 \contentsline {section}{\numberline {10}Summary and outlook}{65}
