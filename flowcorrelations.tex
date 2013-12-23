@@ -51,7 +51,7 @@ is thought to reach a limiting value in the limit where
 the viscosity can be ignored.  RHIC data achieved this limit both integrally (integrated over \pT)
 and for $v_2(\pT)$, which rises linearly until viscous corrections become large.
 \item When studied as a function of particle type, it is found that heavier particles show
-a smaller $v_2$ at the same \pT at low \pT, while this hierarchy flips above 1.5 GeV, where protons
+a smaller $v_2$ at the same \pT at low \pT, while this hierarchy flips above 1.5~GeV, where protons
 typically have a 50\% higher value of $v_2$.  This behavior has been explained by the hadronization of
 the system via constituent quarks which recombine into baryons with $v_2$(baryon)=$(3/2) \times v_2$(meson)~\cite{Adare:2006ti,Fries:2003vb}.
 \item The deviations from ideal behavior can be systematically calculated by viscous corrections, and
@@ -79,9 +79,9 @@ From this, the $n$-th order event plane $\Psi_n$ is simply determined as the ang
 From the definition of the Q-vector, the angle is $n$-fold ambiguous, but this has no effect on the extracted
 $v_n$ coefficient, which is defined as
 \begin{equation}
-v_n = \frac{v^{obs}_n}{\mathrm{Res}\{ n \Psi_n \}} = \frac{ \langle \cos ( n [\phi - \Psi_n] ) \rangle }{ \langle \cos ( n [\Phi_n - \Psi_n] ) \rangle    }
+v_n = \frac{v^{obs}_n}{\mathrm{Res}\{ n \Psi_n \}} = \frac{ \langle \cos ( n [\varphi - \Psi_n] ) \rangle }{ \langle \cos ( n [\varphi_n - \Psi_n] ) \rangle    }
 \end{equation}
-where $\Phi_n$ is the direction of the true event plane.  The latter quantity cannot be observed directly and so the
+where $\varphi_n$ is the direction of the true event plane.  The latter quantity cannot be observed directly and so the
 resolution parameter must be derived from comparison of different detector regions.  This is typically done by comparing
 symmetric pseudorapidity regions separated from the region being measured:
 \begin{equation}
@@ -106,12 +106,12 @@ flow harmonics.  While the method is thought to be robust against most sources o
 multiplicity fluctuations, and so is calculated using event samples with similar multiplicities within a given
 centrality interval.  Theses subsamples are then averaged within the desired centrality interval to give the final result.
 
-Another approach is to measure two-particle correlations as a function of $\Delta\eta$ and $\Delta\phi$, and
+Another approach is to measure two-particle correlations as a function of $\Delta\eta$ and $\Delta\varphi$, and
 decompose them into harmonics using either fits or Fourier transformations~\cite{ATLAS:2012at,Aamodt:2011by,ALICE:2011ab}.
-If the two-particle distribution can be factorized into the product of single particle distributions, $1+\sum_n v_n \cos(n[\phi-\Psi_n])$, then
+If the two-particle distribution can be factorized into the product of single particle distributions, $1+\sum_n v_n \cos(n[\varphi-\Psi_n])$, then
 the two particle distribution, for $\Delta\eta$ regions selected to suppress jets and other sources of non-flow, takes the form:
 \begin{equation}
-\frac{dN_{\mathrm{pair}}}{d\Delta\phi} \propto 1 + 2 \sum_n^{\infty} v_{n,n}(p_T^a,p_T^b) \cos n\Delta\phi
+\frac{dN_{\mathrm{pair}}}{d\Delta\varphi} \propto 1 + 2 \sum_n^{\infty} v_{n,n}(p_T^a,p_T^b) \cos n\Delta\varphi
 \end{equation}
 Where $v_{n,n}(p_T^a,p_T^b) = v_n(p_T^a) v_n(p_T^b)$.
 
@@ -130,7 +130,7 @@ The elliptic flow was estimated using three methods: 2-particle cumulants ($v_2\
 and Lee-Yang Zeros (LYZ).  The first method is known to be sensitive to correlation from jets, which have
 a larger contribution at the LHC than at RHIC, and the latter method was only used for integral flow.
 The integral flow was found to be larger than that measured at RHIC, but only by about 15-20\%.
-What was surprising was that, as a function of \pT (but only measured out to 4 GeV)
+What was surprising was that, as a function of \pT (but only measured out to 4~GeV)
 the magnitude of $v_2$ was found to be quantitatively very similar to that measured in
 the STAR experiment at RHIC, using similar cumulant methods.
 Although a similar scaling has been observed in the very low energy
@@ -160,7 +160,7 @@ within the large statistical errors of the lower-energy measurement.
 \end{center}
 \end{figure}
 The dependence of the inclusive elliptic flow on the initial state geometry was studied carefully by CMS, who
-performed a careful extrapolation of the integral $v_2$ down to $\pT>0$ GeV, using simultaneous measurements of
+performed a careful extrapolation of the integral $v_2$ down to $\pT>0$~GeV, using simultaneous measurements of
 $dN/d\pT$, to match with the lower energy PHOBOS data.
 To factor out the initial shape and size of the overlap region, a Monte Carlo Glauber model was used to match
 the centrality selections made with the CMS forward calorimeter.
@@ -193,7 +193,7 @@ is the strongest.
 \caption[]{(left) ALICE data showing $\vtwo(\pT)$ for identified
   hadrons, for $|\eta|<0.8$~\cite{Abelev:2012di} (right) CMS data
   showing the $\vtwo$ for unidentified hadrons at very high \pT, out
-  to 50 GeV~\cite{Chatrchyan:2012xq}}
+  to 50~GeV~\cite{Chatrchyan:2012xq}}
 \label{fig:pas:fc:highpt}
 \end{center}
 \end{figure}
@@ -201,24 +201,24 @@ The previous results have all been for unidentified hadrons.  This choice provid
 space coverage (particularly in $\pT$) and allows for comparisons between experiments with different particle
 identification capabilities.  However, a study separating the different hadron species is crucial,
 given the previous measurements at RHIC showing the strong differences between them.
-The ALICE data showing identified particles (separated using the $dE/dx$ measured in the ALICE TPC) for $\pT>3$ GeV
+The ALICE data showing identified particles (separated using the $dE/dx$ measured in the ALICE TPC) for $\pT>3$~GeV
 is shown in Figure~\ref{fig:pas:fc:highpt}(left).  The charged pion data on $v_2(\pT)$ is quantitatively similar to
 the PHENIX $\pi^0$ data over the $\pT$ range where they overlap.  The proton-antiproton $v_2$ are found to be
 substantially larger than the pion values over the measured $\pT$ range, although it is clear that the peak-plateau
 structure seen in the inclusive hadron data is not explained primarily by one particular hadron type.
 Also, at the highest $\pT$ measured, the protons and pions are quite close, although the protons remain
-systematically higher out to 14 GeV.
+systematically higher out to 14~GeV.
 CMS extends the hadron $\pT$ range out to the full range provided by the LHC in 2011, using a high $\pT$
 high level track trigger.  The data, shown in Figure~\ref{fig:pas:fc:highpt}(right), show that the
-plateau observed setting in above 6 GeV extends out to 50 GeV, with only mild decreases observed within
+plateau observed setting in above 6~GeV extends out to 50~GeV, with only mild decreases observed within
 the stated uncertainties.
 
 \begin{figure}[!tb]
 \begin{center}
 \includegraphics[width=0.98\textwidth]{flowcorrelations_figs/v2_etashifted_3cen_PHOBOS.pdf}
 \caption[]{
-CMS data showing $\vtwo$ for unidentified hadrons as a function of $\eta - y_{\mathrm{beam}}$, averaged over $0 <\pT < 3$ GeV (using an extrapolation procedure to cover $\pT <300$ Mev).
-Results are compared to data from $\sqrt{s_{NN}}=200$ GeV
+CMS data showing $\vtwo$ for unidentified hadrons as a function of $\eta - y_{\mathrm{beam}}$, averaged over $0 <\pT < 3$~GeV (using an extrapolation procedure to cover $\pT <300$ Mev).
+Results are compared to data from $\sqrt{s_{NN}}=200$~GeV
 at large $\eta$ from the PHOBOS experiment at RHIC~\cite{Chatrchyan:2012ta}.
 }
 \label{fig:pas:fc:limfrag}
@@ -256,16 +256,16 @@ By mid-2011, all of the LHC and RHIC experiments had significant measurements of
 contributions, up to $v_6$ which was the limit of the statistics in the 2010 run.
 
 CMS released the first evidence for the presence of higher-order harmonics in the two-particle
-correlation function.  ALICE released the first measurements of of $v_3-v_5$ up to $\pT=4$ GeV,
+correlation function.  ALICE released the first measurements of of $v_3-v_5$ up to $\pT=4$~GeV,
 using two and four particle cumulants~\cite{ALICE:2011ab}, and followed up with an extensive study of two-particle
 correlations in Ref.~\cite{Aamodt:2011by}.
 ATLAS released the first large scale study of higher harmonics
 for unidentified hadrons, with the first complete experimental measurements of
 
-The ATLAS data shown in Figure~\ref{fig:pas:fc:vn}(left) and (right) show the harmonics $v_2 - v_6$ as
+The ATLAS data shown in Figure~\ref{fig:pas:fc:vn}(left) and (right) show the harmonics $v_2 -- v_6$ as
 a function of \pT in centrality intervals from the most central 0-5\% to the most peripheral 70-80\%.
 The the figure on the left shows that the pattern is consistently the same for all harmonics:
-a rapid rise starting at low \pT, a peak around 3 GeV, and a
+a rapid rise starting at low \pT, a peak around 3~GeV, and a
 rapid decrease out to higher $\pT$.  While all of the experiments have demonstrated that $v_2$ does not
 necessarily go to zero at high $\pT$, it remains an open question about the higher harmonics, which can
 only be resolved with higher statistics.
@@ -322,7 +322,7 @@ as observed in the ALICE ZDCs.}
 The two-particle technique was only able to extract the rapidity-even contribution to $v_1$,
 ALICE performed an analysis using the $\Psi_1$ plane determined event-by-event with their
 ZDCs, which have a four-fold transverse segmentation~\cite{Abelev:2013cva}.
-Figure~\ref{fig:pas:fc:v1b}(a) shows the integrated $v_1$ signal for $\pT>0.15$ GeV as a
+Figure~\ref{fig:pas:fc:v1b}(a) shows the integrated $v_1$ signal for $\pT>0.15$~GeV as a
 function of hadron pseudorapidity, where a linear dependence with a negative slope is observed
 for the rapidity-odd $v_1$ signal, and a constant negative value is found for the rapidity-even
 $v_1$.  The latter is consistent with the previous extractions of $v_1$ from both the ALICE
@@ -339,7 +339,7 @@ to the $v_1$.
 \begin{center}
 \includegraphics[width=0.98\textwidth]{flowcorrelations_figs/atlas_v2fluc_fig_10.pdf}
 \caption[]{
-ATLAS data on the event-wise distributions of the harmonic coefficients $v_2 - v_4$ presented in a selection of
+ATLAS data on the event-wise distributions of the harmonic coefficients $v_2 -- v_4$ presented in a selection of
 centrality intervals, from Ref.~\cite{Aad:2013xma}.
 }
 \label{fig:pas:fc:flowfluc1}
@@ -352,9 +352,9 @@ centrality intervals, from Ref.~\cite{Aad:2013xma}.
 \raisebox{0.5cm}{\includegraphics[width=0.55\textwidth]{flowcorrelations_figs/fig3_v2_sigma.pdf}}
 \caption[]{
 (left) CMS data on the centrality dependence of the standard deviation of $v_2$
-divided by the mean, for $0.3 < \pT < 3$ GeV,
+divided by the mean, for $0.3 < \pT < 3$~GeV,
 extracted via the differences between the EP and cumulant results~\cite{Chatrchyan:2013kba}.
-(right) ALICE data on the $\pT$ dependence of the same quantity, out to $\pT=8$ GeV,
+(right) ALICE data on the $\pT$ dependence of the same quantity, out to $\pT=8$~GeV,
 for a selected set of centrality
 intervals~\cite{Abelev:2012di}.
 }
@@ -383,7 +383,7 @@ projected along the radial direction.
 Figure~\ref{fig:pas:fc:flowfluc1}(left) shows ALICE data~\cite{Abelev:2012di} on $\sigma/\langle v_2 \rangle$ derived
 using a similar approach as CMS.  For centrality intervals from 5-60\%, the overall magnitude
 is similar to that seen by the other experiments.  However, this figure points out that the fluctuations
-have essentially no centrality dependence out to moderately large \pT, about 8 GeV, which reaches into
+have essentially no centrality dependence out to moderately large \pT, about 8~GeV, which reaches into
 the plateau region typically associated with differential energy loss.
 
 
