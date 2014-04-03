@@ -284,14 +284,17 @@ The lower row of plots shows the ratio of the ratios between the \PbPb\
 and \pp-based fragmentation functions. It is important to note, and has 
 led to occasional confusion, that these fragmentation functions are 
 measured relative to the \em observed\em jet momentum, not with respect
-to the initial parton momentum, which can not be directly observed
+to the initial parent parton momentum, which can not be directly observed
 for dijet events in hadronic collisions.
+Energy radiated outside of the jet cone, or at \pT\ of less than $\approx 1$\GeVc\
+is not included in the jet energy determination.
 
 Within the uncertainties of this first measurement, no significant modification of
 the fragmentation functions in \PbPb\ collisions is observed. This is true even for
 dijets with large asymmetry, i.e.\ where the subleading jet has suffered significant
 energy loss. It is important to note however that only hadron fragments with $\pT > 4$\GeVc
-have been considered in this measurement.
+have been considered in this measurement. i
+
 
 Complementary information about the angular structure of the jets and its modification
 by the in-medium shower evolution can be obtained by measuring jet shapes, i.e.\ the
@@ -356,8 +359,11 @@ dijets events, i.e.\ what is the angular and momentum distribution of the partic
 the complementary momentum balance to the asymmetric dijet system? A priori the energy balance
 could possibly be found at low (thermal) momenta and very large radial distance to the jet axis.
 Therefore traditional jet-track correlation techniques relying on background subtraction are ill suited
-to answer this question, as even the largest dijet energy differences of several 10's of \GeV\
-are much smaller than fluctuations in the transverse energy carried by the underlying event.
+to answer this question. Even the largest dijet energy differences of several 10's of \GeV\
+correspond to only a per-mille fraction of the total transverse energy carried by the underlying 
+event. The presence of long-range flow correlations, and biases in event properties when requiring 
+high-\pT\ dijets, have made a sufficiently precise description of the underlying event using e.g.\ 
+mixed events intractable so far.
 
 Information about the overall momentum balance in the dijet events can be obtained by exploiting
 conservation of transverse momentum. CMS studied the transverse momentum balance in these events
@@ -373,12 +379,12 @@ Leading and subleading jets were required to have $|\eta| < 1.6$.
 Instead of a background subtraction, this method relies on the cancellation of the
 underlying event fluctuations when averaging over many events to obtain
 $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$.
-This method requires a tight $\dphi > 5 \pi/6$ selection for the dijet, as the underlying
-event is not $\varphi$-symmetric on an event-by-event basis.
 
 Figure~\ref{fig:GR:CMS_missingpT} shows $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$
 as a function of \AJ\ for two angular regions relative to the leading and subleading
 jet axes, ``in-cone'' ($\Delta R < 0.8$) and ``out-of-cone'' (($\Delta R > 0.8$).
+This measurement requires a tight $\dphi > 5 \pi/6$ selection for the dijet, to ensure that the 
+leading and subleading cones sample equivalent regions of the underlying event background on average. 
 The top row shows results for  {\sc{pythia+hydjet}} simulations and the bottom row shows
 \PbPb\ data. Integrating over all particle momentum ranges (solid points),
  the overall momentum balance of the events is recovered within uncertainties
