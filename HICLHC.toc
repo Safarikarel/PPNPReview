@@ -10,7 +10,7 @@
 \contentsline {subsection}{\numberline {2.2}Charged-particle density}{14}
 \contentsline {subsection}{\numberline {2.3}Energy density}{16}
 \contentsline {section}{\numberline {3}Particle spectra and yields}{17}
-\contentsline {subsection}{\numberline {3.1}Charged-particle transverse momentum spectra}{17}
+\contentsline {subsection}{\numberline {3.1}Charged-particle spectra}{17}
 \contentsline {subsection}{\numberline {3.2}Identified-hadron spectra}{18}
 \contentsline {subsection}{\numberline {3.3}Strange-particle production}{21}
 \contentsline {subsection}{\numberline {3.4}Resonance and light-nuclei production}{22}
@@ -20,26 +20,26 @@
 \contentsline {subsection}{\numberline {4.2}Fluctuations}{26}
 \contentsline {subsection}{\numberline {4.3}Angular correlations}{28}
 \contentsline {subsection}{\numberline {4.4}Chiral magnetic effect}{30}
-\contentsline {section}{\numberline {5}Flow correlations}{31}
-\contentsline {subsection}{\numberline {5.1}Introduction}{31}
-\contentsline {subsection}{\numberline {5.2}Methods}{32}
-\contentsline {subsection}{\numberline {5.3}Elliptic flow}{33}
+\contentsline {section}{\numberline {5}Flow correlations}{32}
+\contentsline {subsection}{\numberline {5.1}Introduction}{32}
+\contentsline {subsection}{\numberline {5.2}Methods}{33}
+\contentsline {subsection}{\numberline {5.3}Elliptic flow}{34}
 \contentsline {subsection}{\numberline {5.4}Higher order harmonics}{37}
-\contentsline {subsection}{\numberline {5.5}Flow fluctuations}{39}
+\contentsline {subsection}{\numberline {5.5}Flow fluctuations}{40}
 \contentsline {section}{\numberline {6}Electroweak probes}{41}
-\contentsline {subsection}{\numberline {6.1}Measurements of W and Z bosons in \unhbox \voidb@x \hbox {Pb+Pb}collisions}{42}
+\contentsline {subsection}{\numberline {6.1}Measurements of W and Z bosons in \unhbox \voidb@x \hbox {Pb+Pb}\ collisions}{43}
 \contentsline {subsection}{\numberline {6.2}Measurement of isolated photons in \unhbox \voidb@x \hbox {Pb+Pb}collisions}{45}
 \contentsline {section}{\numberline {7}Jet quenching}{47}
-\contentsline {subsection}{\numberline {7.1}Dijet correlations}{47}
+\contentsline {subsection}{\numberline {7.1}Dijet correlations}{48}
 \contentsline {subsection}{\numberline {7.2}Suppression of jet yields}{50}
 \contentsline {subsection}{\numberline {7.3}Modification of jet structure}{51}
-\contentsline {subsection}{\numberline {7.4}Energy flow in dijet events}{53}
+\contentsline {subsection}{\numberline {7.4}Energy flow in dijet events}{54}
 \contentsline {subsection}{\numberline {7.5}Photon-jet correlations}{55}
 \contentsline {section}{\numberline {8}Heavy-flavour production}{57}
-\contentsline {subsection}{\numberline {8.1}Heavy-flavour particle spectra}{57}
+\contentsline {subsection}{\numberline {8.1}Heavy-flavour spectra}{58}
 \contentsline {subsection}{\numberline {8.2}Heavy-flavour elliptic flow}{60}
 \contentsline {section}{\numberline {9}Quarkonium production}{61}
-\contentsline {subsection}{\numberline {9.1}Charmonium suppression}{61}
-\contentsline {subsection}{\numberline {9.2}Charmonium elliptic flow}{62}
-\contentsline {subsection}{\numberline {9.3}Upsilon suppression}{63}
+\contentsline {subsection}{\numberline {9.1}Charmonium suppression}{62}
+\contentsline {subsection}{\numberline {9.2}Charmonium elliptic flow}{63}
+\contentsline {subsection}{\numberline {9.3}Upsilon suppression}{64}
 \contentsline {section}{\numberline {10}Summary and outlook}{65}
