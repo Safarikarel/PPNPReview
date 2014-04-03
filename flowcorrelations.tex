@@ -13,7 +13,9 @@
 %- Comparison with RHIC
 %- Flow in p+Pb (ridge, double ridge, PID)
 %- Open questions
-\subsection{Introduction}
+
+%\subsection{Introduction}
+
 While the previous section covered physical mechanisms which induce
 correlations between multiple hadrons, this section covers the
 phenomenon of ``collective flow'', which leads to the correlations of
@@ -36,7 +38,7 @@ nuclei at low energies, this was straightforward to understand as the
 reinteraction of the initial baryons and the produced hadrons, which
 would thermalize and evolve as a ``hadron gas''.
 However, its persistence at higher energies, particularly at RHIC where the
-value of $v_2$ averaged over \pT was approximately twice as large as it was at the
+value of $v_2$ averaged over \pT\ was approximately twice as large as it was at the
 CERN SPS~\cite{Ackermann:2000tr}, surprised many who expected the hot system to become more
 dilute and more weakly-interacting at higher energies.
 
@@ -51,7 +53,7 @@ is thought to reach a limiting value in the limit where
 the viscosity can be ignored.  RHIC data achieved this limit both integrally (integrated over \pT)
 and for $v_2(\pT)$, which rises linearly until viscous corrections become large.
 \item When studied as a function of particle type, it is found that heavier particles show
-a smaller $v_2$ at the same \pT at low \pT, while this hierarchy flips above 1.5~GeV, where protons
+a smaller $v_2$ at the same \pT\ at low \pT, while this hierarchy flips above 1.5~GeV, where protons
 typically have a 50\% higher value of $v_2$.  This behavior has been explained by the hadronization of
 the system via constituent quarks which recombine into baryons with $v_2$(baryon)=$(3/2) \times v_2$(meson)~\cite{Adare:2006ti,Fries:2003vb}.
 \item The deviations from ideal behavior can be systematically calculated by viscous corrections, and
@@ -99,28 +101,36 @@ They are more or less sensitive to non-flow depending on the order of the cumula
 cumulant is quite sensitive to effects from resonance decay and jet fragmentation.  However, the four particle
 cumulants are generally much less so, since it explicitly removes short-range two particle correlations.
 %
-A third method is to use the ``Lee Yang zeroes'' approach, which accounts for correlations of all lower orders using a
+A third method is to use the ``Lee-Yang zeroes'' approach, which accounts for correlations of all lower orders using a
 different generating function~\cite{Bhalerao:2003yq,Borghini:2004ke}.  
 The method relates the zeros of a complex function to the magnitude of the relevant
 flow harmonics.  While the method is thought to be robust against most sources of non-flow, it is particularly sensitive to
 multiplicity fluctuations, and so is calculated using event samples with similar multiplicities within a given
 centrality interval.  Theses subsamples are then averaged within the desired centrality interval to give the final result.
 
-Another approach is to measure two-particle correlations as a function of $\Delta\eta$ and $\Delta\varphi$, and
-decompose them into harmonics using either fits or Fourier transformations~\cite{ATLAS:2012at,Aamodt:2011by,ALICE:2011ab}.
-If the two-particle distribution can be factorized into the product of single particle distributions, $1+\sum_n v_n \cos(n[\varphi-\Psi_n])$, then
-the two particle distribution, for $\Delta\eta$ regions selected to suppress jets and other sources of non-flow, takes the form:
+Another complementary approach to measuring flow coefficients is to
+measure two-particle correlations as a function of $\Delta\eta$ and
+$\Delta\varphi$, and decompose them into harmonics using either fits
+or discrete Fourier
+transforms~\cite{ATLAS:2012at,Aamodt:2011by,ALICE:2011ab}.  If
+the two-particle distribution can be factorized into the product of
+single particle distributions, $1+\sum_n v_n \cos(n[\varphi-\Psi_n])$,
+then the two particle distribution, for $\Delta\eta$ regions selected
+to suppress jets and other sources of non-flow, takes the form:
 \begin{equation}
 \frac{dN_{\mathrm{pair}}}{d\Delta\varphi} \propto 1 + 2 \sum_n^{\infty} v_{n,n}(p_T^a,p_T^b) \cos n\Delta\varphi
 \end{equation}
-Where $v_{n,n}(p_T^a,p_T^b) = v_n(p_T^a) v_n(p_T^b)$.
+Where $v_{n,n}(p_T^a,p_T^b) = v_n(p_T^a) v_n(p_T^b)$.  Results using
+two-particle correlations and direct measurements of flow coefficients
+typically give similar results if this factorized form holds true for
+experimental data.
 
 \subsection{Elliptic flow}
 \begin{figure}[!tb]
 \begin{center}
 \includegraphics[height=0.49\textwidth]{flowcorrelations_figs/atlas_v2_fig_02.pdf}
 \includegraphics[height=0.49\textwidth]{flowcorrelations_figs/fig2.pdf}
-\caption[]{(left) ATLAS data showing the evolution of anisotropy relative to the reaction plane, as a function of centrality~\cite{ATLAS:2011ah} (right) First ALICE data on \vtwo in \PbPb collisions at the LHC~\cite{Aamodt:2010pa}.}
+\caption[]{(left) ATLAS data showing the evolution of anisotropy relative to the reaction plane, as a function of centrality~\cite{ATLAS:2011ah} (right) First ALICE data on \vtwo\ in \PbPb\ collisions at the LHC~\cite{Aamodt:2010pa}.}
 \label{fig:pas:fc:firstresults}
 \end{center}
 \end{figure}
@@ -130,7 +140,7 @@ The elliptic flow was estimated using three methods: 2-particle cumulants ($v_2\
 and Lee-Yang Zeros (LYZ).  The first method is known to be sensitive to correlation from jets, which have
 a larger contribution at the LHC than at RHIC, and the latter method was only used for integral flow.
 The integral flow was found to be larger than that measured at RHIC, but only by about 15-20\%.
-What was surprising was that, as a function of \pT (but only measured out to 4~GeV)
+What was surprising was that, as a function of \pT\ (but only measured out to 4~GeV)
 the magnitude of $v_2$ was found to be quantitatively very similar to that measured in
 the STAR experiment at RHIC, using similar cumulant methods.
 Although a similar scaling has been observed in the very low energy
@@ -141,12 +151,13 @@ of inclusive hadrons.
 A hydrodynamic calculation by Luzum was able to reproduce this result soon after its release,
 based on a scaling of the initial energy density according to the measured charged-particle
 multiplicity, and assuming no change in the medium transport properties~\cite{Luzum:2010ag}.
-The first $v_2$ measurement at higher \pT was performed by ATLAS~\cite{ATLAS:2011ah},
-showing the transition from the low \pT behavior,
-understood by viscous hydrodynamics, to the higher \pT values presumably explained by the path-length dependence of
+The first $v_2$ measurement at higher \pT\ was performed by ATLAS~\cite{ATLAS:2011ah},
+showing the transition from the low \pT\ behavior,
+understood by viscous hydrodynamics, to the higher \pT\ values presumably explained by the path-length dependence of
 energy loss of jets.
-By comparison with PHENIX data on $\pi^0$ particles, this shows that the scaling of $v_2$ extends to high \pT as well,
-within the large statistical errors of the lower-energy measurement.
+By comparison with PHENIX data on $\pi^0$ particles~\cite{Adare:2010sp}, this shows that the scaling of $\vtwo(\pT)$ with beam energy 
+extends to high \pT\ as well,
+albeit within the large statistical errors of the lower-energy measurement.
 
 \begin{figure}[!tb]
 \begin{center}
@@ -165,8 +176,9 @@ $dN/d\pT$, to match with the lower energy PHOBOS data.
 To factor out the initial shape and size of the overlap region, a Monte Carlo Glauber model was used to match
 the centrality selections made with the CMS forward calorimeter.
 From these, the eccentricity and overlap area were calculated according to the definitions from
-subsection\ref{subsect:pas:flow:methods}.  The CMS data, shown superimposed on data from RHIC, is shown in
-Figure~\ref{fig:pas:fc:scaling}(right), and overlaps the PHOBOS data in the most peripheral collisions and
+subsection~\ref{subsect:pas:flow:methods}.  The CMS data, shown superimposed on data from RHIC, is shown in
+Figure~\ref{fig:pas:fc:scaling}(right), and overlaps the PHOBOS Au+Au and 
+Cu+Cu data in the most peripheral collisions and
 shows a continuous rise in the more central collisions, except perhaps in the most central interval.
 
 \begin{figure}[!tb]
@@ -183,7 +195,7 @@ $\vtwo$: event plane (EP), 2-particle cumulants, 4-particle cumulants, and Lee-Y
 The CMS data shown in Figure~\ref{fig:pas:fc:methods} illustrates the $\pT$ and centrality dependence of
 $v_2(\pT)$, comparing directly the different methods of flow reconstruction used for $v_2$.
 While it is clear that the 2-particle cumulant is the most contaminated by non-flow, particularly at high $\pT$,
-one also observes some systematic differences between all three methods, particularly where the flow
+one also observes some systematic differences between all of the methods, particularly where the flow
 is the strongest.
 
 \begin{figure}[!tb]
@@ -205,12 +217,13 @@ The ALICE data showing identified particles (separated using the $dE/dx$ measure
 is shown in Figure~\ref{fig:pas:fc:highpt}(left).  The charged pion data on $v_2(\pT)$ is quantitatively similar to
 the PHENIX $\pi^0$ data over the $\pT$ range where they overlap.  The proton-antiproton $v_2$ are found to be
 substantially larger than the pion values over the measured $\pT$ range, although it is clear that the peak-plateau
-structure seen in the inclusive hadron data is not explained primarily by one particular hadron type.
+structure seen in the inclusive hadron data is not a feature shown only 
+by one particular hadron type.
 Also, at the highest $\pT$ measured, the protons and pions are quite close, although the protons remain
 systematically higher out to 14~GeV.
 CMS extends the hadron $\pT$ range out to the full range provided by the LHC in 2011, using a high $\pT$
 high level track trigger.  The data, shown in Figure~\ref{fig:pas:fc:highpt}(right), show that the
-plateau observed setting in above 6~GeV extends out to 50~GeV, with only mild decreases observed within
+plateau observed setting in above 6~GeV extends out to at least 50~GeV, with only mild decreases observed within
 the stated uncertainties.
 
 \begin{figure}[!tb]
@@ -243,7 +256,7 @@ plateau, while the PHOBOS data did not show similar behavior.
 \includegraphics[height=0.6\textwidth]{flowcorrelations_figs/atlas_vn_fig_04.pdf}
 \includegraphics[height=0.6\textwidth]{flowcorrelations_figs/atlas_vn_fig_05.pdf}
 \caption[]{(left) ATLAS data showing $v_n(\pT)$ for different centrality intervals and $|\eta|<2.5$, for $n=2-6$.  Very little dependence on $\eta$ is observed~\cite{ATLAS:2012at}.
-(right) The same ATLAS data, in \pT intervals, showing the approximate centrality dependence of $v_3-v_6$~\cite{ATLAS:2012at}.}
+(right) The same ATLAS data, in \pT\ intervals, showing the approximate centrality dependence of $v_3-v_6$~\cite{ATLAS:2012at}.}
 \label{fig:pas:fc:vn}
 \end{center}
 \end{figure}
@@ -260,34 +273,71 @@ CMS released the first evidence for the presence of higher-order harmonics in th
 correlation function.  ALICE released the first measurements of of $v_3-v_5$ up to $\pT=4$~GeV,
 using two and four particle cumulants~\cite{ALICE:2011ab}, and followed up with an extensive study of two-particle
 correlations in Ref.~\cite{Aamodt:2011by}.
-ATLAS released the first large scale study of higher harmonics
-for unidentified hadrons, with the first complete experimental measurements of
+ATLAS had one of the first large-scale studies of higher harmonics
+for unidentified hadrons~\cite{ATLAS:2012at}, measuring up to $v_6$ with both event plane
+and two-particle correlations over a wide pseudorapidity and \pT\
+range, for the 80\% most central collisions.
 
-The ATLAS data shown in Figure~\ref{fig:pas:fc:vn}(left) and (right) show the harmonics $v_2 -- v_6$ as
-a function of \pT in centrality intervals from the most central 0-5\% to the most peripheral 70-80\%.
-The the figure on the left shows that the pattern is consistently the same for all harmonics:
-a rapid rise starting at low \pT, a peak around 3~GeV, and a
-rapid decrease out to higher $\pT$.  While all of the experiments have demonstrated that $v_2$ does not
-necessarily go to zero at high $\pT$, it remains an open question about the higher harmonics, which can
-only be resolved with higher statistics.
-The right figure shows the centrality dependence in small \pT intervals, demonstrating that $v_2$ is fundamentally
-different than the higher harmonics, having a much milder centrality dependence.  While $v_2$ mainly reflects
-the overall geometric shape of the system, the higher harmonics seem to mainly reflect fluctuations.
-However, the decrease in magnitude with increasing $n$ is generally thought to reflect the presence of viscous effects.
+The ATLAS data~\cite{ATLAS:2012at} shown in
+Figure~\ref{fig:pas:fc:vn}(left) and (right) show the harmonics $v_2 -
+v_6$ as a function of \pT\ in centrality intervals from the most
+central 0-5\% to the most peripheral 70-80\%.  The the figure on the
+left shows that the pattern is consistently the same for all
+harmonics: a rapid rise starting at low \pT, a peak around 3~GeV, and
+a rapid decrease out to higher $\pT$.  While all of the experiments
+have demonstrated that $v_2$ does not necessarily go to zero at high
+$\pT$, it remains an open question about the higher harmonics, which
+can only be resolved with higher statistics.  The right figure shows
+the centrality dependence in small \pT\ intervals, demonstrating that
+$v_2$ is fundamentally different than the higher harmonics, having a
+much milder centrality dependence.  While $v_2$ mainly reflects the
+overall geometric shape of the system, the higher harmonics seem to
+mainly reflect fluctuations.  However, the decrease in magnitude with
+increasing $n$ is generally thought to reflect the presence of viscous
+effects.
 
 \begin{figure}[!tb]
 \begin{center}
 \includegraphics[width=0.98\textwidth]{flowcorrelations_figs/atlas_vn_fig_13.pdf}
 \caption[]{
-ATLAS data showing the $n$ dependence of $v_n$ in four \pT intervals, which are effectively
+ATLAS data showing the $n$ dependence of $v_n$ in four \pT\ intervals, which are effectively
 angular power spectra at different resolution scales.  From Ref.~\cite{ATLAS:2012at}.
 }
 \label{fig:pas:fc:powerspec}
 \end{center}
 \end{figure}
+
+\begin{figure}[!tb]
+\begin{center}
+%\includegraphics[width=0.58\textwidth]{flowcorrelations_figs/atlas_vn_fig_02a.pdf}
+\includegraphics[width=0.68\textwidth]{flowcorrelations_figs/corr1Dfit_UCC_centmin110_centmax1000_20131119.pdf}
+\includegraphics[width=0.3\textwidth]{flowcorrelations_figs/compare_vnn_hydro_luzum_20120810.pdf}
+\caption[]{
+(left and middle) CMS data showing the decomposition of the 2-particle correlation function,
+after requiring the particles have a $\Delta\eta>2$~\cite{CMS:2013bza}.
+(right) Results from CMS 2-particle data showing the spectrum of $v_n$ ($n=2-7$) 
+for the top 0-0.2\% centrality interval~\cite{CMS:2013bza}.
+The data is compared to a hydrodynamical model using Glauber geometry, but
+under different assumptions about the viscosity to entropy density ratio.
+}
+\label{fig:pas:fc:ucc}
+\end{center}
+\end{figure}
+
 Another representation of this data is given in Figure~\ref{fig:pas:fc:powerspec}, which shows the ``angular power spectrum'',
-the $n$ dependence of $v_2(\pT)$ for particular intervals in \pT and centrality.  The fall-off with increasing $n$ is a general
+the $n$ dependence of $v_2(\pT)$ for particular intervals in \pT\ and centrality.  The fall-off with increasing $n$ is a general
 feature, of the data which is expected to be driven by viscous corrections that increase with $n$.
+CMS has performed a similar study recently with ``ultra central'' collisions, comprising
+the top 0.2\% of the minimum bias cross section measured in the high 
+luminosity 2011 run~\cite{CMS:2013bza}.  
+An example from CMS data showing the 
+decomposition of the 2-particle correlation function in the 0-5\% most central
+events is shown in Figure~\ref{fig:pas:fc:ucc}(left and middle).
+The results shown in Figure~\ref{fig:pas:fc:ucc}(right)
+are compared to detailed hydrodynamic calculations under
+different assumptions about the initial viscosity to entropy ratio, with
+the extreme centrality selection removing most of the effect of the 
+the initial shape.
 
 \begin{figure}[!tb]
 \begin{center}
