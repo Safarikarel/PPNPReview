@@ -86,10 +86,11 @@ v_n = \frac{v^{obs}_n}{\mathrm{Res}\{ n \Psi_n \}} = \frac{ \langle \cos ( n [\v
 \end{equation}
 where $\varphi_n$ is the direction of the true event plane.  The latter quantity cannot be observed directly and so the
 resolution parameter must be derived from comparison of different detector regions.  This is typically done by comparing
-symmetric pseudorapidity regions separated from the region being measured:
+symmetric pseudorapidity regions separated from the region being measured, making the
+(non-trivial) assumption that the subevents see the same event plane angle:
 \begin{equation}
 \mathrm{Res} \{ n \Psi_n^{\mathrm{P(N)}} \} =
-\langle \cos n ( \Psi_n^{\mathrm{P(N)}} - \Psi_n ) \rangle =
+\langle \cos n ( \Psi_n^{\mathrm{P(N)}} - \Phi_n ) \rangle =
 \sqrt{ \langle \cos n ( \Psi_n^{\mathrm{P}} - \Psi_n^{\mathrm{N}} ) \rangle }
 \end{equation}
 Non-flow contamination is typically most difficult to control when the subevents used to determine the event plane
@@ -123,7 +124,7 @@ to suppress jets and other sources of non-flow, takes the form:
 \end{equation}
 where $v_{n,n}(p_T^a,p_T^b) = v_n(p_T^a) v_n(p_T^b)$ (although it is known that 
 eventwise fluctuations of $v_n$ can violate this relation).  Results using
-two-particle correlations and direct measurements of flow coefficients
+two-particle correlations and event-plane measurements of flow coefficients
 typically give similar results if this factorized form holds true for
 experimental data.
 
@@ -146,10 +147,12 @@ What was surprising was that, as a function of \pT\ (but only measured out to 4~
 the magnitude of $v_2$ was found to be quantitatively very similar to that measured in
 the STAR experiment at RHIC, using similar cumulant methods.
 Although a similar scaling has been observed in the very low energy
-data on inclusive $v_2(\pT)$ from STAR taken during the recent RHIC energy scan,
-there is no fundamental understanding yet of how this scaling arises.
-It suggests that most of the variation in the integral elliptic flow results from the change in the spectral shape
-of inclusive hadrons.
+data on inclusive $v_2(\pT)$ from STAR taken during the recent RHIC energy scan (down 
+to $\sqrt{s_{NN}}=7.7$ GeV~\cite{Adamczyk:2012ku}),
+there is no clear understanding of how this scaling arises.
+It suggests that most of the variation in the integral elliptic flow results from the change in the spectral shape of inclusive hadrons.
+It also suggests that $v_2$ is relatively insensitive to initial pressure and density, and
+mainly to the initial-state geometry.
 A hydrodynamic calculation by Luzum was able to reproduce this result soon after its release,
 based on a scaling of the initial energy density according to the measured charged-particle
 multiplicity, and assuming no change in the medium transport properties~\cite{Luzum:2010ag}.
@@ -160,6 +163,9 @@ energy loss of jets.
 By comparison with PHENIX data on $\pi^0$ particles~\cite{Adare:2010sp}, this shows that the scaling of $\vtwo(\pT)$ with beam energy 
 extends to high \pT\ as well,
 albeit within the large statistical errors of the lower-energy measurement.
+All of this said, it has also been argued that the observed scaling
+is an accidental feature arising from the
+interplay of the increasing anisotropy and radial flow~\cite{Shen:2012vn}.
 
 \begin{figure}[!tb]
 \begin{center}
@@ -257,7 +263,8 @@ plateau, while the PHOBOS data did not show similar behavior.
 \begin{center}
 \includegraphics[height=0.6\textwidth]{flowcorrelations_figs/atlas_vn_fig_04.pdf}
 \includegraphics[height=0.6\textwidth]{flowcorrelations_figs/atlas_vn_fig_05.pdf}
-\caption[]{(left) ATLAS data showing $v_n(\pT)$ for different centrality intervals and $|\eta|<2.5$, for $n=2-6$.  Very little dependence on $\eta$ is observed~\cite{ATLAS:2012at}.
+\caption[]{(left) ATLAS data showing $v_n(\pT)$ for different centrality intervals and $|\eta|<2.5$, for $n=2-6$~\cite{ATLAS:2012at}.  
+%Very little dependence on $\eta$ is observed~\cite{ATLAS:2012at}.
 (right) The same ATLAS data, in \pT\ intervals, showing the approximate centrality dependence of $v_3-v_6$~\cite{ATLAS:2012at}.}
 \label{fig:pas:fc:vn}
 \end{center}
@@ -357,8 +364,9 @@ the initial shape.
 
 While the two-particle analyses from ALICE, ATLAS and CMS all utilized a $v_{1,1}$ term in their fits, the first measurements
 did not extract a single-particle $v_1$ contribution, since momentum conservation is expected to be a substantial effect.
-The first published extraction of $v_1$ from experimental data was performed by a theoretical team using published ALICE data,
-doing a fit of the form $V_{1\Delta}(p^a_T,p^b_T) = v_1(p^a_T)v_1(p^b_T) - k p^a_T p^b_T$.
+The first published extraction of $v_1$ from experimental data was performed by a theoretical team using published ALICE data~\cite{Retinskaya:2012ky},
+doing a fit of the form 
+$V_{1\Delta}(p^a_T,p^b_T) = v_1(p^a_T)v_1(p^b_T) - k p^a_T p^b_T$~\cite{Borghini:2000cm}.
 ATLAS also measure directed flow using a similar approach,
 fitting $v_1(\pT)$
 The value of $v_1$ was also found to vary only modestly with centrality, suggesting it too arises from fluctuations.
@@ -404,7 +412,7 @@ centrality intervals.  From Ref.~\cite{Aad:2013xma}.
 \includegraphics[width=0.40\textwidth]{flowcorrelations_figs/vnSigmaPrelim.pdf}
 \raisebox{0.5cm}{\includegraphics[width=0.55\textwidth]{flowcorrelations_figs/fig3_v2_sigma.pdf}}
 \caption[]{
-(left) CMS data on the centrality dependence of the standard deviation of $v_2$
+(left) CMS data on the centrality dependence of the standard deviations of $v_2$ and $v_3$
 divided by the mean, for $0.3 < \pT < 3$~GeV,
 extracted via the differences between the EP and cumulant results~\cite{Chatrchyan:2013kba}.
 (right) ALICE data on the $\pT$ dependence of the same quantity, out to $\pT=8$~GeV,
@@ -424,7 +432,7 @@ Although the distributions are not Gaussian, but are rather projections of a 2D 
 Bessel-Gaussian distribution),
 the distributions are typically quantified using the first two moments, the mean and standard deviation.
 These can also be estimated by combining different estimates of $v_n$, in particular using the event-plane
-and 4-particle cumulant methods.  Based on the analysis of Ref.{},
+and 4-particle cumulant methods.  Based on the analysis of Ref.{Voloshin:2008dg},
 the difference between these quantities is twice the variance, while their sum is twice the squared mean.
 Figure~\ref{fig:pas:fc:flowfluc2}(left) shows CMS data~\cite{Chatrchyan:2013kba} on $\sigma/\langle v_2 \rangle$ derived
 from cumulants, compared with the ATLAS data derived from the fully unfolded distributions.
@@ -432,7 +440,7 @@ While the $v_2$ fluctuations compare well between the two methods, the ATLAS and
 are quite different, possibly from the inapplicability of the cumulant approach for this quantity.
 The ATLAS results are essentially constant for all centrality intervals at around 0.5, which is the
 value one gets ($\sqrt{4/\pi-1}$) if the fluctuations are described by a 2D Gaussian,
-projected along the radial direction.
+projected along the radial direction (a result first given in Ref.~\cite{Broniowski:2007ft}).
 Figure~\ref{fig:pas:fc:flowfluc1}(left) shows ALICE data~\cite{Abelev:2012di} on $\sigma/\langle v_2 \rangle$ derived
 using a similar approach as CMS.  For centrality intervals from 5-60\%, the overall magnitude
 is similar to that seen by the other experiments.  However, this figure points out that the fluctuations
