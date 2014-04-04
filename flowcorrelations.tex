@@ -39,8 +39,8 @@ reinteraction of the initial baryons and the produced hadrons, which
 would thermalize and evolve as a ``hadron gas''.
 However, its persistence at higher energies, particularly at RHIC where the
 value of $v_2$ averaged over \pT\ was approximately twice as large as it was at the
-CERN SPS~\cite{Ackermann:2000tr}, surprised many who expected the hot system to become more
-dilute and more weakly-interacting at higher energies.
+CERN SPS~\cite{Ackermann:2000tr}, surprised many who expected the interactions 
+in the hot system to become weaker at higher energies.
 
 Collective flow was a major piece of the RHIC program, and its characterization
 in terms of hydrodynamics was a crucial piece of evidence in the RHIC discovery
@@ -76,6 +76,7 @@ lead to global correlations (momentum conservation) and others which only lead t
 One of the earliest methods for measuring flow was the ``event plane'' method, which calculates an event plane using
 a forward detector and correlates all particles with this event plane, based on the so-called ``Q-vector'' for each order $n$~\cite{Poskanzer:1998yz}:
 \begin{equation}
+\vec{Q} = \Sum_i w_i \left{ \cos(n\phi_i), \sin(\n\phi_i) \right}
 \end{equation}
 From this, the $n$-th order event plane $\Psi_n$ is simply determined as the angle of the Q-vector itself.
 From the definition of the Q-vector, the angle is $n$-fold ambiguous, but this has no effect on the extracted
@@ -120,7 +121,8 @@ to suppress jets and other sources of non-flow, takes the form:
 \begin{equation}
 \frac{dN_{\mathrm{pair}}}{d\Delta\varphi} \propto 1 + 2 \sum_n^{\infty} v_{n,n}(p_T^a,p_T^b) \cos n\Delta\varphi
 \end{equation}
-Where $v_{n,n}(p_T^a,p_T^b) = v_n(p_T^a) v_n(p_T^b)$.  Results using
+where $v_{n,n}(p_T^a,p_T^b) = v_n(p_T^a) v_n(p_T^b)$ (although it is known that 
+eventwise fluctuations of $v_n$ can violate this relation).  Results using
 two-particle correlations and direct measurements of flow coefficients
 typically give similar results if this factorized form holds true for
 experimental data.
