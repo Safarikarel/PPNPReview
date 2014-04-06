@@ -76,13 +76,14 @@ lead to global correlations (momentum conservation) and others which only lead t
 One of the earliest methods for measuring flow was the ``event plane'' method, which calculates an event plane using
 a forward detector and correlates all particles with this event plane, based on the so-called ``Q-vector'' for each order $n$~\cite{Poskanzer:1998yz}:
 \begin{equation}
-\vec{Q} = \Sum_i w_i \left{ \cos(n\phi_i), \sin(\n\phi_i) \right}
+\left\{ Q_x, Q_y \right\} = \sum\limits_{i=1}^{n} w_i \left\{ \cos n \phi_i, \sin n \phi_i \right\}
 \end{equation}
+where $w_i$ are weights applied to each particle, e.g. to make a detector response more uniform.
 From this, the $n$-th order event plane $\Psi_n$ is simply determined as the angle of the Q-vector itself.
 From the definition of the Q-vector, the angle is $n$-fold ambiguous, but this has no effect on the extracted
 $v_n$ coefficient, which is defined as
 \begin{equation}
-v_n = \frac{v^{obs}_n}{\mathrm{Res}\{ n \Psi_n \}} = \frac{ \langle \cos ( n [\varphi - \Psi_n] ) \rangle }{ \langle \cos ( n [\varphi_n - \Psi_n] ) \rangle    }
+v_n = \frac{v^{obs}_n}{\mathrm{Res}\{ n \Psi_n \}} = \frac{ \langle \cos  n [\varphi - \Psi_n]  \rangle }{ \langle \cos  n [\varphi_n - \Psi_n]  \rangle    }
 \end{equation}
 where $\varphi_n$ is the direction of the true event plane.  The latter quantity cannot be observed directly and so the
 resolution parameter must be derived from comparison of different detector regions.  This is typically done by comparing
