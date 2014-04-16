@@ -1,0 +1,273 @@
+﻿The review “Heavy-ion collisions at the LHC” by Roland, Safarik, and Steinberg presents an extensive summary of the vast amount of data collected during the first two years of Pb-Pb collisions at the LHC. The review is well written. It will be a valuable resource to the community. 
+Because of the lack of solid theories for heavy-ion collisions, the review is mostly qualitative, which could be seen as a shortcoming unfixable at this time. This is not a criticism. Maybe the only criticism I have is that the review seems to lack a critical assessment of the data. For example, 
+
+
+
+what does the simple chemical and kinetic freeze-out description of the data really mean? 
+
+These are rather assumptions than descriptions of the data. However, there is a point, and we try to elaborate on this with two extensions:
+In the case of the kinetic freeze-out the simultaneous blast-wave fit, presented in the paper, is just a very rough attempt (a poor-man hydro), if it makes sense at all. The text was modified, mentioning that it’s necessary to take resonances and their decays explicitly into account, and adding a couple of sentences explaining that it is a (useful) approximation, however, a common kinetic freeze-out is put (or not) there by a hand (and it would be a miracle, if this is true for all particles, knowing the spread in the cross sections among them). We believe that this part is now better explained, it continues with hydro+afterburners, however, to expand that to a full-glory-hydro-model description is outside the scope of this paper. 
+What concerns the chemical freeze-out, we already mentioned in the text that it is currently questioned, if a common temperature is the correct assumption, (based on recent lattice-QCD calculations, line 731). We added to the first paragraph of that subsection following sentence: “The assumption of a chemical freeze-out temperature common to all particle species surmises that the particle composition in a heavy-ion collisions is fixed in a very narrow entropy-density window during the expansion of the high-density and high-temperature fireball.”
+
+
+
+What does strangeness enhancement really tell us? 
+
+Strangeness enhancement is well established experimental fact, discussed in specific reviews, some are referred in our paper. We added 3 sentences to the end of the second paragraph of the corresponding section, to summarize this knowledge.
+
+
+
+Is it obvious that the measured harmonics are directly connected to hydrodynamic fl
+
+When they were first observed, there was substantial skepticism that it was related to flow.  However, in general, the ability of hydro models to capture the basic features of heavy ion collisions: from spectra to higher-order flow harmonics, as a function of centrality and pT (if not rapidity, e.g. using 2+1D models) is quite impressive.  In this sense, flow is by far the consensus explanation for the broad range of measurements of the azimuthual harmonics, and is thus the focus of this particular section.  
+
+
+
+What is the role of nonflow quantitatively?
+
+Non-flow refers in general to azimuthal correlations that are not related to global deformations of the final state angular distributions, in particular due to jets (or other sources of local energy-momentum conservation) and global energy-momentum conservation.  Both of these effects can and typically do imprint themselves on the final angular distributions and thus distort estimates of the global harmonics, and thus the strategies of most flow analyses is to suppress them as much as possible, whether using rapidity gaps between particles in two-particle correlations, or by using multi-particle cumulants.  Of course, the precise way the manifest themselves depends on the specific measurement, so it is difficult to answer this question in general.
+
+
+
+Is the measured charge correlation really connected to chiral magnetic effect? 
+
+We modified this part, we cite the publications describing effects which can imitate the measured effect. We added to the conclusion the sentence (very clear)  suggested by second referee, now it reads: “To conclude, a clear signal compatible with a charge-dependent separation relative to the reaction plane is observed and can be used to constrain theoretical calculations. However, its relation to the chiral magnetic effect still needs to be clarified.”
+
+
+
+What are the complications of jet reconstruction in heavy-ion collisions and their effect on physics interpretations? 
+
+GUNTHER
+
+
+
+These are some of the questions one should ask and this review would be a good place to discuss these questions. 
+Please find below my specific comments. 
+
+
+
+Line 385: It should be mentioned how the nucleon force hardcore potential (nucleon exclusion volume) is included in the sampling of nucleon positions inside nucleus. It is important to mention that, when a nucleon is within the hardcore distance from any other nucleons, the ensemble of the nucleus has to be start over all together, not just the position of the particular nucleon.
+
+463: “including or not a minimal separation between nucleons inside each nucleus.” Usually maximum and minimum exclusion volumes are used to assess this systematic uncertainty.
+
+A text was added in the line 385 saying: “optionally taking into account a nucleon-exclusion volume (hard-core potential)”, because this is what actually has been done. Also the text in the line 463 was modified to: “variation of the parameters describing the nucleus density, including that for nucleon-exclusion volume, within the uncertainties from [15]; ”. In fact, for Pb nucleus the latter parameter is d_min = (0.4 +- 0.4) fm, therefore it was said “including or not”, it’s the same. Concerning the implementation, this is a popular discussion at many meetings. In the specific literature on the subject [10,13,14,16] it is not precisely mentioned, however, the approximation used is that just to sample again the position of the nucleon which appeared to be closer than d_min. On the other hand, even the referee’s proposal to restart the sampling of the whole configuration, doesn’t solve the problem exactly, it is a further approximation. Introduction of nucleon–nucleon correlation necessarily modify the nucleus density profile (see e.g. Hirano, Nara PRC79, 064904, for one-nucleon distribution), and that has to be taken into account by numerical integration at each step (i.e. evaluating the conditional probability distribution, under assumption that already positioned nucleons are in their definite places).  There was another proposal by Alvioli, Dresher, Strikman (PLB 680, 225) using Metropolis algorithm to adjust the nucleon position, which leads to mathematically precise solution (in the limit of infinite number of iterations). Such solutions would substantially increase the computer needs, with a negligible change of the results. As it was shown, i.e. in [10,16], the variation of d_min has the least influence on results of Glauber MC (N_part and N_coll), which is expected, because the centrality is the ratio of two cross sections and the effect of d_min in a large part cancels out. Therefore, we believe that to describe details about the approximation used for nucleon–nucleon correlation  (not done even in the dedicated review [10]) and not to explain in addition other Glauber MC approximations which have larger influences [10,16], would make this part unbalanced.
+
+
+
+550: “…leading to a higher R_AA…” I don’t understand this sentence. Should it be lower R_AA?
+
+Yes, this was clearly wrong, and thanks to finding this “blunder”. The sentence is modified to “…leading naturally to an $R_{\rm AA}$ below unity…”.
+
+
+
+p.18: It would be useful to have references for RHIC results.
+
+The RHIC references were added.
+
+
+
+p.21 Sec.3.3: there is an omission of AGS data on strange-particle production.
+
+It’s true, however, going to lower and lower energy, we enter progressively completely different regime (e.g. there are also data from SIS), therefore we use some (pragmatic) limit, setting it at the SPS. We modified to: “…at lower energies, e.g. at the SPS…”
+
+
+
+647-650: “This reflects the fact that the production…” While the statement may be correct, it seems contradictive to the idea of strangeness enhancement as a QGP signature. Some elaboration on the complications of strangeness production may be necessary here to avoid confusion. 
+
+Yes, point taken. In fact, the statement is rather known experimental fact. To avoid the confusion, we slightly modified the sentence, and we added the following: “However, these asymptotic yields per pion are significantly higher in heavy-ion collisions than in pp interactions, signaling the change of the mechanism of strangeness production.”
+
+
+
+651-656: It would be useful to provide references for data described in this paragraph.
+
+Yes, we added references. However, in general, we would like to avoid to refer to preliminary results, e.g. those published in conference proceedings only. The reason is that collaborations have certainly the right to publish their results in a refereed journal first, before this is done by (a bunch of) other people (like us) in a similar level journal. (Unfortunately, this is not followed by all the community.). Therefore we certainly not show those in Figs.
+
+
+
+It might be better to combine Fig.16+17 into the same figure as two panels.
+
+Yes, it’s a good idea. Done, with corresponding changes in the text.
+
+
+
+762-763: Coulomb interaction is also a final state particle interaction so it seems odd to list them separately.
+
+Yes, we used the suggestion from other referee: “…final state strong interaction…”
+
+
+
+771: The “like-sign” phrase is confusing here. Do you mean “identical particle correlation” here?
+
+Here we would like to keep it. This is a discussion, how it is experimentally done, and to obtain the result on pion-pion identical particle correlations, one doesn’t use identified pions, just “like-sign two-particle distribution” . As the majority of the particles in that momentum region are pions, the contamination from other particle species is under-carpeted in \lambda parameter of the fit. But there is no space to go to all this technical details.
+
+
+
+826-845: It seems a figure would be helpful to decipher this paragraph.
+
+Unfortunately, this cannot be done. These results were presented at conferences, corresponding figures have “preliminary” status, and the publication is under collaboration review for final publication. We just added citation to conference proceedings. However, we cannot publish a figure in a refereed journal on behalf of three persons, this has to be done first by the collaboration, on behalf the people who did the work.
+
+
+
+851: \pi/2 should be -\pi/2.
+
+Yes, thanks.
+            
+
+                                                    
+865: It’s not necessarily true that detection efficiency is corrected by mixed-event technique. For example the two-particle efficiency at \Delta\eta=0 is not necessarily 100%.
+
+Right, there are many “correlation effects”, which are not taken into account this way. We added: “…the acceptance and detection efficiency are approximately taken into account, apart the effects caused by correlations.”
+
+
+
+Sec.4.3 “Angular correlations” the extensive studies at RHIC seems completely missing from this section. It would be useful to include the RHIC work with references here to put things into perspective and to increase the usefulness of the review.
+
+Yes, was omitted. We added a few sentences and references to RHIC results at the beginning of this subsection.
+
+
+
+912-920. It would be useful to give the definition of balance function by a formula. Ref.[101,102] are the proper refs for the models but not for the particular balance function calculations, so they are not very useful.
+
+Agreed, balance function is now defined with a formula. However, we would like to keep Refs. [101,102] for the models.
+
+
+
+Sec.4.4 “Chiral magnetic effect” A more critical examination of the data would be more useful for the review. The elliptic flow background in the correlator measurements should be more prominently discussed in order not to mislead the reader.
+
+We modified the explanation in a few places, we give more precision what a background affecting the two particle correlator might be (there was something misleading, such background is not due to the elliptic flow, is mostly due to correlations non-related to reaction planes, therefore now we give an example, the elliptic flow mostly affects systematic, due to the resolution of reaction plane angle). We also added the references to the effects which may imitate the CME signal. Finally, at the end of this discussion we added the sentence suggested be second referee: “However, its relation to the chiral magnetic effect still needs to be clarified.”
+
+
+
+p.33 Eq.5: In “\Psi_n^{P(N)-\Psi_n}” the second \Psi_n should be \phi_n, the true harmonic plane. It should be pointed out that \Psi^P and \Psi^N are assumed to be the same here which may not be necessarily true. This is because the EP can be decorrelated over eta and pt.
+
+- Fixed, and text added: "making the (non-trivial) assumption that the subevents see the same event plane angle:"
+
+
+
+1029: What does “direct measurements” mean? Do you mean “EP-method”? I don’t think it’s any more direct than two-particle correlation method. In fact the EP-method is similar to the two-particle method because the EP-method is based on correlations between the test particle and the particles used in EP reconstruction. The EP-method is actually more complicated, conceptually, than the two-particle method.
+
+— It was supposed to be event-plane method.  Fixed.
+
+
+
+p.34: It is very disturbing that the v2(pt) scaling persists over a very wide range of beam energy. This seems to suggest that v2 is actually insensitive to the initial energy density and pressure (which should vary with energy), but solely to the geometry eccentricity. This point should be more extensively discussed.
+
+— An amusing comment given the other referee.   I added 
+
+
+
+p.38 Fig.28 caption: “Very little…[134]” this sentence seems out of blue.
+
+— I think this was left over from an older iteration — sentence removed
+
+
+
+1124: “ATLAS also measure…” to end of this line: the sentence seems incomplete.
+
+Fixed
+
+
+p.53 Fig.46: remove “(i-l)…”
+
+Removed reference to missing panels
+
+
+
+1451: At end of the paragraph, it should be pointed out that the lost energy at low pt 
+are not included in the reconstructed jet energy, so the fragmentation function 
+is not relative to the parent parton energy. It could be that the measured 
+fragmentation function reflects in-vacuum fragmentation.
+
+The text now reads: 
+"It is important to note, and has led to occasional confusion, that these 
+fragmentation functions are measured relative to the \em observed \em jet 
+momentum, not with respect to the initial parent parton momentum, as the 
+latter can not be directly observed for dijet events in hadronic collisions.
+Also, energy radiated outside of the jet cone, or at \pT\ of less than $\approx 1$\GeVc\
+is not included in the jet energy determination."
+
+
+
+1481-1484: “Therefore traditional jet-track correlation…carried by the 
+underlying event.” I don’t understand the point here. The background fluctuation 
+of several 10’s GeV will of course make jet-track correlation impossible on 
+event-by-event bias. But jet-track correlations have always been carried out as 
+an average over a large event sample. Thus the background fluctuation is not an issue.
+
+The text has been modified to clarify that the issue is the required level of precision
+in the subtraction of the underlying event contribution. It now reads:
+"Even the largest dijet energy differences of several 10's of \GeV\
+correspond to only a per-mille fraction of the total transverse energy carried by the underlying
+event. The presence of long-range flow correlations, and biases in event properties when requiring
+high-\pT\ dijets, have made a sufficiently precise description of the underlying event using e.g.\
+mixed events intractable so far."
+
+
+
+1491-1493: “This method requires…” I don’t understand the reasoning for the 
+dijet \Delta\phi cut. The event being not phi-symmetric on an event-by-event 
+basis seems irrelevant because the analysis is done averaged over many events.
+
+To clarify this point, the text has been changed to:
+"This measurement requires a tight $\dphi > 5 \pi/6$ selection for the dijet, to ensure that the
+leading and subleading cones sample similar regions of the underlying event background
+event-by-event in the presence of an elliptic flow modulation."
+
+
+
+1832: “despite of measurements showing full jet containment” is not clear to me. It seems 
+contradictory to measurements where the effect of jet energy loss appears at low pt and large angles.
+1833-1834: “Jet fragmentation…found to be substantially modified, especially at 
+large angles with respect to the jet axis.” This must be true but is not what is 
+measured so far where tracks of pt>4 GeV/c are used for the measurement. In fact 
+the jet fragmentation is observed to be minimally modified. 
+
+Text changed to:
+"Only moderate modifications were 
+found near the jet axis, with studies of the overall energy flow in dijet events recovering 
+most of the ``missing'' energy at large angles with respect to the jet axis."
+
+
+
+Minor typographical comments:
+711: as the ratio OF particles-to-antiparticles
+722: There are A few attempts
+756: add “(anti-)” in front of “symmetrization”
+874: missing ‘)’
+1022: theses -> these
+1102: remove one ‘the’
+
+All done.
+
+
+1143: remove “Although”
+
+I can’t do this one.
+
+
+
+1146: Ref is missing.
+1152: a ref would be useful for sqrt(4/pi-1).
+1207: Fig. number is missing.
+
+All done
+
+
+
+1365: “A similar measured” is missing some words.
+1429: delete one ‘shows’
+1432: delete a ‘a’
+1441: delete ‘for’
+1443: delete “the ratio of”
+1495: remove one ‘(‘
+1528: remove one ‘|’
+1720: bottom -> right
+1723: change ‘R_AA’ into ‘suppression’ because it is suppression that is larger, not R_AA which is smaller.
+p.64 Fig.54: top/bottom -> left/right
+
+
+
+1867: envisage -> envisages
+Yes, done.
+
+==================
