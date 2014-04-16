@@ -1,0 +1,364 @@
+﻿This is a well-written and very useful and timely review on the first set of important results from Pb+Pb collisions at the LHC. 
+The following comments, questions and suggestions for modification are to be taken as “friendly amendments” from a well-meaning 
+colleague. I label each comment by the line number to which it refers. I am using the revised version sent to me on Christmas 
+Eve of 2013.
+ 
+
+
+104: “corresponds approximately….” —> corresponds to the fraction of the longitudinal light-cone momentum (E+p_L)/2 carried by…
+
+We modified the text by adding “more precisely, of the longitudinal light-cone momentum,” without showing math – this would need 
+symbol definitions and will be quite heavy for the introduction. The rest… is done
+
+
+
+111: and the mass of colliding nuclei —> and WITH the mass of THE colliding nuclei 
+ 
+111: Q_s —> Q_s^2
+ 
+115: frozen —> approximately frozen
+ 
+117: rathe close —> rather close
+ 
+119: (After chemical freeze-out:) —> up to small effects from baryon-antibaryon annihilation only their momentum spectra are 
+modified. (B-Bbar annihilation processes below T_chem do matter — without accounting for them, p and pbar spectra and yields 
+are over predicted by about 50%.
+ 
+125: the resistance of the medium … —> The measured weak resistance of the medium …. 
+ 
+136/137: is consistent —> is qualitatively consistent
+
+All these comments are done, and thank you.
+
+ 
+
+
+378-381: This duplicates things that were already said earlier — some parsing may be advisable.
+
+Yes, we agree. Done, was streamlined…
+ 
+
+
+386-388: (first bullet) This ignores the finite size of each nucleon, and the existence of a neutron skin in large nuclei. Hirano and Nara (Phys.Rev. C79 (2009) 064904) showed how to correct for the finite nucleon size, but not for the neutron skin. The two effects go in opposite directions, so by ignoring both one may profit from some cancellation. Still, this deserves mentioning. In line
+ 
+462: it is mentioned that a number of effects such as the two just mentioned have been systematically studied, so perhaps the reference to Hirano and Nara belongs here.
+
+The text in first bullet (line 385) was modified mentioning the nucleon-exclusion volume. Also the sentence in line 462 is now more specific about all variations done. However, we believe that the citations used in this part [10,13,14,16] properly reflect what was done, there certainly exist many more on this point (see e.g. the references in Alvioli et al. PRC85, 034902 – the proposed ref. is also there -- however, we do not see an argument to single it out). As was shown in [10,16], the variation of the exclusion volume (d_min) has the least influence on results of Glauber MC (N_part and N_coll), which is expected, because the centrality is the ratio of two cross sections and the effect of d_min in a large part cancels out. Therefore, we believe that to describe details about the nucleon–nucleon correlation  (not done even in the dedicated review [10]) and not to explain in addition other Glauber MC approximations which have larger influences [10,16], would make this part unbalanced.
+
+ 
+
+495-498: It is not clear how the effect of gluon saturation (which should be stronger in central than in peripheral collisions) gives rise to a STRONGER than linear dependence of multiplicity on N_part. This sentence requires clarification. Ref. [26] does not seem to be the most up-to-date reference on the implementation of the gluon saturation model.
+
+The increase of (dNch/deta)_eta=0/(Npart/2) as a function of Npart is obtained in the Refs [25,26] as consequence of running coupling constant alpha_s (for central collisions local Q_s**2 is higher than in peripheral collisions, alpha_s is smaller, which increases the multiplicity Nch ~ 1/alpha_s). This is called in [25] “robust prediction” of KLN model. (In Ref. 24 an empirical scaling of Q_s**2 with A or Npart is used to obtain such increase.) What concerns the description of PbPb data we believe the Refs. are up-to-date (see, e.g. citations in recent review Albacete, Marquet, arXiv:1401.4866) , there are of course many new calculations for pA, using these models.
+ 
+
+
+Fig. 6 Bottom: What is the meaning of the bluish uncertainty band? Where does this uncertainty arise from? 
+The explanation was added to the figure caption, the band represents total systematic uncertainty, including that of Npart determination.
+
+525: Please support the statement made in this sentence by the corresponding reference.
+
+The reference was added. Explanation: in general, we would like to avoid to refer to preliminary results, e.g. those published in conference proceedings only. The reason is that collaborations have certainly the right to publish their results in a refereed journal first, before this is done by (a bunch of) other people (like us) in a similar level journal. (Unfortunately, this is not followed by all the community.) However, this case we can treat as an exception: ALICE has reported this result at QM11 (see ref.), this was superseded by the direct CMS measurement, already published, as a consequence the ALICE preliminary result will probably never end up in a publication.
+ 
+
+
+533: A reference to the epsilon tau_0 value for RHIC, and/or the factor 2.6 between that value and the one quoted for the LHC, is missing
+
+The reference for the RHIC value of epsilon tau_0 was added.
+
+
+
+ 550: "leading to a higher R_AA” should really read “leading to a smaller R_AA”, right?
+
+Right! (and thank you for finding this “blunder”). Replaced by “…leading naturally to an $R_{\rm AA}$ below unity…”.
+ 
+
+
+556: their quenching lowers the particle production —> their shift to lower p_T by parton energy loss lowers the particle production  (quenching is not the best choice of words here)
+
+Yes, that’s much better formulation, it is implemented.
+
+
+
+558: —> (for fixed parton energy loss, a harder parton spectrum at the LHC should, at any given p_T, result in less particle suppression) 
+
+Yes, that’s much precise formulation, it is implemented (without “at any given p_T”, sounds obvious).
+
+
+
+ 570-572: “Different models can be tuned to fairly reproduce the R_AA data”:  Not really! At least not simultaneously at both RHIC and LHC, with the same model parameters/assumptions.
+
+Yes, we agree, we added in that sentence: “…, it remains to be demonstrated that they describe with the same parameters the collision-energy dependence between RHIC and the LHC, and  the ensemble of other observables,…”
+ 
+
+
+584: "This effect is clearly visible in Fig. 10,”   Much of the effect seen in Fig. 10 comes from the mass-dependent Jacobian between p_T and m_T which flattens the proton spectra relative to the pions even if there is no radial flow. To demonstrate strong radial flow, Fig. 10 should be replotted against m_T-m_0, as done in the recent review by Heinz and Snellings. 
+
+We agree with the argument. However, we always prefer to show the data as published by experimental collaboration, and in Fig. 10 the p_T spectra are compared to RHIC measurements, where the radial flow is well established, thus we maintain that “is visible in Fig. 10”. We modify the sentence: take out “clearly”, and mentioning explicitly this comparison. After we add a sentence, where we cite the review by Heinz and Snellings : “As the slope of the $p_{\rm T}$ spectra is affected by the particle masses ($m$), more instructive is to demonstrate it (this effect) using the transverse-mass  ($m_{\rm T}$ = \sqrt{$p_{\rm T}$^2 + m^2}) spectra, as done in~\cite{Heinz:2013th}.”
+
+
+ 
+587: The mentioned blast wave fit is not convincing because it does not properly account for resonance decays. At LHC energies, due to the large radial flow effect on heavy resonances, resonance decays affect the shape of the pion spectrum up to p_T=2 GeV, and also for the kaon spectra resonance decays cannot be ignored completely above 0.35 GeV. These blast wave fits should be redone including all resonance decays. The corresponding routines are available. A careful blast wave analysis including resonance decays for RHIC energies was done by Jane Burward-Hoy from PHENIX, and the same standard of quality should be used when analyzing the much better LHC data.
+
+Yes, we agree that would be better to account for resonances explicitly, and we are aware about (at least two) efforts (in one of the collaborations, writing their code) to do it. Because this was not publish yet, we add a remark: “…proper way would be to account for resonances and their decays in the fit, this is in preparation)…”
+ 
+
+
+626:—> "the behavior is qualitatively described by models involving constituent quark recombination from a pool of radially flowing quarks [56]….” I think it is important to emphasize that the success of the quark coalescence model at intermediate p_T relies on the validity of the hydrodynamic picture at low p_T, with the coalescence mechanism effectively carrying flow information towards higher pT and mixing it there with fragmentation from hard partons. In Fig. 12 you see very clearly that, even though the hydro description of the single-particle pT spectra deteriorates above 2 GeV, the radial flow effects continue to dominate the pT-dependence of the p/pi ratio out to at least 3 GeV. Only bend 3 GeV that ratio begins to decrease again, due to the increasing role of coalescence from jet fragments.
+
+We agree with this comment, except the last sentence. (This is connected with the comment to lines 680-682.) We add to the intermediate region discussion: “In the intermediate region, where the hydrodynamics ceases to work (at $p_{\rm T}$ around 2~GeV), still the hydrodynamic radial flow continues to affect the baryon-to-meson ratio towards higher $p_{\rm T}$, and the behaviour is…”. However, there is a growing (circumstantial) evidence that at the LHC the predictions from coalescence models are not as well supported by experimental data as it was at RHIC. These are data on v_2 scaling, \phi production, and this information is scattered in different conference contributions. As the publication is in the preparation and not published yet, we cannot take from there a definite statement, and put it into a review outside the collaboration, which prepared it. This is the reason why we don’t want to emphasize “the success of the quark coalescence model”, but restrict ourselves to a few facts presented at the conferences.
+ 
+
+
+630: "a smooth connection …. will probably move the border between the intermediate and fragmentation regions to lower than observed values”  — Why? I don’t understand this point. Was this taken from some paper? If yes, please give reference.
+
+No, this is back-of-envelope estimate up to which pT and on what level the baryon-to-meson ratio will be enhanced, depending on radial velocity, and taking as a high-pT limit the ratio in fragmentation. Therefore is written “…probably…”, it is certainly “an opinion statement”, but we would prefer to keep it.
+ 
+
+
+651-656: These statements are neither supported by a figure nor a reference. Please correct.
+ 
+680-682: I was very much intrigued by this comment — is there a reference to these preliminary data (say, at some conference) that supports this statement? A reference to related predictions by Hirano (Phys.Rev. C77 (2008) 044909) and Song (arXiv:1311.0157) may be useful.
+
+To these, our comment as that to the line 525 apply, therefore no Figs. However, we added the reference to the latest contribution on this subject, done at SQM 2013, the contribution is on arXiv (is the same for both, the R_AA for different strange particles is there just for comparison). Concerning a comparison of \phi results to predictions, at this stage of preliminarity would be probably premature, we believe it will be done by the authors soon.
+
+LATEST UPDATE: In the mean-time the publication reached arXiv (arXiv:1404.0495) and is submitted to the journal. Therefore, we modified this part, commented on the comparison with predictions, and substantiated that intriguing comment by the figure showing the p-to-\phi ration as a function of p_T.
+
+ 
+
+727: “the particle density makes it larger at LHC thane at RHIC” — No - the particle density in the hadron gas is the same at RHIC and LHC (it is simply given by the temperature). What makes a difference is the larger lifetime and smaller longitudinal expansion rate (due to the later QGP->HG conversion) of the hadronic rescattering stage at the LHC (yes, both the QGP and HG stages live longer at the LHC).
+
+Right, we changed the argument from density to “… the longer lifetime of the hadron gas makes it larger at the LHC than at RHIC…”.
+ 
+
+
+735-738: The effect of possibly unaccounted high-mass resonances depends only at temperature, and the temperature range in which the hadron gas exists is the same at RHIC and LHC. So the resulting lowering of the p/pi ration  would be the same at RHIC and LHC.
+
+Yes, but we don’t claim at this point that’s different. To be clear, we added: “,however, in a similar way at the LHC and at RHIC.”
+ 
+
+
+763: final sate particle interactions —> final state strong interactions
+
+Yes, done.
+
+ 
+
+796: I do not see how a change of T_dec from 120 to 95 MeV could change the decoupling time from 10.5 to 13-14 fm. The correct estimate is 11-12 fm. (In the Makhlin-Sinyukov formula the lifetime goes with the square root of the decoupling temperature.)
+
+…times a correction factor, ratio of modified Bessel functions, anyway small. The estimate was redone (using numbers from ref. [88]), we got to 12.2 fm, thus we wrote “about 12 fm”. Thanks.
+
+ 
+
+817: Ref. 96 requires the addition of the PRL by Asakawa et al which appeared in the same issue just preceding the Jeon-Koch paper.
+
+Yes, done.
+
+
+ 
+841-845: Here a reference to Bozek, Broniowski, PRC85 (2012) 044910, who discuss radial flow fluctuations caused by fluctuations in the initial fireball size, should be added
+
+Yes, agreed, was added.
+
+
+ 
+860: from the different events —> from different events
+
+Yes, done.
+
+ 
+860: I find the phrase “or a trigger particle from (not ‘form’) one event and all associated from another one” confusing. Perhaps it would help to replace ‘associated’ by ‘“associated” ones’ (i.e. putting quotation marks around ‘associated’ and adding ‘ones’, to make clear that these particles are not really physically ‘associated' with the trigger.
+
+Yes, it’s better, done.
+
+ 
+870-872: I would add to this bullet correlations from local charge conservation in jet fragmentation and resonance decays (see Bozek and Broniowski, Phys.Rev.Lett. 109 (2012) 062301)
+
+It’s true, however, the effects are smaller (and there are others), thus we just added: “…, and other correlation effects”
+
+
+
+874: flow —> flows, and close parenthesis after Sec. 5
+
+Yes, done.
+
+ 
+
+953: IMHO, the paragraph should be closed by adding the following clarifying sentence: “Its relation to the chiral magnetic effect still needs to be clarified.”
+
+Absolutely, done.
+
+ 
+969: I do not know of anybody who expected the hot system to become “more dilute” at higher energies. Please delete. “more weakly interacting” (or better “less strongly interacting”) is both correct and sufficient.
+
+— Agreed (not sure why i said more dilute) - changed to "surprised many who expected the interactions in the hot, dense system to become weaker at higher energies."
+
+
+
+1004-1005: Eq. (3) is missing!
+
+— Oops
+
+
+
+1029: "Where v_n,n….” This statement is wrong. It is broken by event-by-event fluctuations, even in pure hydrodynamics. Please see discussion in Heinz, Qiu, Shen, Phys.Rev. C87 (2013) 034913 (especially eq. (12) and following discussion, and Sec. IV)
+
+— I think this is asking a bit much, given how factorization was used by all the experiments as a “proof” of flow in the early days.  I have added "(although it is known that eventwise fluctuations of $v_n$ can violate this relation)"
+
+
+
+1041: “there is no fundamental understanding….” — yes, there is! This phenomenon is perfectly well understood as a competition between increasing total momentum anisotropy (which is 30% larger at LHC than RHIC) and increasing radial flow (which pushes the momentum anisotropy out towards larger pT at the LHC). These two effects lead accidentally to an apparent energy independence of the differential charged hadron v2^ch(pT), but this accident is resolved in the particle-identified differential elliptic flow of pions, kaons, and protons. The “puzzling scaling” is accidental and the observations are explained in Kestin and Heinz, Eur.Phys.J. C61 (2009) 545-552; Heinz, Nucl.Phys. A830 (2009) 287C-290C (ideal hydro); Shen and Heinz, Phys.Rev. C85 (2012) 054902 (viscous hydro).
+
+— I am personally unsatisfied by this, given the persistence of the scaling down to the lowest STAR energy (7.7 GeV).  I have kept most of the text, but added "All of this said, it has also been argued that the observed scaling is an accidental feature arising from the interplay of the increasing anisotropy and radial flow~\cite{Shen:2012vn}."
+
+
+
+1124: A reference to the ALICE analysis and to the choice of the fit form (due to Ollitrault, I believe) is missing.
+
+— References added 
+
+
+
+1146: The reference after 'Ref. ‘ at the end of this line is missing.
+
+— Fixed
+
+
+
+1153: a reference to Voloshin, Poskanzer, Tang and Wang, PLB is missing for the factor sqrt{4/pi-1}.
+
+— I checked that PLB and they refer to Broniowski et al.  I prefer to use the earlier reference (so fixed)
+
+
+
+Figure 34: The caption to the left panel mentions only v2, but v3 data are also shown.
+
+— Added “and v3” to caption
+
+
+
+1207: Is the reference to Fig. 35? The figure number is missing.
+
+- Fixed 
+
+
+
+1208-1209: Something went wrong with the grammatical structure of this sentence….
+
+— Fixed, more or less "Thus, the large values of $M_{\mathrm Z}$ and $M_{\mathrm W}$ generally lead to rather modest nuclear modifications."
+
+
+
+1211: Missing blank between ‘Pb+Pb’ and collision. This is a macro error which repeats itself frequently.
+
+— Fixed
+
+
+
+1221: —> spectrometer, which ALSO covers |eta|<2.4…
+
+- Fixed
+
+
+
+1230: missing blank between pT and muon (macro definition error)
+
+- Fixed in multiple places
+
+
+
+1238: missing blank between p+p and data (macro definition error)
+
+- Fixed in multiple places
+
+
+
+1251: nor are they required —> they are not required
+
+- Fixed
+
+
+
+1269: and nor —> nor
+
+- Fixed 
+
+
+
+1281-1283: Why are the larger photon slopes at the LHC not simply due to the larger radial flow measured at the LHC?! How do you know they reflect a higher temperature? See arXiv:1308.2440v3 [nucl-th].
+
+- Of course I agree with this, so i’ve added it as a proposed explanation
+
+
+
+1317: data is —> data are
+
+changed
+
+
+
+1327: varying from —> in the range
+
+changed
+
+
+
+1342: Journal missing in reference 163.
+
+fixed
+
+
+
+1380: Here and later PYTHIA+HYDJET is mentioned repeatedly. It is necessary to 
+describe in a sentence what HYDJET does or what dynamics in includes, with reference. 
+For example, does HYDJET include parton energy loss? How? If yes, 
+what’s the default E-loss parameter?
+
+HYDJET is used for the simulation of the the underlying event and its fluctuations.
+The text has been changed to:
+"The data are compared to \PYTHYD\ simulations, where
+(unquenched) PYTHIA dijet events are embedded into HYDJET background events.
+HYDJET is tuned to reproduce multiplicity, \pT\ spectra and elliptic flow of \PbPb\
+data events."
+
+
+
+1445: blank missing between ‘observed' and ‘jet’.
+
+fixed
+
+
+
+1471: duplicate ‘and’
+
+fixed
+
+
+
+1514-1516: Reference to X-N Wang missing, who first proposed photon-jet correlations.
+
+added reference to Wang:1996yh
+
+
+
+1548: Reference missing to the numbers in the preceding sentence.
+
+added reference
+
+
+
+1592-4: Reference to M. Djordjevic missing.
+
+Yes, added.
+
+
+
+1637: shown —> also shown
+
+Yes, done.
+
+
+
+That’s it. Congratulations!
+
+********************************* End of report **********************************************************
