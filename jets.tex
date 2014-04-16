@@ -172,9 +172,12 @@ and changing the effective cone size in the jet reconstruction. ATLAS showed tha
 distributions remain essentially unchanged with a variation of the radius parameter from $R=0.2$ 
 to $R=0.4$~\cite{Cole:2011zz}. CMS showed that the dijet asymmetry was nearly identical
 going from $R=0.5$ calorimeter jets to $R=0.3$ for ``particle-flow'' jets, which are more sensitive
-to low-momentum jet fragments~\cite{Nguyen:2011fg}. In addition, both experiments showed that the 
+to low-momentum jet fragments~\cite{Nguyen:2011fg}. These and other studies showed that the effect
+of underlying event fluctuations on the jet asymmetry measurements for the radius parameters
+and \pT\ selections studied to-date is small, although no fully unfolded dijet measurements
+have been published so far.  Both experiments showed that the 
 background fluctuations in data are well described by the HIJING and HYDJET MC models used
-for resolution studies in \PbPb\ events. 
+for resolution studies in \PbPb\ events, making corrections for fluctuation effects possible. 
 
 \subsection{Suppression of jet yields}
 
@@ -397,20 +400,27 @@ For a more detailed comparison to data, calculations need to include hadronizati
 jet clustering effects, as shown in a recent study using the AMPT transport model~\cite{Ma:2013uqa}.
 
 In addition, in particular for high precision studies of fragmentation patterns at $\pT < 4$\GeVc\, 
-the treatment of 
-selection biases is important for an interpretation of the results. The necessary jet energy 
-corrections to translate the energy sum observed in the detector to ``hadron level'' are 
-obtained from data driven studies and MC simulations for ``average jets'' in terms of quark/gluon 
+the treatment of selection biases is important for the interpretation of the results. The necessary jet energy 
+corrections to translate the energy sum observed in the detector to ``hadron level'' jets are 
+obtained from data driven studies and MC simulations for ``average'' jets in terms of quark/gluon 
 jet mixture and fragmentation patterns. Quenching effects are expected to affect gluon jets more
 due to the larger color factor, and can therefore induce apparent changes in observed fragmentation
 patterns due to changes in the selected quark/gluon jet mixture. Similarly, depending on the 
 details of the detector response, jet energy corrections may systematically undercorrect gluon 
 jets, due to their softer constituents, and overcorrect quark jets, and therefore bias the 
-observed fragmentation patterns after applying a jet energy selection. These biases need to 
-studied for specfic jet constituents (e.g.\, calorimeter towers, tracks or particle flow objects)
+observed fragmentation patterns after applying a jet energy selection. These biases need to be
+studied for specfic jet constituents (e.g., calorimeter towers, tracks or particle flow objects)
 and observables. A possible way to mitigate their effects are correction algorithms that 
 are applied on jet constituent level, rather on the overall jet energy, in particular for
-the particle flow reconstruction.
+the particle flow reconstruction. 
+
+An additional bias arises from underlying event fluctuations. Positive fluctuations will add to the 
+jet energy, and therefore make the jet more likely to be selected by given analysis cuts. Such
+fluctuations will also ``add'' soft particles inside the jet cone, after subtraction of an 
+average background, thereby biasing measurements of e.g.\ fragmentation functions or 
+jet shapes at low \pT. Detailed MC studies are necessary to measure and possibly correct
+for these biases, giving significant contributions to the systematic uncertainties of 
+such measurements.
 
 
 \subsection{Energy flow in dijet events}

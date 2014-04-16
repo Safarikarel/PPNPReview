@@ -37,8 +37,9 @@ We modified this part, we cite the publications describing effects which can imi
 
 What are the complications of jet reconstruction in heavy-ion collisions and their effect on physics interpretations? 
 
-GUNTHER
-
+We added a brief discussion of the influence of background fluctuations at the end of 
+Section 7.1 (Dijet asymmetries) and a discussion of selection and reconstruction 
+biases at the end of Section 7.3 (Modification of jet structure)
 
 
 These are some of the questions one should ask and this review would be a good place to discuss these questions. 
