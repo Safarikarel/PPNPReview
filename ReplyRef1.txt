@@ -153,7 +153,8 @@ p.33 Eq.5: In “\Psi_n^{P(N)-\Psi_n}” the second \Psi_n should be \phi_n, the
 
 p.34: It is very disturbing that the v2(pt) scaling persists over a very wide range of beam energy. This seems to suggest that v2 is actually insensitive to the initial energy density and pressure (which should vary with energy), but solely to the geometry eccentricity. This point should be more extensively discussed.
 
-— An amusing comment given the other referee.   I added 
+— An amusing comment given the other referee proposal. I added "It also suggests that $v_2$ is relatively insensitive to initial pressure and density, and mainly driven by the initial-state geometry." At the end of this discussion, motivated by the second referee, we added: "All of this said, it has also been argued that the observed scaling is an accidental feature arising from the
+interplay of the increasing anisotropy and radial flow~\cite{Shen:2012vn}."
 
 
 
@@ -243,7 +244,7 @@ All done.
 
 1143: remove “Although”
 
-I can’t do this one.
+Here we prefer to stay with orginal formulation, we believe is correct.
 
 
 
@@ -266,6 +267,7 @@ All done
 1723: change ‘R_AA’ into ‘suppression’ because it is suppression that is larger, not R_AA which is smaller.
 p.64 Fig.54: top/bottom -> left/right
 
+All done
 
 
 1867: envisage -> envisages
