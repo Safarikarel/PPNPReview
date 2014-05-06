@@ -7,13 +7,13 @@ event'', opened a new era in studies of jet quenching. The improved signal to ba
 use of standard reconstruction techniques, calibration methods, background subtraction methods and
 jet observables developed and well characterized for studies of \pp\ collisions.
 As for \pp\ collisions, jets in LHC heavy-ion collisions are reconstructed using
-the {\sc{fastjet}} anti-$k_t$ jet clustering algorithm~\cite{Cacciari:2008gp}, with the
+the FASTJET \ak\ jet clustering algorithm~\cite{Cacciari:2008gp}, with the
 radius parameter $R$ chosen in the range of $0.2 < R  < 0.5$. Differences between the three
 experiments exist in the approach to ``background subtraction'', i.e., the correction
-of the reconstructed jet energies for contributions from the \PbPb\ underlying event. 
+of the reconstructed jet energies for contributions from the \PbPb\ underlying event.
 ATLAS and CMS employ iterative correction methods where jet candidates found in
 the first iteration are removed from the background estimate~\cite{Kodolova:2007hd,Grau:2008ed},
-while ALICE uses the median area-density method provided by the {\sc{fastjet}} package~\cite{Cacciari:2011ma}.
+while ALICE uses the median area-density method provided by the FASTJET package~\cite{Cacciari:2011ma}.
 Importantly, the ALICE and ATLAS corrections are applied on the reconstructed jet energies,
 while the CMS correction is applied to the input objects of the jet clustering algorithm.
 Differences also exist in the effective energy or momentum cutoff of the jet constituents,
@@ -30,7 +30,7 @@ elusive. A review of the theoretical state-of-the art before LHC startup can be
 found in ~\cite{Wiedemann:2009sh}.
 
 Compared to hadron-based observables such as those employed at RHIC, measurements of reconstructed
-jet, dijet and photon-jet final states promise much greater control over the type and kinematics
+jet, dijet and photon--jet final states promise much greater control over the type and kinematics
 of the initial scattering process and access to information about the energy flow in the evolution
 of the collision process not otherwise accessible.
 
@@ -44,85 +44,85 @@ not accompanied by a back-to-back high \pT\ partner jet.
 In the first study of jets in 2.76\TeV\ \PbPb\ collisions at LHC, ATLAS used azimuthal correlations and the
 momentum asymmetry between the leading and subleading jets to characterize the modification
 of dijet properties relative to \pp\ collisions \cite{Aad:2010bu}.
-The jet pairs are selected to be approximatetly back-to-back, with relative 
+The jet pairs are selected to be approximatetly back-to-back, with relative
 azimuthal angle $\dphi =|\varphi_1-\varphi_2| > \pi/2$
 and their momentum asymmetry is characterized using
 \begin{equation}
-\AJ = \frac{E_{T1}-E_{T2}}{E_{T1}+E_{T2}},
+\AJ = \frac{E_{\rm{T}1}-E_{\rm{T}2}}{E_{\rm{T}1}+E_{\rm{T}2}},
 \end{equation}
 a variable that is commonly used for detector calibration using dijet balancing in \pp\ collisions.
-The leading jet is required to have a calorimeter transverse energy $E_{T1} > 100$~GeV,
-and the subleading jet is selected to have $E_{T2} > 25$~GeV, after correction for
+The leading jet is required to have a calorimeter transverse energy $E_{\rm{T}1} > 100$~GeV,
+and the subleading jet is selected to have $E_{\rm{T}2} > 25$~GeV, after correction for
 the calorimeter energy response.
 
-In Fig.~\ref{fig:GR:final_4x2} the dijet asymmetry and $\dphi$ distributions 
-for \PbPb\ data (solid markers) are shown in four bins of collision centrality. 
-The \PbPb\ data are compared to two reference distributions: The solid histogram shows 
+In Fig.~\ref{fig:GR:final_4x2} the dijet asymmetry and $\dphi$ distributions
+for \PbPb\ data (solid markers) are shown in four bins of collision centrality.
+The \PbPb\ data are compared to two reference distributions: The solid histogram shows
 PYTHIA MC calculations, including a background simulation using the HIJING event generator,
-and the open circles show data from 7\TeV\ \pp\ collisions. 
+and the open circles show data from 7\TeV\ \pp\ collisions.
 \begin{figure}[!thb]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{jetfigures/final_4x2_23_newpp.pdf}
 \caption{
-(top) Dijet asymmetry distributions for data (points) and {\sc{hijing+pythia}} 
-simulations (solid yellow histograms), as a function of collision centrality.  
-Proton-proton data from $\sqrt{s}=7$\TeV\ is shown as open circles.
-(bottom) Distribution of $\dphi$ between the two jets, 
-for data and {\sc{hijing+pythia}}, shown in four bins of centrality.
+(top) Dijet asymmetry distributions for data (points) and HIJING+PYTHIA
+simulations (solid yellow histograms), as a function of collision centrality.
+Proton--proton data from $\sqrt{s}=7$\TeV\ is shown as open circles.
+(bottom) Distribution of $\dphi$ between the two jets,
+for data and HIJING+PYTHIA, shown in four bins of centrality.
 Reproduced from~\cite{Aad:2010bu}.}
 \label{fig:GR:final_4x2}
 \end{center}
 \end{figure}
 
-The dijet azimuthal correlations in all centrality selections agree well between \PbPb, 
-\pp\ and MC reference, with the exception of a small tail in the most central bin, 
+The dijet azimuthal correlations in all centrality selections agree well between \PbPb,
+\pp\ and MC reference, with the exception of a small tail in the most central bin,
 which is likely due to combinatorial dijet pairs in data. Such combinatorial pairs
-are more abundant in data, as for some jets the subleading jet partner will be quenched 
-below the 25\GeVc\ $E_{T2}$ threshold.
+are more abundant in data, as for some jets the subleading jet partner will be quenched
+below the 25\GeVc\ $E_{\rm{T}2}$ threshold.
 
 A clear centrality evolution of the \PbPb\ dijet asymmetry distribution can be seen relative
 to both reference distributions.  For peripheral events, the \PbPb\ dijet asymmetry
 is comparable to that seen in both PYTHIA and \pp\ collisions. For central events however,
 the \AJ\ distribution widens significantly, showing a large increase in unbalanced
-dijet events and a maximum far away from $\AJ =  0$. 
-A similar measurement by CMS, using the full 2010 \PbPb\ data set, confirmed these 
+dijet events and a maximum far away from $\AJ =  0$.
+A similar measurement by CMS, using the full 2010 \PbPb\ data set, confirmed these
 observations~\cite{Chatrchyan:2011sx}.
 The observed trend can be naturally understood in models of parton energy
 loss in the hot and dense medium, where the back-to-back partons will typically traverse
-different path lengths, and therefore suffer different amounts of energy loss. 
+different path lengths, and therefore suffer different amounts of energy loss.
 
-The initial ATLAS and CMS dijet asymmetry analyses were extended using a 
+The initial ATLAS and CMS dijet asymmetry analyses were extended using a
 large dataset of \PbPb\ collisions
-collected in 2011 by the CMS collaboration at $\rootsNN=2.76$\TeV~\cite{CMS_dijet}. 
+collected in 2011 by the CMS collaboration at $\rootsNN=2.76$\TeV~\cite{CMS_dijet}.
 This was the first analysis for which heavy-ion events were reconstructed
-with the  CMS ``particle-flow" 
+with the  CMS ``particle-flow"
 algorithm~\cite{CMS-PAS-PFT-10-002,MattPFlow}. In this algorithm,
 information from all detector subsystems (e.g., tracker, electromagnetic and hadronic
 calorimeter and muon system) is combined to reconstruct so-called particle flow candidates.
 Each candidate is labeled either as electron, muon, photon, charged or neutral hadrons,
 depending on the pattern of signals in the various sub-detectors.
 To allow background subtraction in heavy-ion collisions, the candidates are
-projected into pseudo-towers, which are later clustered using the anti-$k_T$ algorithm 
+projected into pseudo-towers, which are later clustered using the \ak\ algorithm
 with radius parameter R = 0.3~\cite{Cacciari:2008gp}.
 
 Figure~\ref{fig:GR:CMS_dijet_pt} presents the dijet asymmetry in bins of leading jet
 \pT, for 0--20\% central events, allowing a study of the momentum dependence of the amount of energy loss.
 Events were selected with subleading jet $\ptsub> 30$~GeV and $\dphi>2\pi/3$ between leading and subleading jets.
-The distributions show the \ptrat\ ratio, instead of $A_j$,  as an alternative
-way of quantifying the dijet momentum asymmetry, chosen to match the 
+The distributions show the \ptrat\ ratio, instead of \AJ,  as an alternative
+way of quantifying the dijet momentum asymmetry, chosen to match the
 observable used in the first photon-jet analysis which appeared at the same time and is discussed
 below. The data are compared to \PYTHYD\ simulations, where
 (unquenched) PYTHIA dijet events are embedded into HYDJET background events.
-HYDJET is tuned to reproduce multiplicity, \pT\ spectra and elliptic flow of \PbPb\ 
+HYDJET is tuned to reproduce multiplicity, \pT\ spectra and elliptic flow of \PbPb\
 data events.
 
 \begin{figure}[!th]
 \begin{center}
 \includegraphics[width=0.6\textwidth]{jetfigures/dijet_imbalance5_0to20_pt_20120103_subt.pdf}
 \caption{Dijet asymmetry ratio, $A_{J}$, in bins of leading jet transverse momentum from
-120 $ < \ptlead < 150$~GeV/c to $\ptlead > 300$~GeV/c. 
+120 $ < \ptlead < 150$~GeV/c to $\ptlead > 300$~GeV/c.
 Results for 0--20\% central \PbPb\ events are shown as points, while the histogram
-shows the results for PYTHIA dijets embedded into HYDJET \PbPb\ simulated events. 
+shows the results for PYTHIA dijets embedded into HYDJET \PbPb\ simulated events.
 Error bars represent the statistical uncertainties.  Reproduced from~\cite{CMS_dijet}.}
 \label{fig:GR:CMS_dijet_pt}
 \end{center}
@@ -130,11 +130,11 @@ Error bars represent the statistical uncertainties.  Reproduced from~\cite{CMS_d
 One observes a strong evolution in the shape of the distribution across the
 various \pT\ bins. A significant difference between \PbPb\ data and
 \PYTHYD\ simulations persists even for the highest \pT\ bin, as indicated
-by the black and red/dashed arrows showing the mean of the data and 
+by the black and red/dashed arrows showing the mean of the data and
 MC distributions, respectively.
 The jet momentum dependence of the energy loss can be further examined by measuring the
-average dijet asymmetry $\langle \ptsub/\ptlead \rangle$ as a function of $\ptlead$. 
-This is presented in Figure~\ref{fig:GR:CMS_pt_ratio} for three bins of collision centrality, 
+average dijet asymmetry $\langle \ptsub/\ptlead \rangle$ as a function of $\ptlead$.
+This is presented in Fig.~\ref{fig:GR:CMS_pt_ratio} for three bins of collision centrality,
 with \PYTHYD\ reference distributions shown as squares and \PbPb\ data shown as points.
 
 \begin{figure}[!th]
@@ -142,7 +142,7 @@ with \PYTHYD\ reference distributions shown as squares and \PbPb\ data shown as 
 \includegraphics[width=0.6\textwidth]{jetfigures/deltaPtOverPt5_lead120_sub30_diff_20120103.pdf}
 \caption{(top) Dijet momentum ratio $\langle \ptsub/\ptlead \rangle$ as a function of
 leading jet \pT\ in three bins of collision centrality.
-\PbPb\ data are shown as points, with brackets indicating systematic uncertainties.  
+\PbPb\ data are shown as points, with brackets indicating systematic uncertainties.
 \PYTHYD\ calculations are shown as squares. In the peripheral bin,
 \pp\ data are displayed as open circles.
 (bottom) Difference of $\langle \ptsub/\ptlead \rangle$ between the \PbPb\ results and \PYTHYD\ reference.
@@ -157,41 +157,41 @@ with increasing jet \pT\ and of the evolution in jet kinematics, as described by
 calculations~\cite{CMS_dijet}. Importantly, the data show a significantly larger jet asymmetry in central events
 than in the simulations and in peripheral and \pp\ data. The effect persists to the
 highest \pT\ measured, showing that even the highest \pT\ jets in \PbPb\ collisions ($\pT > 350$\GeVc)
-suffer significant energy loss as they traverse the medium. This is consistent with the 
-observations in jet and charged hadron \Raa\ measurements, where \Raa\ in central events 
+suffer significant energy loss as they traverse the medium. This is consistent with the
+observations in jet and charged hadron \Raa\ measurements, where \Raa\ in central events
 only reaches a value of about 0.5 even for the highest momenta studied.
-A detailed understanding of the dijet balance 
+A detailed understanding of the dijet balance
 \pT\ dependence (e.g.\ fractional vs.\ constant energy loss) will require full jet MC calculations,
 taking the detector response as a function of \pT\ into account.
 
 Shortly after the first \PbPb\ jet asymmetry results were shown by ATLAS, it was pointed out that
 underlying event fluctuations can, in principle, have significant influence
-on such observables~\cite{Cacciari:2011tm}. The magnitude of these fluctuations can be controlled 
-by varying the effective momentum cutoff for the jet constituents 
+on such observables~\cite{Cacciari:2011tm}. The magnitude of these fluctuations can be controlled
+by varying the effective momentum cutoff for the jet constituents
 and changing the effective cone size in the jet reconstruction. ATLAS showed that the dijet asymmetry
-distributions remain essentially unchanged with a variation of the radius parameter from $R=0.2$ 
+distributions remain essentially unchanged with a variation of the radius parameter from $R=0.2$
 to $R=0.4$~\cite{Cole:2011zz}. CMS showed that the dijet asymmetry was nearly identical
 going from $R=0.5$ calorimeter jets to $R=0.3$ for ``particle-flow'' jets, which are more sensitive
 to low-momentum jet fragments~\cite{Nguyen:2011fg}. These and other studies showed that the effect
 of underlying event fluctuations on the jet asymmetry measurements for the radius parameters
 and \pT\ selections studied to-date is small, although no fully unfolded dijet measurements
-have been published so far.  Both experiments showed that the 
+have been published so far.  Both experiments showed that the
 background fluctuations in data are well described by the HIJING and HYDJET MC models used
-for resolution studies in \PbPb\ events, making corrections for fluctuation effects possible. 
+for resolution studies in \PbPb\ events, making corrections for fluctuation effects possible.
 
 \subsection{Suppression of jet yields}
 
 A complementary study to parton energy loss measurements using dijet asymmetries
 can be performed using the nuclear modification factor \Raa\ of jet yields in \PbPb\ relative
-to a \pp\ reference and the centrality evolution of jet \Rcp\ relative to peripheral events. These 
-measurements require unfolding of the resolution degradation caused by underlying event 
+to a \pp\ reference and the centrality evolution of jet \Rcp\ relative to peripheral events. These
+measurements require unfolding of the resolution degradation caused by underlying event
 fluctuations in \PbPb\ collisions, using standard statistical techniques.
 
-Measurements of the inclusive jet production rates were published by ATLAS~\cite{Aad:2012is} and 
+Measurements of the inclusive jet production rates were published by ATLAS~\cite{Aad:2012is} and
 ALICE~\cite{Abelev:2013kqa}.
-As a result of the path length dependence of parton energy loss in the medium, and 
+As a result of the path length dependence of parton energy loss in the medium, and
 the resulting shift of the jet spectrum towards lower \pT,
-a reduction in the observed jet yield at a given \pT\ is expected for more 
+a reduction in the observed jet yield at a given \pT\ is expected for more
 central \PbPb\ collisions, compared to an \Ncoll\ scaled reference.
 
 \begin{figure}[!th]
@@ -200,22 +200,22 @@ central \PbPb\ collisions, compared to an \Ncoll\ scaled reference.
 \caption{
 \pT\ dependence of jet \Rcp\ for  $R=0.4$ jets,
 in four bins of collision centrality. Error bars indicate
-statistical errors,  shaded boxes indicate partially 
+statistical errors,  shaded boxes indicate partially
 correlated systematic uncertainties and
 solid lines show fully correlated uncertainties. Reproduced from~\cite{Aad:2012is}.}
 \label{fig:GR:rcprfour}
 \end{center}
 \end{figure}
-The jet \Rcp\ values obtained by ATLAS~\cite{Aad:2012is} are shown in Figure~\ref{fig:GR:rcprfour}
+The jet \Rcp\ values obtained by ATLAS~\cite{Aad:2012is} are shown in Fig.~\ref{fig:GR:rcprfour}
 for $R=0.4$ jets as a function of jet \pT\ in four bins of collision centrality.
 
 A strong suppression of the jet yield develops as a function
 of collision centrality, with \Rcp\ changing from 0.9 for semi-peripheral
 collisions to only 0.5 in central collisions.  This is reminiscent
-of the charged hadron \Raa\ measurements by CMS at very high \pT\, which 
+of the charged hadron \Raa\ measurements by CMS at very high \pT\, which
 also reaches a value of about 0.5 for central events.
-The centrality dependence is consistent with expectations based on the increasing 
-in-medium path-length traversed by the partons. 
+The centrality dependence is consistent with expectations based on the increasing
+in-medium path-length traversed by the partons.
 
 Further insight into the path-length dependence of parton energy
 loss may be gained by studying the dependence of the jet yield
@@ -229,8 +229,8 @@ density with centrality.
 Related measurements have been performed using the azimuthal dependence
 of charged hadron yields at intermediate \pT\ at RHIC and LHC
 \cite{Adams:2004wz,Adler:2006bw,Adare:2010sp, ATLAS:2011ah, Abelev:2012di}.
-and very high \pT\ by CMS \cite{Chatrchyan:2012xq}. In the latter 
-measurement, a non-zero \vtwo\ for charged hadrons in mid-peripheral 
+and very high \pT\ by CMS \cite{Chatrchyan:2012xq}. In the latter
+measurement, a non-zero \vtwo\ for charged hadrons in mid-peripheral
 events was observed for \pT\ in excess of 40\GeVc.
 Compared to hadron-based results, jet-based measurements offer the advantage
 of a more direct relationship between \pT\ and direction of the observed
@@ -239,44 +239,44 @@ jet and those of the initial parton.
 \begin{figure}[!th]
 \begin{center}
 \includegraphics[width=0.49\textwidth]{jetfigures/ATLAS_jetv2.pdf}
-\caption{Jet \vtwo\ as a function of jet \pT\ in six bins of 
+\caption{Jet \vtwo\ as a function of jet \pT\ in six bins of
 collision centrality.
-Error bars indicate statistical uncertainties and 
+Error bars indicate statistical uncertainties and
 systematic uncertainties are shown as shaded boxes. Reproduced from~\cite{Aad:2013sla}}
 \label{fig:GR:ATLAS_jet_v2}
 \end{center}
 \end{figure}
 
-The ATLAS jet \vtwo\ measurement in \PbPb\ collisions 
-is shown in Fig.~\ref{fig:GR:ATLAS_jet_v2} as a function of jet \pT\ 
+The ATLAS jet \vtwo\ measurement in \PbPb\ collisions
+is shown in Fig.~\ref{fig:GR:ATLAS_jet_v2} as a function of jet \pT\
 in six bins of collision centrality~\cite{Aad:2013sla}. A non-zero
 value of \vtwo\ is observed for all centralities and \pT, reaching up to 0.05 for
 mid-central collisions and low jet \pT. The results are in good agreement
 with those for high \pT\ charged hadrons covering a comparable range
-of initial parton \pT~\cite{Chatrchyan:2012xq} and provide further 
+of initial parton \pT~\cite{Chatrchyan:2012xq} and provide further
 evidence of path-length dependent parton energy loss in these collisions.
 
 \subsection{Modification of jet structure}
 
 
-In addition to understanding the energy loss of the fast partons as they traverse 
-the medium, the modification of the fragmentation properties of the parton and 
+In addition to understanding the energy loss of the fast partons as they traverse
+the medium, the modification of the fragmentation properties of the parton and
 the angular and momentum distribution of the ``lost'' energy are also of great interest.
 A number of complementary approaches have been employed to study these questions,
 typically based on observables used for jet studies in elementary interactions.
-These include fragmentation functions and jet shapes, which describe the energy flow 
-within the jet cone in terms of momentum and angular distributions 
+These include fragmentation functions and jet shapes, which describe the energy flow
+within the jet cone in terms of momentum and angular distributions
 of the fragmentation products, and measurements of the radius dependence
 of jet momentum spectra.  Results for jets in the medium can
 be compared to vacuum jets, where the characteristic shape of these
-distributions is understood in terms of radiation and splitting 
+distributions is understood in terms of radiation and splitting
 processes.
 
-The dependence of the jet suppression \Rcp\ on the jet clustering radius parameter 
-was studied by ATLAS~\cite{Aad:2012is}. Proposed energy loss mechanisms differ 
+The dependence of the jet suppression \Rcp\ on the jet clustering radius parameter
+was studied by ATLAS~\cite{Aad:2012is}. Proposed energy loss mechanisms differ
 in the energy flow relative to the jet axis \cite{Vitev:2008rz, Vitev:2009rd,
-He:2011pd}. This yields different expected values of jet suppression as a 
-function of radius parameter, depending on the amount of transported energy 
+He:2011pd}. This yields different expected values of jet suppression as a
+function of radius parameter, depending on the amount of transported energy
 inside vs.\ outside of the jet ``cone''.
 \begin{figure}[!th]
 \begin{center}
@@ -296,20 +296,20 @@ Reproduced from~\cite{Aad:2012is}.
 Such a radius dependence can be seen in Fig.~\ref{fig:GR:ATLAS_jetRCP_size}, which
 shows the ratio of \Rcp\ values for jets from $R=0.3$ to $R=0.5$, compared
 to an $R = 0.2$ baseline, as a function of \pT\ for central events~\cite{Aad:2012is}.
-Various systematic uncertainties of the individual \Rcp\ measurements 
-cancel in the ratio, which allows the observation of a significant jet radius 
-dependence of \Rcp\ for lower jet \pT. A detailed comparison needs to consider 
-that even for the same jet the reconstructed \pT\ will vary 
+Various systematic uncertainties of the individual \Rcp\ measurements
+cancel in the ratio, which allows the observation of a significant jet radius
+dependence of \Rcp\ for lower jet \pT. A detailed comparison needs to consider
+that even for the same jet the reconstructed \pT\ will vary
 depending on the chosen radius parameter~\cite{Aad:2012is}.
 
 
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.8\textwidth]{jetfigures/xsi_div_both_effv9_l100s40_0to12_dphi20eta20dr3pt4id1_cwt_ppDiv_gray.pdf}
-\caption{(top) Fragmentation functions for the leading (open circles) and subleading (solid points) 
+\caption{(top) Fragmentation functions for the leading (open circles) and subleading (solid points)
 jets in four regions of \AJ\ in central \PbPb\ collisions compared to the \pp\ reference.
 (bottom) Ratio of each fragmentation function to its \pp-based reference.
-Error bars show statistical uncertainties. Systematic uncertainty are 
+Error bars show statistical uncertainties. Systematic uncertainty are
 shown as open boxes (leading jet) or gray boxes (subleading jet).
 Reproduced from~\cite{Chatrchyan:2012gw}.
 }
@@ -317,57 +317,57 @@ Reproduced from~\cite{Chatrchyan:2012gw}.
 \label{fig:GR:CMS_jetFF}
 \end{center}
 \end{figure}
-The momentum spectrum of the charged hadron jet fragments is typically 
+The momentum spectrum of the charged hadron jet fragments is typically
 studied using fragmentation functions, plotting the yield of fragments
-in bins of fractional jet momentum, $z = \frac{\pT^{track}}{\pT^{jet}}$ or 
-$\xi = \ln(-1/z)$. 
-Figure~\ref{fig:GR:CMS_jetFF}(top) shows the fragmentation functions 
-for leading and subleading jets for 0-30\% central collisions as a function
+in bins of fractional jet momentum, $z = \pT^{\rm{track}} / \pT^{\rm{jet}}$ or
+$\xi = \ln(-1/z)$.
+Figure~\ref{fig:GR:CMS_jetFF} (top) shows the fragmentation functions
+for leading and subleading jets for 0--30\% central collisions as a function
 of $\xi$, obtained
-by CMS~\cite{Chatrchyan:2012gw}. The results are presented in bins of 
+by CMS~\cite{Chatrchyan:2012gw}. The results are presented in bins of
 dijet asymmetry \AJ\ for \PbPb\ and a \pp\ based reference,
 which includes effects of the \PbPb\ jet resolution.
 The lower row of plots shows the ratios between the \PbPb\
-and \pp-based fragmentation functions. It is important to note, and has 
-led to occasional confusion, that these fragmentation functions are 
+and \pp-based fragmentation functions. It is important to note, and has
+led to occasional confusion, that these fragmentation functions are
 measured relative to the \em observed \em jet momentum, not with respect
 to the initial parent parton momentum, as the latter can not be directly observed
 for dijet events in hadronic collisions.
-Also, energy radiated outside of the jet cone, or at \pT\ of less than $\approx 1$\GeVc\
+Also, energy radiated outside of the jet cone, or at \pT\ of less than about $1$\GeVc\
 is not included in the jet energy determination.
 
 Within the systematic uncertainties of this first measurement, no significant modification of
 the fragmentation functions in \PbPb\ collisions is observed. This is true even for
 dijets with large asymmetry, i.e.\ where the subleading jet has suffered significant
-energy loss. It is important to note however that only hadron fragments 
+energy loss. It is important to note however that only hadron fragments
 with $\pT > 4$\GeVc\ have been considered in this measurement. For lower \pT, a more
 sophisticated background subtraction is required. Preliminary results by ATLAS and CMS
-at the Quark Matter 2012 conference indicated that for \pT\ less than $\approx 3$\GeVc\ a 
-significant enhancement of the fragmentation function in \PbPb\ compared to \pp\ can be 
+at the Quark Matter 2012 conference indicated that for \pT\ less than about $3$\GeVc\ a
+significant enhancement of the fragmentation function in \PbPb\ compared to \pp\ can be
 seen, although the absolute fraction of the jet energy transported into this \pT\ region within
 the jet cone is only of the order of a few percent.
 
 
-Complementary information about medium modifications to the angular structure of the jets 
+Complementary information about medium modifications to the angular structure of the jets
 can be obtained by measuring jet shapes, i.e.\ the
 jet transverse momentum profile as a function of radial distance to the jet axis
 \cite{MehtarTani:2010ma,Idilbi:2008vm,CasalderreySolana:2011rz,
 CasalderreySolana:2011rq,Neufeld:2011yh,Blaizot:2012fh,Fickinger:2013xwa}.
 The differential jet shape, $\rho(r)$, is defined as~\cite{Chatrchyan:2013kwa}
 \begin{equation}
-\rho(r) = \frac{1}{\delta r} \frac{1}{N_{\mbox{jet}}} \sum_{\mbox{jets}}
-\frac{\sum\limits_{{r - \delta r/2}}^{{r + \delta r/2}}{\pT^{\mbox{track}}}}{\pT^{\mbox{jet}}}
+\rho(r) = \frac{1}{\delta r} \frac{1}{N_{\rm{jet}}} \sum_{\rm{jet}}
+\frac{\sum\limits_{{r - \delta r/2}}^{{r + \delta r/2}}{\pT^{\rm{track}}}}{\pT^{\rm{jet}}}
 \label{eq:rho(r)}
 \end{equation}
 Here $r$ is the radial distance from the jet axis
 and the transverse momenta of the reconstructed track and jet are
-$\pT^{\mbox{jet}}$ and $\pT^{\mbox{track}}$, respectively.
+$\pT^{\rm{track}}$ and $\pT^{\rm{jet}}$, respectively.
 
-In the CMS measurement of jet shapes\cite{Chatrchyan:2013kwa}, the jet cone is divided 
+In the CMS measurement of jet shapes\cite{Chatrchyan:2013kwa}, the jet cone is divided
 into six concentric rings, each with radial width $\delta r = 0.05$. For each
 ring, the \pT\ sum for charged particles with $\pT > 1\GeVc$ is determined and
 normalized by the total momentum sum in all six rings. As for the fragmentation
-functions, the \PbPb\ jet shapes are compared to a \pp\ based reference which is 
+functions, the \PbPb\ jet shapes are compared to a \pp\ based reference which is
 convoluted with a parameterization of \PbPb\ resolution effects.
 
 \begin{figure}[!ht]
@@ -375,11 +375,11 @@ convoluted with a parameterization of \PbPb\ resolution effects.
 \includegraphics[width=0.98\textwidth]{jetfigures/JetShapes_GR.png}
 \caption{\label{fig:JSRatio}
 (top) Differential jet shapes in \PbPb\ collisions (filled circles)
-as a function of distance from the jet axis for inclusive jets with $\pT^{\mbox{jet}} >100\GeVc$
+as a function of distance from the jet axis for inclusive jets with $\pT^{\rm{jet}} >100\GeVc$
 in five bins of centrality.  The \pp-based reference is shown with open symbols.
 Shaded regions represent systematic uncertainties.
-(bottom) Jet shape ratios $\rho(r)^{\PbPb}/\rho(r)^{\pp}$.
-Error bars show statistical uncertainties and shaded boxes indicate systematic uncertainties. 
+(bottom) Jet shape ratios $\rho(r)^{\rm{PbPb}}/\rho(r)^{\rm{pp}}$.
+Error bars show statistical uncertainties and shaded boxes indicate systematic uncertainties.
 Reproduced from~\cite{Chatrchyan:2013kwa}}
 \label{fig:GR:CMS_jetshapes}
 \end{center}
@@ -389,37 +389,37 @@ The top row of Fig.~\ref{fig:GR:CMS_jetshapes} compares the differential jet sha
 collisions and the \pp\ based reference, while the bottom row shows the ratio of the two.
 The results are presented in five bins of collision centrality.
 For central \PbPb\ collisions a large enhancement of the energy fraction at large distances
-to the jet axis ($r = $0.2-0.3) can be seen. It is important to note that only a small
+to the jet axis ($r = $0.2--0.3) can be seen. It is important to note that only a small
 fraction of the jet energy is found at these large radii, showing that the overall in-cone
 modification of the energy flow is rather small.
 The jet shape measurement is qualitatively consistent with the \Rcp\ ratios for different jet radii seen by ATLAS,
 where an additional part of the jet energy is captured when moving beyond $R = 0.2$.
-This general behavior has been predicted in several parton-level model 
+This general behaviour has been predicted in several parton-level model
 calculations \cite{Vitev:2008rz,Renk:2009hv}.
-For a more detailed comparison to data, calculations need to include hadronization and 
+For a more detailed comparison to data, calculations need to include hadronization and
 jet clustering effects, as shown in a recent study using the AMPT transport model~\cite{Ma:2013uqa}.
 
-In addition, in particular for high precision studies of fragmentation patterns at $\pT < 4$\GeVc\, 
-the treatment of selection biases is important for the interpretation of the results. The necessary jet energy 
-corrections to translate the energy sum observed in the detector to ``hadron level'' jets are 
-obtained from data driven studies and MC simulations for ``average'' jets in terms of quark/gluon 
+In addition, in particular for high precision studies of fragmentation patterns at $\pT < 4$\GeVc\,
+the treatment of selection biases is important for the interpretation of the results. The necessary jet energy
+corrections to translate the energy sum observed in the detector to ``hadron level'' jets are
+obtained from data driven studies and MC simulations for ``average'' jets in terms of quark/gluon
 jet mixture and fragmentation patterns. Quenching effects are expected to affect gluon jets more
 due to the larger color factor, and can therefore induce apparent changes in observed fragmentation
-patterns due to changes in the selected quark/gluon jet mixture. Similarly, depending on the 
-details of the detector response, jet energy corrections may systematically undercorrect gluon 
-jets, due to their softer constituents, and overcorrect quark jets, and therefore bias the 
+patterns due to changes in the selected quark--gluon jet mixture. Similarly, depending on the
+details of the detector response, jet energy corrections may systematically undercorrect gluon
+jets, due to their softer constituents, and overcorrect quark jets, and therefore bias the
 observed fragmentation patterns after applying a jet energy selection. These biases need to be
 studied for specfic jet constituents (e.g., calorimeter towers, tracks or particle flow objects)
-and observables. A possible way to mitigate their effects are correction algorithms that 
+and observables. A possible way to mitigate their effects are correction algorithms that
 are applied on jet constituent level, rather on the overall jet energy, in particular for
-the particle flow reconstruction. 
+the particle flow reconstruction.
 
-An additional bias arises from underlying event fluctuations. Positive fluctuations will add to the 
+An additional bias arises from underlying event fluctuations. Positive fluctuations will add to the
 jet energy, and therefore make the jet more likely to be selected by given analysis cuts. Such
-fluctuations will also ``add'' soft particles inside the jet cone, after subtraction of an 
-average background, thereby biasing measurements of e.g.\ fragmentation functions or 
+fluctuations will also ``add'' soft particles inside the jet cone, after subtraction of an
+average background, thereby biasing measurements of e.g.\ fragmentation functions or
 jet shapes at low \pT. Detailed MC studies are necessary to measure and possibly correct
-for these biases, giving significant contributions to the systematic uncertainties of 
+for these biases, giving significant contributions to the systematic uncertainties of
 such measurements.
 
 
@@ -427,7 +427,7 @@ such measurements.
 
 The jet measurements discussed so far clearly demonstrate that partons traversing the hot and dense
 medium suffer significant path-length dependent energy loss. A fraction of the ``lost'' energy
-can be recovered at radii of $r=$0.2-0.5 from the jet axis, although even for the largest radius
+can be recovered at radii of $r=$0.2--0.5 from the jet axis, although even for the largest radius
 parameters used at LHC, a large suppression of inclusive jets and large dijet asymmetries are
 observed.
 
@@ -437,20 +437,20 @@ the complementary momentum balance to the asymmetric dijet system? A priori the 
 could possibly be found at low (thermal) momenta and very large radial distance to the jet axis.
 Therefore traditional jet-track correlation techniques relying on background subtraction are ill suited
 to answer this question. Even the largest dijet energy differences of several 10's of \GeV\
-correspond to only a per-mille fraction of the total transverse energy carried by the underlying 
-event. The presence of long-range flow correlations, and biases in event properties when requiring 
-high-\pT\ dijets, have made a sufficiently precise description of the underlying event using e.g.\ 
+correspond to only a per-mille fraction of the total transverse energy carried by the underlying
+event. The presence of long-range flow correlations, and biases in event properties when requiring
+high-\pT\ dijets, have made a sufficiently precise description of the underlying event using e.g.\
 mixed events intractable so far.
 
 Information about the overall momentum balance in the dijet events can however be obtained by exploiting
 conservation of transverse momentum. CMS studied the transverse momentum balance in these events
-using the projection of charged particle \pT\ onto the leading 
+using the projection of charged particle \pT\ onto the leading
 jet axis~\cite{Chatrchyan:2011sx}, similar to projections used for studies of missing \pT\ in \pp\
-collisions.  Using all tracks with $\pT > 0.5$~\GeVc\ and $|\eta| < 2.4$, 
-``missing \pT'' is determined as 
+collisions.  Using all tracks with $\pT > 0.5$~\GeVc\ and $|\eta| < 2.4$,
+``missing \pT'' is determined as
 \begin{equation}
 \displaystyle{\not} p_{\mathrm{T}}^{\parallel} =
-\sum_{\rm i}{ -p_{\mathrm{T}}^{\rm i}\cos{(\varphi_{\rm i}-\varphi_{\rm Leading\ Jet})}}
+\sum_{i}{ -p_{\mathrm{T}}^{i}\cos{(\varphi_{i}-\varphi_{\rm Leading\ Jet})}}
 \end{equation}
 for each event with a selected dijet pair in $\eta < 1.6$.
 Instead of a background subtraction, this method then relies on the cancellation of the
@@ -460,10 +460,10 @@ $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$.
 Figure~\ref{fig:GR:CMS_missingpT} shows $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$
 as a function of \AJ\ for two angular regions relative to the leading and subleading
 jet axes, ``in-cone'' ($\Delta R < 0.8$) and ``out-of-cone'' ($\Delta R > 0.8$).
-This measurement requires a tight $\dphi > 5 \pi/6$ selection for the dijet, to ensure that the 
-leading and subleading cones sample similar regions of the underlying event background 
+This measurement requires a tight $\dphi > 5 \pi/6$ selection for the dijet, to ensure that the
+leading and subleading cones sample similar regions of the underlying event background
 event-by-event in the presence of an elliptic flow modulation.
-The top panels shows results for  {\sc{pythia+hydjet}} simulations and the bottom panels shows
+The top panels shows results for \PYTHYD\ simulations and the bottom panels shows
 \PbPb\ data. Integrating over all particle momentum ranges (solid points),
  the overall momentum balance of the events is recovered within uncertainties
 as the negative $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle$ in
@@ -489,24 +489,24 @@ Reproduced from~\cite{Chatrchyan:2011sx}.}
 
 Focusing on asymmetric dijet events ($\AJ > 0.33$), both data and MC exhibit an
 in-cone imbalance of $\langle \displaystyle{\not} p_{\mathrm{T}}^{\parallel} \rangle \approx
--20$~\GeVc. This in-cone data/MC agreement arises by construction, due to the \AJ\ cut on 
-dijet populations with the same kinematic selection and similar spectral shape. The 
+-20$~\GeVc. This in-cone data/MC agreement arises by construction, due to the \AJ\ cut on
+dijet populations with the same kinematic selection and similar spectral shape. The
 in-cone asymmetry is compensated by out-of-cone contributions of approximately equal magnitude,
-but opposite sign. The key observation is that in  \PbPb\ data the out-of-cone contribution 
-is dominated by particles in the $0.5 < \pT < 4$~\GeVc\ range, 
-while in MC most of the balance is found at high $\pT > 4$~\GeVc. 
-The MC results can be interpreted as resulting from semi-hard initial or final-state radiation, 
+but opposite sign. The key observation is that in  \PbPb\ data the out-of-cone contribution
+is dominated by particles in the $0.5 < \pT < 4$~\GeVc\ range,
+while in MC most of the balance is found at high $\pT > 4$~\GeVc.
+The MC results can be interpreted as resulting from semi-hard initial or final-state radiation,
 e.g.\ three-jet events.
 In contrast, for \PbPb\ events with large \AJ\ a large part of the momentum balance is
-carried by soft particles ($\pT < 2$~\GeVc) at large angles to the jet axes ($\Delta R > 0.8$). 
-This indicates a different underlying mechanism creating the asymmetric dijet events, i.e., 
+carried by soft particles ($\pT < 2$~\GeVc) at large angles to the jet axes ($\Delta R > 0.8$).
+This indicates a different underlying mechanism creating the asymmetric dijet events, i.e.,
 parton energy loss in the medium, and provides crucial information about the characteristic
 properties of this process. While these data have been confronted with few quantitative
-calculations so far, the qualitative observations on the energy flow in asymmetric dijet 
-events have motivated fundamental studies of in-medium modifications to the 
+calculations so far, the qualitative observations on the energy flow in asymmetric dijet
+events have motivated fundamental studies of in-medium modifications to the
 QCD branching process~\cite{Blaizot:2013vha,Blaizot:2013hx, Armesto:2013fca}.
 
-\subsection{Photon-jet correlations}
+\subsection{Photon--jet correlations}
 
 The use of the dijet and inclusive jet observables discussed in the previous sections
 to extract information about the absolute energy loss of the partons traversing the medium suffers from
@@ -516,39 +516,39 @@ energy loss, leading to ambiguities in the quantitative interpretation of the re
 due to inevitable surface-biases.
 
 These ambiguities can be largely overcome in studies of photon-jet events,
-where the photon closely determines both the initial direction and momentum 
+where the photon closely determines both the initial direction and momentum
 of the back-to-back associated parton on an event-by-event basis~\cite{Wang:1996yh}.
 Events where the photon and parton initial kinematics are most closely correlated
 can be selected experimentally using an isolation requirement, which
 increases the fraction of events with ``leading order'' prompt photons in
 the photon-jet sample. The first measurement of isolated photon-jet correlations
-was performed by CMS for a 150\mubinv\ \PbPb\ dataset~\cite{Chatrchyan:2012gt}.
-To select ``isolated photons'', the energy in a cone around 
+was performed by CMS for a 150~\mubinv\ \PbPb\ dataset~\cite{Chatrchyan:2012gt}.
+To select ``isolated photons'', the energy in a cone around
 the photon candidate was required to be less than a threshold parameter~\cite{HIPhoton},
-following a standard procedure developed for the analysis of \pp\ collisions. In the \PbPb\ 
-environment, the isolation cut is applied after a subtraction of an event-by-event 
+following a standard procedure developed for the analysis of \pp\ collisions. In the \PbPb\
+environment, the isolation cut is applied after a subtraction of an event-by-event
 estimate of the underlying event contribution.
 
 Following the approach for the study of dijet correlations, the photon-jet pairs
 are characterized in terms of their azimuthal correlation, $\dphijg = |\phij - \phig|$,
  and momentum ratio, $\xjg = \ptj/\ptg$. In addition, the fraction of photons without
 back-to-back jet partner,  \rjg, is studied, to provide information about
-events where the jet lost sufficient energy to fall below the $\ptj > 30$\GeVc\ 
+events where the jet lost sufficient energy to fall below the $\ptj > 30$\GeVc\
 selection threshold.
 For the CMS photon-jet analysis, photons were required to have $\ptg > 60\GeVc$
-and  $|\eta^\gamma|<1.44$. 
+and  $|\eta^\gamma|<1.44$.
 To study the correlations of
 photons with their associated jets (rather than photon-inclusive jet or photon-leading
 jet correlations), contributions from
-coincidental photon-jet pairs were removed using a mixed event technique. The 
+coincidental photon--jet pairs were removed using a mixed event technique. The
 contamination by background photons from e.g.\ hadron decays
-is corrected using a data driven sideband technique based on showershape 
+is corrected using a data driven sideband technique based on showershape
 information~\cite{HIPhoton}. The purity of the isolated photon-jet
-sample is further enhanced by requiring $\dphijg > \frac{7}{8}\pi$.
+sample is further enhanced by requiring $\dphijg > (7/8) \pi$.
 Similar to the dijet correlations, no broadening of the angular correlations
 beyond the \pp\ data and MC reference is seen in the \PbPb\ data.
 
-The photon-jet momentum correlations in \PbPb\ data were compared to a \PYTHYD\ reference
+The photon--jet momentum correlations in \PbPb\ data were compared to a \PYTHYD\ reference
 calculation as a function of collision centrality. The resulting
 \xjg\ distributions are shown in Fig.~\ref{fig:GR:InclPtRatio_qcdPhoRef_pp2760-xJ30G60}.
 Also shown is \avexjg\ distribution for 2.76\TeV\ \pp\ data, which agree
@@ -559,8 +559,8 @@ anti-correlation of uncertainties across bins for the unity-normalized distribut
 \begin{figure}[!ht]
 \begin{center}
 \includegraphics[width=0.98\textwidth]{jetfigures/Photonv7_Paper_InclPtRatio_all_cent4_G60J30_subDPhi1SS1_Isol0_Norm1log1.pdf}
-\caption[]{\label{fig:GR:InclPtRatio_qcdPhoRef_pp2760-xJ30G60} Distribution of the photon/jet 
-momentum ratio, \xjg, in four bins of collision centrality, normalized per 
+\caption[]{\label{fig:GR:InclPtRatio_qcdPhoRef_pp2760-xJ30G60} Distribution of the photon/jet
+momentum ratio, \xjg, in four bins of collision centrality, normalized per
 photon-jet pair. \PbPb\ data (filled circles) are compared to \PYTHYD\ MC simulations
 (shaded histograms). For the peripheral bin,  2.76\TeV\ pp data (filled squares)
 are also shown.  Error bars show the statistical uncertainties and
